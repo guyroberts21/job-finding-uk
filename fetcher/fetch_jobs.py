@@ -231,7 +231,8 @@ def sponsorship_status(text: str) -> str:
     if re.search(r"(unable|not able) to (offer|provide|consider)[^.]{0,30}sponsor|"
                  r"(cannot|can't|can not|do not|don't|will not|won't|does not|doesn't) (offer|provide|support)[^.]{0,30}sponsor|"
                  r"sponsorship (is )?(not|un)(available|offered|provided)|no (visa )?sponsorship|"
-                 r"not (in a position|able) to sponsor", t):
+                 r"not (in a position|able) to sponsor|not (be )?open to sponsorship|without (visa )?sponsorship|"
+                 r"(unable|not able) to accept applica\w+ (with|on|who (hold|require))[^.]{0,30}visa", t):
         return "not_offered"
     if re.search(r"(visa )?sponsorship (is |will be )?(available|offered|provided|considered)|"
                  r"(we|will|can) (offer|provide|consider) (visa )?sponsorship|skilled worker (visa )?sponsor|"
@@ -317,7 +318,8 @@ def estimate_process(text: str, apply_url: str, source: str, external: bool, fla
         steps += ["Fill in personal details, education and employment history",
                   "Write a supporting statement against the person specification (STAR examples)",
                   "Complete the equality monitoring form and submit"]
-    elif re.search(r"(email|send) (your|a) (cv|c\.v\.)|cvs? (should be )?(emailed|sent) to", t):
+    elif (source != "Reed" or external) and re.search(r"(email|send) (your|a) (cv|c\.v\.)|cvs? (should be )?(emailed|sent) to", t):
+        # (On Reed, "send your CV" means Reed's Apply button: Reed strips email addresses from adverts.)
         kind = "Email CV + covering letter"
         low, high = 40, 70
         steps += ["Tailor the CV to the advert", "Write a short covering email or letter", "Email both to the address in the advert"]
@@ -349,6 +351,8 @@ def estimate_process(text: str, apply_url: str, source: str, external: bool, fla
         low, high = low + 10, high + 20
     if "Assessment/test" in flags:
         notes.append("The advert mentions an assessment, test or task")
+    if re.search(r"\bcv\b[^.]{0,25}\b(word document|word format|in word|\.docx?)\b", t):
+        notes.append("The advert asks for the CV as a Word document")
     if "DBS check" in flags:
         notes.append("A DBS check is mentioned (usually after an offer)")
     notes.append("Times include tailoring the CV/statement; first-time portal sign-ups take longer")

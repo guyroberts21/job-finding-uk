@@ -23,6 +23,9 @@ class Helpers(unittest.TestCase):
         self.assertEqual(fj.sponsorship_status("Visa sponsorship is available."), "offered")
         self.assertEqual(fj.sponsorship_status("You must already have the right to work in the UK."), "rtw_required")
         self.assertEqual(fj.sponsorship_status("A great role."), "not_stated")
+        self.assertEqual(fj.sponsorship_status("This post will not be open to Sponsorship under the UKVI scheme."), "not_offered")
+        self.assertEqual(fj.sponsorship_status("Only apply if eligible to work in the UK (indefinitely & without sponsorship)."), "not_offered")
+        self.assertEqual(fj.sponsorship_status("Sponsorship of professional qualifications through our panel."), "not_stated")
 
     def test_process_heavy_form(self):
         p = fj.estimate_process("Complete the application form. CVs will not be accepted.",
@@ -31,7 +34,11 @@ class Helpers(unittest.TestCase):
         self.assertGreaterEqual(p["minutes_low"], 120)
 
     def test_quick_apply(self):
-        p = fj.estimate_process("Send your CV today", "https://www.reed.co.uk/jobs/1", "Reed", False, [])
+        p = fj.estimate_process("Please send your CV as a Word document today", "https://www.reed.co.uk/jobs/1", "Reed", False, [])
+        self.assertEqual(p["type"], "Quick apply on Reed (CV)")  # Reed strips emails; the CV goes via Reed
+        self.assertIn("The advert asks for the CV as a Word document", p["notes"])
+        p = fj.estimate_process("Email your CV to us", "https://employer.example/jobs/1", "Reed", True, [])
+        self.assertEqual(p["type"], "Email CV + covering letter")
         self.assertLessEqual(p["minutes_high"], 70)
 
     def test_score_penalises_senior(self):

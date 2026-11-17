@@ -1,14 +1,14 @@
 {
  "meta": {
   "status": "ok",
-  "generated_at": "2026-11-17T20:48:42+00:00",
-  "last_attempt": "2026-11-17T20:48:42+00:00",
+  "generated_at": "2026-11-17T21:00:16+00:00",
+  "last_attempt": "2026-11-17T21:00:16+00:00",
   "date": "2026-11-17",
   "sources": [
    "Reed"
   ],
-  "total": 174,
-  "new_today": 174,
+  "total": 217,
+  "new_today": 217,
   "errors": [],
   "categories": [
    {
@@ -108,74 +108,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
-     "status": 200,
-     "state": "ok",
-     "note": "Page loaded"
-    }
-   }
-  },
-  {
-   "id": "reed-57561206",
-   "source": "Reed",
-   "title": "Resident Engagement Officer",
-   "employer": "Adecco",
-   "location": "Barking",
-   "areas": [
-    "london"
-   ],
-   "categories": [
-    "digital_community"
-   ],
-   "salary": "£23.28 - £30.39 per hour",
-   "salary_min": 45396,
-   "salary_max": 59260,
-   "contract": "Temporary, Full-time",
-   "posted": "2026-11-12",
-   "closing": "2026-12-24",
-   "listing_url": "https://www.reed.co.uk/jobs/resident-engagement-officer/57561206",
-   "apply_url": "https://www.reed.co.uk/jobs/resident-engagement-officer/57561206",
-   "apply_via": "Reed (quick apply)",
-   "summary": "Resident Engagement Officer Adecco are pleased to be recruiting for a Resident Engagement Officer to join a Local Authority in Barking. This is an exciting opportunity for an experienced engagement professional who is passionate about working with residents, building strong community relationships, and helping shape housing services…",
-   "responsibilities": [
-    "Deliver a programme of resident engagement activities across housing services.",
-    "Organise and facilitate resident meetings, consultations, forums, surveys and community events.",
-    "Support and develop Tenant and Resident Associations and the Tenant Scrutiny Panel.",
-    "Promote participation and identify innovative ways to increase resident involvement.",
-    "Gather, analyse and report on resident feedback and satisfaction levels.",
-    "Coordinate engagement activities with housing, resident safety and customer service teams."
-   ],
-   "full_description": true,
-   "process": {
-    "type": "Quick apply on Reed (CV)",
-    "steps": [
-     "Sign in to Reed",
-     "Upload the tailored CV",
-     "Add a short cover note, then submit"
-    ],
-    "minutes_low": 15,
-    "minutes_high": 30,
-    "notes": [
-     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
-    ]
-   },
-   "sponsorship": "not_stated",
-   "flags": [],
-   "level": "mid",
-   "match": {
-    "score": 84,
-    "level": "strong",
-    "reasons": [
-     "Skills overlap: Content & copywriting, Events, Community engagement, Digital inclusion, Customer service, Admin & IT",
-     "+ Digital inclusion work",
-     "+ Junior-friendly job title"
-    ]
-   },
-   "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
-   "link_check": {
-    "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -244,7 +177,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -313,7 +246,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -383,7 +316,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -449,7 +382,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -518,7 +451,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -584,7 +517,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -653,7 +586,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -721,7 +654,75 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57561206",
+   "source": "Reed",
+   "title": "Resident Engagement Officer",
+   "employer": "Adecco",
+   "location": "Barking",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "digital_community"
+   ],
+   "salary": "£23.28 - £30.39 per hour",
+   "salary_min": 45396,
+   "salary_max": 59260,
+   "contract": "Temporary, Full-time",
+   "posted": "2026-11-12",
+   "closing": "2026-12-24",
+   "listing_url": "https://www.reed.co.uk/jobs/resident-engagement-officer/57561206",
+   "apply_url": "https://www.reed.co.uk/jobs/resident-engagement-officer/57561206",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Resident Engagement Officer Adecco are pleased to be recruiting for a Resident Engagement Officer to join a Local Authority in Barking. This is an exciting opportunity for an experienced engagement professional who is passionate about working with residents, building strong community relationships, and helping shape housing services…",
+   "responsibilities": [
+    "Deliver a programme of resident engagement activities across housing services.",
+    "Organise and facilitate resident meetings, consultations, forums, surveys and community events.",
+    "Support and develop Tenant and Resident Associations and the Tenant Scrutiny Panel.",
+    "Promote participation and identify innovative ways to increase resident involvement.",
+    "Gather, analyse and report on resident feedback and satisfaction levels.",
+    "Coordinate engagement activities with housing, resident safety and customer service teams."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 74,
+    "level": "strong",
+    "reasons": [
+     "Skills overlap: Content & copywriting, Events, Community engagement, Digital inclusion, Customer service, Admin & IT",
+     "+ Digital inclusion work",
+     "+ Junior-friendly job title",
+     "− Asks for an experienced professional"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -790,7 +791,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -859,7 +860,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -930,7 +931,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -995,7 +996,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1062,7 +1063,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1127,7 +1128,71 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57520943",
+   "source": "Reed",
+   "title": "Customer Services Advisor",
+   "employer": "Office Angels",
+   "location": "London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£30,784 per annum",
+   "salary_min": 30784,
+   "salary_max": 30784,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-03",
+   "closing": "2026-12-15",
+   "listing_url": "https://www.reed.co.uk/jobs/customer-services-advisor/57520943",
+   "apply_url": "https://www.reed.co.uk/jobs/customer-services-advisor/57520943",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Job Advertisement: Customer Services Advisor Location: Wimbledon Contract Type: Fixed Term Contract (9 months) Annual Salary: £28,000 - £30,000 Start Date: November 16, 2026 End Date: July 31, 2027 Working Pattern: FULL TIME - TUESDAY -SATURDAY 08:30am - 17:00pm FULLY OFFICE BASED Our client, a leading organisation in the healthcare…",
+   "responsibilities": [
+    "Social Media Engagement:- Monitor and respond to social media posts."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Write a tailored cover letter",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 45,
+    "minutes_high": 75,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Cover letter"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 69,
+    "level": "good",
+    "reasons": [
+     "Skills overlap: Social media, Content & copywriting, Events, Community engagement, Customer service, Admin & IT",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1195,70 +1260,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
-     "status": 200,
-     "state": "ok",
-     "note": "Page loaded"
-    }
-   }
-  },
-  {
-   "id": "reed-57534319",
-   "source": "Reed",
-   "title": "Temporary Stockroom Assistant - UNIQLO Bluewater",
-   "employer": "UNIQLO",
-   "location": "Greenhithe",
-   "areas": [
-    "london"
-   ],
-   "categories": [
-    "comms"
-   ],
-   "salary": "£13.45 per hour",
-   "salary_min": 26227,
-   "salary_max": 26227,
-   "contract": "Temporary, Part-time",
-   "posted": "2026-11-05",
-   "closing": "2026-12-17",
-   "listing_url": "https://www.reed.co.uk/jobs/temporary-stockroom-assistant-uniqlo-bluewater/57534319",
-   "apply_url": "https://www.reed.co.uk/jobs/temporary-stockroom-assistant-uniqlo-bluewater/57534319",
-   "apply_via": "Reed (quick apply)",
-   "summary": "Here, YOU LEAD the business – YOU IMPACT lives – YOU GROW yourself Wondering what your day could look like? Peek at our “day in the life” video to see what being a Uniqlo employee is all about!",
-   "responsibilities": [
-    "A Brand Ambassador – bringing our values, products, and services to life to deliver exceptional service that reflects the spirit of UNIQLO.",
-    "A Partner in Management – offering fresh ideas, relaying customer feedback to uncover new opportunities, and of course, driving sales.",
-    "A Retail Specialist – building strong product knowledge and mastering day-to-day operations and services to confidently support customers and keep your store run smoothly."
-   ],
-   "full_description": true,
-   "process": {
-    "type": "Quick apply on Reed (CV)",
-    "steps": [
-     "Sign in to Reed",
-     "Upload the tailored CV",
-     "Add a short cover note, then submit"
-    ],
-    "minutes_low": 15,
-    "minutes_high": 30,
-    "notes": [
-     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
-    ]
-   },
-   "sponsorship": "not_stated",
-   "flags": [],
-   "level": "entry",
-   "match": {
-    "score": 69,
-    "level": "good",
-    "reasons": [
-     "Skills overlap: Social media, Content & copywriting, Video & design, Events, Community engagement, Customer service",
-     "+ Junior-friendly job title"
-    ]
-   },
-   "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
-   "link_check": {
-    "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1327,7 +1329,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1395,7 +1397,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1465,7 +1467,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1531,7 +1533,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1566,14 +1568,15 @@
    ],
    "full_description": true,
    "process": {
-    "type": "Application form + supporting statement",
+    "type": "Quick apply on Reed (CV)",
     "steps": [
-     "Fill in personal details, education and employment history",
-     "Write a supporting statement against the person specification (STAR examples)",
-     "Complete the equality monitoring form and submit"
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Answer the application questions in full",
+     "Add a short cover note, then submit"
     ],
-    "minutes_low": 120,
-    "minutes_high": 180,
+    "minutes_low": 30,
+    "minutes_high": 60,
     "notes": [
      "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
     ]
@@ -1594,7 +1597,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1661,7 +1664,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1727,7 +1730,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1791,7 +1794,74 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57494890",
+   "source": "Reed",
+   "title": "Children's residential support worker",
+   "employer": "PPR Social Care",
+   "location": "Greater Manchester",
+   "areas": [
+    "manchester"
+   ],
+   "categories": [
+    "support"
+   ],
+   "salary": "£16.00 - £22.00 per hour",
+   "salary_min": 31200,
+   "salary_max": 42900,
+   "contract": "Temporary, Full-time",
+   "posted": "2026-10-26",
+   "closing": "2026-12-07",
+   "listing_url": "https://www.reed.co.uk/jobs/childrens-residential-support-worker/57494890",
+   "apply_url": "https://www.reed.co.uk/jobs/childrens-residential-support-worker/57494890",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Main Purpose of the Role To provide high-quality care, support, and supervision for children and young people with learning disabilities, physical disabilities, and additional needs within a residential setting. The post holder will promote safety, wellbeing, independence, and positive outcomes for all young people.",
+   "responsibilities": [
+    "Provide direct day-to-day care and support to children and young people.",
+    "Promote physical, emotional, social, and educational development.",
+    "Assist with personal care, medication administration, mobility support, and daily living activities where required.",
+    "Build positive, trusting relationships with young people, families, and professionals.",
+    "Support children to participate in leisure, educational, and community activities.",
+    "Maintain accurate records, reports, and care documentation."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 64,
+    "level": "good",
+    "reasons": [
+     "Skills overlap: Events, Community engagement, Admin & IT, Research & reporting, Older people, Young people",
+     "+ Supports older people",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1861,7 +1931,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1927,7 +1997,79 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57507981",
+   "source": "Reed",
+   "title": "Audience Development Coordinator - Local Authority - Libraries",
+   "employer": "Reed",
+   "location": "Sheffield",
+   "areas": [
+    "sheffield"
+   ],
+   "categories": [
+    "comms",
+    "digital_community"
+   ],
+   "salary": "£15.56 per hour",
+   "salary_min": 30342,
+   "salary_max": 30342,
+   "contract": "Temporary, Full-time",
+   "posted": "2026-10-30",
+   "closing": "2026-12-07",
+   "listing_url": "https://www.reed.co.uk/jobs/audience-development-coordinator-local-authority-libraries/57507981",
+   "apply_url": "https://www.reed.co.uk/jobs/audience-development-coordinator-local-authority-libraries/57507981",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Audience Development Coordinator Hourly Rate: £15.56 PAYE Location: Central Sheffield Job Type: Hybrid (office and home working) Join Sheffield Libraries as an Audience Development Coordinator and play a key role in bringing a vibrant programme of events and activities to life.",
+   "responsibilities": [
+    "Plan and coordinate a diverse range of events across Sheffield's libraries.",
+    "Develop creative ideas for future events and activities.",
+    "Support the execution of events such as author talks, history talks, re-enactments, Comic Fest, and the Summer Reading Challenge.",
+    "Organise the upcoming Book Awards.",
+    "Handle event administration and complete relevant forms.",
+    "Coordinate payments for external contributors and suppliers."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Write a tailored cover letter",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 45,
+    "minutes_high": 75,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Cover letter",
+    "Weekend/evening work",
+    "Hybrid"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 63,
+    "level": "good",
+    "reasons": [
+     "Skills overlap: Social media, Content & copywriting, Events, Community engagement, Customer service, Admin & IT",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1999,7 +2141,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2066,7 +2208,77 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57570783",
+   "source": "Reed",
+   "title": "Marketing & Events executive",
+   "employer": "Ambition Europe Limited",
+   "location": "London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "comms"
+   ],
+   "salary": "Not stated",
+   "salary_min": null,
+   "salary_max": null,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-16",
+   "closing": "2026-12-28",
+   "listing_url": "https://www.reed.co.uk/jobs/marketing-amp-events-executive/57570783",
+   "apply_url": "https://www.reed.co.uk/jobs/marketing-amp-events-executive/57570783",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Key Responsibilities The role will be varied and include: Together with the Marketing & Events Manager, responsible for managing and supporting in-person (both in-house and at external venues) client and internal events, including seminars and client hospitality with a primary focus on London, attending events where required.",
+   "responsibilities": [
+    "Together with the Marketing & Events Manager, responsible for managing and supporting in-person (both in-house and at external venues) client and internal events, including…",
+    "Responsible for managing and running client and internal webinars, providing training in advance of the event and on the day technical support where required.",
+    "Working with key stakeholders to coordinate planning meetings, checklists, budgets, merchandise, AV, catering, and other vendor management, onsite or virtual platform…",
+    "Working with lawyers, the Marketing & Business Development team, and the CRM team to ensure target lists are developed for each event, and attendance and lead generation is…",
+    "Assist in the continuous development of events best practice, including analysing event ROI, reporting on outcomes, and delivering ongoing training and support.",
+    "Support with managing the firm's calendar of events and other marketing calendars ensuring they are communicated effectively to the business, making certain that opportunities…"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Hybrid"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 62,
+    "level": "good",
+    "reasons": [
+     "Skills overlap: Social media, Content & copywriting, Video & design, Events, Customer service, Admin & IT",
+     "+ Open to graduates / entry level",
+     "+ Junior-friendly job title",
+     "− Asks for 3+ years' experience"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2128,7 +2340,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2199,7 +2411,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2268,7 +2480,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2335,7 +2547,77 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57534881",
+   "source": "Reed",
+   "title": "Communications Officer",
+   "employer": "The Third Age Trust - u3a",
+   "location": "London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "digital_community"
+   ],
+   "salary": "£36,500 per annum",
+   "salary_min": 36500,
+   "salary_max": 36500,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-05",
+   "closing": "2026-12-17",
+   "listing_url": "https://www.reed.co.uk/jobs/communications-officer/57534881",
+   "apply_url": "https://www.reed.co.uk/jobs/communications-officer/57534881",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Communications Officer – Third Age Trust (u3a) Department: Marketing Reports to: Communications Manager Hours: Full-time, 35 hours per week Salary: £36,500 Contract: Permanent Location: Hybrid – 2 days a week in Blackfriars, London, with monthly travel About the role It’s an exciting time to join the Third Age Trust as we develop our…",
+   "responsibilities": [
+    "Develop written, visual and digital content for the u3a website, email, newsletters, social media, reports, blogs, publications and PR.",
+    "Turn research, insight, data, policy and member activity into accessible, accurate communications for members, prospective members, media and other audiences.",
+    "Identify stories, case studies, evidence and content angles; support the Communications Manager and PR agency with research-led and member stories.",
+    "Plan and deliver communications activity around research, insight, impact and policy outputs.",
+    "Write and deliver the monthly u3a Friends newsletter and other Trust newsletters.",
+    "Contribute to organic social media and work with Digital Marketing to improve content, messaging and calls to action using performance insights."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Write a tailored cover letter",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 45,
+    "minutes_high": 75,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Cover letter",
+    "Hybrid"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 61,
+    "level": "good",
+    "reasons": [
+     "Skills overlap: Social media, Content & copywriting, Video & design, Community engagement, Research & reporting, Journalism & media",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2403,7 +2685,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2466,7 +2748,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2535,7 +2817,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2601,7 +2883,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2668,7 +2950,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2703,16 +2985,16 @@
    ],
    "full_description": true,
    "process": {
-    "type": "Application form + supporting statement",
+    "type": "Quick apply on Reed (CV)",
     "steps": [
-     "Fill in personal details, education and employment history",
-     "Write a supporting statement against the person specification (STAR examples)",
+     "Sign in to Reed",
+     "Upload the tailored CV",
      "Write a tailored cover letter",
      "Add a portfolio link",
-     "Complete the equality monitoring form and submit"
+     "Add a short cover note, then submit"
     ],
-    "minutes_low": 160,
-    "minutes_high": 245,
+    "minutes_low": 55,
+    "minutes_high": 95,
     "notes": [
      "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
     ]
@@ -2720,8 +3002,7 @@
    "sponsorship": "not_stated",
    "flags": [
     "Portfolio requested",
-    "Cover letter",
-    "Supporting statement"
+    "Cover letter"
    ],
    "level": "entry",
    "match": {
@@ -2737,7 +3018,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2808,7 +3089,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2875,7 +3156,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2944,7 +3225,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3013,7 +3294,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3084,7 +3365,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3150,7 +3431,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3222,7 +3503,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3289,7 +3570,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3358,7 +3639,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3423,7 +3704,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3491,7 +3772,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3557,7 +3838,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3623,7 +3904,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3691,7 +3972,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3759,7 +4040,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3827,7 +4108,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3893,7 +4174,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3961,7 +4242,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4029,7 +4310,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4099,7 +4380,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4165,7 +4446,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4231,7 +4512,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4299,7 +4580,77 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57581304",
+   "source": "Reed",
+   "title": "Floating Support Worker",
+   "employer": "Morgan Hunt Recruitment",
+   "location": "South West London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "support"
+   ],
+   "salary": "£15.00 per hour",
+   "salary_min": 29250,
+   "salary_max": 29250,
+   "contract": "Temporary, Full-time",
+   "posted": "2026-11-17",
+   "closing": "2026-12-15",
+   "listing_url": "https://www.reed.co.uk/jobs/floating-support-worker/57581304",
+   "apply_url": "https://www.reed.co.uk/jobs/floating-support-worker/57581304",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Floating Support Worker Location: West London & Brent Pay Rate: £15.00 per hour Contract: Temporary - 4 months Hours: Full Time - 37.5 hours per week Working Pattern: 7-day rolling rota between 8am and 8pm, including weekends and bank holidays.",
+   "responsibilities": [
+    "Build positive and supportive relationships with young people, maintaining clear professional boundaries.",
+    "Manage a caseload of residents, completing assessments, support plans and regular progress reviews.",
+    "Support young people to develop independent living skills and prepare for move-on accommodation.",
+    "Provide practical support around housing, benefits, education, employment and accessing wider services.",
+    "Work with external agencies, local authorities and other support providers to advocate on behalf of residents.",
+    "Respond appropriately to challenging behaviour, safeguarding concerns and incidents."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "A DBS check is mentioned (usually after an offer)",
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "DBS check"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 49,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Community engagement, Admin & IT, Older people, Young people",
+     "+ Supports older people",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4368,7 +4719,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4436,7 +4787,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4507,7 +4858,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4574,7 +4925,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4642,7 +4993,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4710,7 +5061,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4776,7 +5127,73 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57522066",
+   "source": "Reed",
+   "title": "Customer Support Advisor",
+   "employer": "Cast UK Limited",
+   "location": "Dewsbury",
+   "areas": [
+    "sheffield"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£28,000 - £30,000 per annum",
+   "salary_min": 28000,
+   "salary_max": 30000,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-03",
+   "closing": "2026-12-15",
+   "listing_url": "https://www.reed.co.uk/jobs/customer-support-advisor/57522066",
+   "apply_url": "https://www.reed.co.uk/jobs/customer-support-advisor/57522066",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Customer Support Advisor Location: West Yorkshire - Office based Hours: Monday to Friday, full time Salary: £28,000 basic salary + monthly bonus potential of approx. £275 Permanent / Full time About the role Are you passionate about delivering excellent customer service and solving problems?",
+   "responsibilities": [
+    "Previous customer service and call-handling experience.",
+    "Excellent verbal and written communication skills.",
+    "Strong administration and organisational skills.",
+    "Good attention to detail and accuracy.",
+    "Ability to prioritise and multitask.",
+    "Strong problem-solving skills."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 48,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Events, Customer service, Admin & IT, Communication skills, Entry-level",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4839,7 +5256,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4905,7 +5322,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4971,7 +5388,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5037,7 +5454,73 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57559035",
+   "source": "Reed",
+   "title": "Marketing Manager - Music Festival",
+   "employer": "Handle Recruitment",
+   "location": "London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "digital_community"
+   ],
+   "salary": "Not stated",
+   "salary_min": null,
+   "salary_max": null,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-11",
+   "closing": "2026-12-23",
+   "listing_url": "https://www.reed.co.uk/jobs/marketing-manager-music-festival/57559035",
+   "apply_url": "https://www.reed.co.uk/jobs/marketing-manager-music-festival/57559035",
+   "apply_via": "Reed (quick apply)",
+   "summary": "We are looking for a creative, commercially minded and hands-on Marketing Manager to lead and deliver the festival's overall marketing strategy. Reporting to the Festival Manager, you will oversee all marketing activity, from campaign planning and digital marketing to social media, PR, CRM, partnerships and artist announcements.",
+   "responsibilities": [
+    "Develop and deliver the overall festival marketing strategy.",
+    "Lead and manage marketing campaigns across digital, social, PR and other relevant channels.",
+    "Oversee artist announcements, line-up campaigns and marketing assets.",
+    "Manage social media, website, app and digital content.",
+    "Develop and deliver CRM and email marketing campaigns.",
+    "Manage external agencies, suppliers and media partnerships."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "senior",
+   "match": {
+    "score": 48,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Social media, Content & copywriting, Video & design, Events, Community engagement, Admin & IT",
+     "− Manager role"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5103,7 +5586,75 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57564026",
+   "source": "Reed",
+   "title": "Academic Support Worker",
+   "employer": "Assistive IT Solutions",
+   "location": "East London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "digital_community"
+   ],
+   "salary": "£13.50 per hour",
+   "salary_min": 26325,
+   "salary_max": 26325,
+   "contract": "Contract, Full-time",
+   "posted": "2026-11-12",
+   "closing": "2026-12-24",
+   "listing_url": "https://www.reed.co.uk/jobs/academic-support-worker/57564026",
+   "apply_url": "https://www.reed.co.uk/jobs/academic-support-worker/57564026",
+   "apply_via": "Reed (quick apply)",
+   "summary": "We are a Social Enterprise that works with disabled people, providing specialist computer equipment, 1-1 teaching and have an in-house software development team. Assistive Solutions are a Disability Confident Employer.",
+   "responsibilities": [
+    "Deliver support within each student's agreed allocation. Depending on their needs, this may include the following:",
+    "Transitional Support: Help students settle into university, become familiar with key locations and facilities, and build confidence navigating campus.",
+    "Practical Assistance: Support students with physical or sensory impairments to access study venues, carry books or equipment and locate resources.",
+    "Study Assistance: Help students search library catalogues, locate and collect resources, photocopy materials, and organise notes and study materials.",
+    "Note Taking: Produce clear, accurate and well-organised notes during lectures and seminars. Identify key information and provide notes promptly in an accessible format."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "A DBS check is mentioned (usually after an offer)",
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "DBS check"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 48,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Events, Community engagement, Admin & IT, Research & reporting, Young people",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5172,7 +5723,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5211,14 +5762,14 @@
    ],
    "full_description": true,
    "process": {
-    "type": "Application form + supporting statement",
+    "type": "Quick apply on Reed (CV)",
     "steps": [
-     "Fill in personal details, education and employment history",
-     "Write a supporting statement against the person specification (STAR examples)",
-     "Complete the equality monitoring form and submit"
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
     ],
-    "minutes_low": 120,
-    "minutes_high": 180,
+    "minutes_low": 15,
+    "minutes_high": 30,
     "notes": [
      "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
     ]
@@ -5238,7 +5789,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5307,7 +5858,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5373,7 +5924,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5412,21 +5963,20 @@
    ],
    "full_description": true,
    "process": {
-    "type": "Application form + supporting statement",
+    "type": "Quick apply on Reed (CV)",
     "steps": [
-     "Fill in personal details, education and employment history",
-     "Write a supporting statement against the person specification (STAR examples)",
-     "Complete the equality monitoring form and submit"
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
     ],
-    "minutes_low": 120,
-    "minutes_high": 180,
+    "minutes_low": 15,
+    "minutes_high": 30,
     "notes": [
      "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
     ]
    },
    "sponsorship": "not_stated",
    "flags": [
-    "Supporting statement",
     "Remote/home-based"
    ],
    "level": "mid",
@@ -5442,7 +5992,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5481,15 +6031,14 @@
    ],
    "full_description": true,
    "process": {
-    "type": "Application form + supporting statement",
+    "type": "Quick apply on Reed (CV)",
     "steps": [
-     "Request or download the application pack",
-     "Fill in personal details, education and employment history",
-     "Write a supporting statement against the person specification (STAR examples)",
-     "Complete the equality monitoring form and submit"
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
     ],
-    "minutes_low": 120,
-    "minutes_high": 180,
+    "minutes_low": 15,
+    "minutes_high": 30,
     "notes": [
      "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
     ]
@@ -5509,7 +6058,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5579,7 +6128,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5647,7 +6196,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5655,34 +6204,34 @@
    }
   },
   {
-   "id": "reed-57505759",
+   "id": "reed-57501859",
    "source": "Reed",
-   "title": "Executive Assistant",
-   "employer": "Morgan Spencer",
-   "location": "London",
+   "title": "Client Services Executive",
+   "employer": "Hays Specialist Recruitment Limited",
+   "location": "Manchester",
    "areas": [
-    "london"
+    "manchester"
    ],
    "categories": [
-    "digital_community"
+    "admin"
    ],
-   "salary": "£70,000 - £80,000 per annum",
-   "salary_min": 70000,
-   "salary_max": 80000,
+   "salary": "£26,000 - £28,000 per annum",
+   "salary_min": 26000,
+   "salary_max": 28000,
    "contract": "Permanent, Full-time",
-   "posted": "2026-10-29",
-   "closing": "2026-12-10",
-   "listing_url": "https://www.reed.co.uk/jobs/executive-assistant/57505759",
-   "apply_url": "https://www.reed.co.uk/jobs/executive-assistant/57505759",
+   "posted": "2026-10-28",
+   "closing": "2026-12-09",
+   "listing_url": "https://www.reed.co.uk/jobs/client-services-executive/57501859",
+   "apply_url": "https://www.reed.co.uk/jobs/client-services-executive/57501859",
    "apply_via": "Reed (quick apply)",
-   "summary": "Executive Assistant – Senior Leadership Support Up to £80,000 + Bonus Blackfriars - 5 days on site Experience of working as an EA to C Suite is ESSENTIAL for consideration. Role Purpose To provide high-level executive support to the CFO and Group Counsel, while contributing to the smooth operation of the Senior Leadership Team Key…",
+   "summary": "Your new company Hays are recruiting for a Client Services Executive on a permanent basis. This role is based in central Manchester and is fully office-based.",
    "responsibilities": [
-    "Manage a highly complex, fast-paced diary, including UK and international travel arrangements.",
-    "Strategically organise annual, quarterly, monthly, and weekly meetings with both internal and external stakeholders.",
-    "Ensure that reports, actions, and minutes for the Executive Team are completed accurately and on time.",
-    "Review and prioritise incoming enquiries (emails, calls, invitations), responding directly or drafting correspondence on behalf of senior leaders.",
-    "Maintain efficient inbox and file-management systems for storing key documents and data.",
-    "Prepare presentations and reports, including coordination of Group-level reporting."
+    "Communicate with clients across multiple channels, providing exceptional customer service and supporting them with their enquiries",
+    "Accurately obtain and record client information using case management software",
+    "Escalate new enquiries to relevant departments and record feedback promptly.",
+    "Maintain an up-to-date understanding of all internal departments and services",
+    "Manage workloads effectively, ensuring tasks and shared inboxes are completed and cleared daily",
+    "Assess incoming enquiries and provide accurate quotes where applicable."
    ],
    "full_description": true,
    "process": {
@@ -5700,12 +6249,12 @@
    },
    "sponsorship": "not_stated",
    "flags": [],
-   "level": "entry",
+   "level": "mid",
    "match": {
     "score": 45,
     "level": "stretch",
     "reasons": [
-     "Skills overlap: Events, Customer service, Admin & IT, Research & reporting, Communication skills",
+     "Skills overlap: Content & copywriting, Customer service, Admin & IT, Research & reporting, Communication skills",
      "+ Junior-friendly job title"
     ]
    },
@@ -5713,7 +6262,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5776,7 +6325,74 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57505240",
+   "source": "Reed",
+   "title": "Receptionist Administrator",
+   "employer": "Val Wade Recruitment",
+   "location": "London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "admin",
+    "digital_community"
+   ],
+   "salary": "£17.00 - £18.00 per hour",
+   "salary_min": 33150,
+   "salary_max": 35100,
+   "contract": "Temporary, Full-time",
+   "posted": "2026-10-29",
+   "closing": "2026-12-10",
+   "listing_url": "https://www.reed.co.uk/jobs/receptionist-administrator/57505240",
+   "apply_url": "https://www.reed.co.uk/jobs/receptionist-administrator/57505240",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Receptionist Administrator, temporary 4-6 weeks initially, Membership Body, London £17.00-£18.00 per hour High profile Membership Body with a thriving Membership and lovely offices needs proactive, confident and well presented Receptionist Administrator to run the front of house.",
+   "responsibilities": [
+    "Supporting the running of Club operations; providing coordination, administrative support and cross-departmental liaison",
+    "Taking ownership of the front of house and reception, welcoming members, visitors and guests professionally",
+    "Acting as the first point of contact for reception and visitor queries",
+    "Ensuring front of house and visitor areas are maintained in line with health, safety and compliance standards and to a high standard",
+    "Acting as a first point of awareness for hazards or risks in public-facing areas; supporting emergency procedures and evacuation processes when needed",
+    "Proactively engaging with members and visitors"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 45,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Events, Customer service, Admin & IT, Research & reporting, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5845,7 +6461,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5910,7 +6526,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5978,7 +6594,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6039,7 +6655,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6110,7 +6726,76 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57552183",
+   "source": "Reed",
+   "title": "Communication Support Worker",
+   "employer": "Reed",
+   "location": "Manchester",
+   "areas": [
+    "manchester"
+   ],
+   "categories": [
+    "comms"
+   ],
+   "salary": "£35.00 - £45.00 per hour",
+   "salary_min": 68250,
+   "salary_max": 87750,
+   "contract": "Temporary, Part-time",
+   "posted": "2026-11-10",
+   "closing": "2026-12-22",
+   "listing_url": "https://www.reed.co.uk/jobs/communication-support-worker/57552183",
+   "apply_url": "https://www.reed.co.uk/jobs/communication-support-worker/57552183",
+   "apply_via": "Reed (quick apply)",
+   "summary": "This is an ongoing opportunity for a skilled and compassionate professional who is passionate about helping students access education, participate fully in lessons, and achieve their academic goals. Key Responsibilities Provide communication support for students with hearing impairments during lessons and college activities.",
+   "responsibilities": [
+    "Provide communication support for students with hearing impairments during lessons and college activities.",
+    "Facilitate effective communication between students, tutors, and peers.",
+    "Use appropriate communication methods, including British Sign Language (BSL), where required.",
+    "Support learners in understanding lesson content, instructions, and discussions.",
+    "Encourage student independence whilst providing appropriate support.",
+    "Assist students in accessing learning materials and classroom resources."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "A DBS check is mentioned (usually after an offer)",
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "DBS check"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 45,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Content & copywriting, Events, Admin & IT, Research & reporting, Young people",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6176,7 +6861,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6246,7 +6931,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6312,7 +6997,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6379,7 +7064,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6448,7 +7133,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6514,7 +7199,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6583,7 +7268,71 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57509097",
+   "source": "Reed",
+   "title": "Legal Advisor - Personal Injury",
+   "employer": "CRA Consulting",
+   "location": "Sheffield",
+   "areas": [
+    "sheffield"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£24,000 - £25,000 per annum",
+   "salary_min": 24000,
+   "salary_max": 25000,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-10-30",
+   "closing": "2026-12-11",
+   "listing_url": "https://www.reed.co.uk/jobs/legal-advisor-personal-injury/57509097",
+   "apply_url": "https://www.reed.co.uk/jobs/legal-advisor-personal-injury/57509097",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Our client, a reputable law firm based in Sheffield are looking for a driven professional with experience working on a Legal Helpline, dealing with claimant Personal Injury queries and advice service. This is an excellent opportunity for the right candidate to progress their career in an organisation that values their people.",
+   "responsibilities": [
+    "Taking inbound calls from new and existing clients",
+    "Advising clients on new and existing claims in relation to Personal Injury matters",
+    "Updating files and cases",
+    "Transferring calls where appropriate"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 43,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Content & copywriting, Events, Community engagement, Customer service",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6649,7 +7398,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6715,7 +7464,140 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57561285",
+   "source": "Reed",
+   "title": "Grainger Motor Group Honda Chiswick Service Advisor Apprenticeship",
+   "employer": "INSPIRO LEARNING LIMITED",
+   "location": "London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£8.00 per hour",
+   "salary_min": 15600,
+   "salary_max": 15600,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-12",
+   "closing": "2026-12-24",
+   "listing_url": "https://www.reed.co.uk/jobs/grainger-motor-group-honda-chiswick-service-advisor-apprenticeship/57561285",
+   "apply_url": "https://www.reed.co.uk/jobs/grainger-motor-group-honda-chiswick-service-advisor-apprenticeship/57561285",
+   "apply_via": "Reed (quick apply)",
+   "summary": "We continue to draw inspiration from the visionary ideas of our namesake, Soichiro Honda. He saw incredible power in the freedom of mobility and used his imagination to change the world.",
+   "responsibilities": [
+    "It is this mindset that guides us to help move people forward and protect the future we all share.?",
+    "We strive to earn the?trust and support of the many diverse communities we happily serve, and?we’ll?always remember?who’s?in the driver’s seat on the way to a better world for…",
+    "• Administration: Completion of relevant paperwork for customer service and centre records, preparation of invoices, processing of warranty claims.??",
+    "• Teamwork: Liaison with all the relevant departments including workshop and management to deliver an amazing customer experience.??"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 43,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Events, Community engagement, Customer service, Admin & IT",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57473633",
+   "source": "Reed",
+   "title": "Employment Advisor/Job Coach - Local Authority",
+   "employer": "Reed",
+   "location": "Crystal Peaks",
+   "areas": [
+    "sheffield"
+   ],
+   "categories": [
+    "support"
+   ],
+   "salary": "£17.75 per hour, inc benefits",
+   "salary_min": 34612,
+   "salary_max": 34612,
+   "contract": "Temporary, Full-time",
+   "posted": "2026-10-19",
+   "closing": "2026-11-19",
+   "listing_url": "https://www.reed.co.uk/jobs/employment-advisor-job-coach-local-authority/57473633",
+   "apply_url": "https://www.reed.co.uk/jobs/employment-advisor-job-coach-local-authority/57473633",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Employment Adviser Hourly Rate: £17.75 Location: Crystal Peaks, Sheffield (potential future relocation to Peaks College) Job Type: Full-time, 37 hours per week Join our dedicated team in Sheffield as an Employment Adviser, where you will play a crucial role in supporting young people to overcome barriers to employment and successfully…",
+   "responsibilities": [
+    "Provide one-to-one employment advice and guidance to young people referred through DWP.",
+    "Assist individuals in identifying their skills, strengths, experience, and employment goals.",
+    "Help young people create, develop, and enhance their CVs and job applications.",
+    "Offer practical support with job searching and identifying suitable employment opportunities.",
+    "Prepare individuals for interviews and recruitment processes.",
+    "Work to improve the confidence of young people and help them become work-ready."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Write a tailored cover letter",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 45,
+    "minutes_high": 75,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Cover letter"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 41,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Events, Community engagement, Admin & IT, Young people",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6781,7 +7663,76 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57519828",
+   "source": "Reed",
+   "title": "Customer Service Advisor",
+   "employer": "Crown Worldwide Group",
+   "location": "Enfield",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£26,000 per annum",
+   "salary_min": 26000,
+   "salary_max": 26000,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-03",
+   "closing": "2026-12-01",
+   "listing_url": "https://www.reed.co.uk/jobs/customer-service-advisor/57519828",
+   "apply_url": "https://www.reed.co.uk/jobs/customer-service-advisor/57519828",
+   "apply_via": "Reed (quick apply)",
+   "summary": "We are an extraordinary and purposeful business committed to making it simpler to live, work and do business anywhere in the world, delivered through our broad portfolio of complementary brands. Together these enable us to; relocate people’s lives and possessions, help companies move teams to new locations near and far and help them…",
+   "responsibilities": [
+    "To update Crown’s internal systems with relevant information in an accurate and timely manner e.g. creating client accounts and updating account information",
+    "To resolve customer issues by liaising with the customer to determine the cause of the problem, resolve the problem with the customer and complete the correction or adjustment,…",
+    "Ensure all relevant financial transactions are processed accurately e.g. invoicing",
+    "Develop strong working relationships and complete administrative tasks for internal stakeholders e.g. creating reports, maintaining service level agreements, audit accounts",
+    "Receiving and processing orders from clients and informing internal stakeholders of work requirements",
+    "Providing basic training to customers on how to use Crown’s web portals to input their orders"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a portfolio link",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 25,
+    "minutes_high": 50,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Portfolio requested"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 41,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Community engagement, Customer service, Admin & IT, Research & reporting",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6847,7 +7798,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6914,7 +7865,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6984,7 +7935,73 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57558373",
+   "source": "Reed",
+   "title": "Customer Services Advisor",
+   "employer": "ERS Recruiting Ltd",
+   "location": "London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£26,000 - £29,000 per annum",
+   "salary_min": 26000,
+   "salary_max": 29000,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-11",
+   "closing": "2026-12-23",
+   "listing_url": "https://www.reed.co.uk/jobs/customer-services-advisor/57558373",
+   "apply_url": "https://www.reed.co.uk/jobs/customer-services-advisor/57558373",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Role: Customer Services Advisor Reporting to: The Commercial Operations Leader Location: London, NW10 6RJ Salary: Circa £29,000 depending on experience Hours:Monday to Friday, with one Saturday per month; hours 8:00am – 4:30pm or 8:30am -5:00pm Job Type: Full-time Our client is a leading London recycling and waste management company…",
+   "responsibilities": [
+    "Responsible for client satisfaction and responding to incoming calls and emails.",
+    "You will accurately complete job bookings, deal with any customer queries and action any other administration duties assigned to you.",
+    "Maintain database for all clients and ensure all information is up to date.",
+    "Ensure strong working relationships are developed with all internal stakeholders, including our Sales, Transport and Finance teams.",
+    "This role will see you not only maintaining current customer relationships, but you will also be creating and building new ones.",
+    "This position will see you contacting lapsed clients with the aim of becoming active customers again."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 41,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Community engagement, Customer service, Admin & IT, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7050,7 +8067,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7117,7 +8134,74 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57479691",
+   "source": "Reed",
+   "title": "Sales & Customer Service Advisor",
+   "employer": "Chase and Holland Recruitment Ltd",
+   "location": "Chesterfield",
+   "areas": [
+    "sheffield"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£26,000 per annum",
+   "salary_min": 26000,
+   "salary_max": 26000,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-10-21",
+   "closing": "2026-12-02",
+   "listing_url": "https://www.reed.co.uk/jobs/sales-amp-customer-service-advisor/57479691",
+   "apply_url": "https://www.reed.co.uk/jobs/sales-amp-customer-service-advisor/57479691",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Sales and Customer Service Administrator – Chesterfield – £26,000 Chase & Holland are excited to be working with a long standing and trusted manufacturing organisation who are currently looking to recruit a Sales and Customer Service Administrator to join their friendly team.",
+   "responsibilities": [
+    "Providing an effective and comprehensive service to customers",
+    "Processing customer orders within agreed timescales",
+    "Answering customer enquires via phone and email",
+    "Providing excellent product knowledge (training given)",
+    "Liaising with internal and external stakeholders",
+    "Ad hoc administration duties as required"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 40,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Customer service, Admin & IT, Entry-level",
+     "+ Open to graduates / entry level",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7188,7 +8272,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7254,7 +8338,139 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57474318",
+   "source": "Reed",
+   "title": "Customer Service and Logistics Coordinator",
+   "employer": "Adecco",
+   "location": "Sheffield",
+   "areas": [
+    "sheffield"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£26,000 per annum",
+   "salary_min": 26000,
+   "salary_max": 26000,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-10-19",
+   "closing": "2026-11-30",
+   "listing_url": "https://www.reed.co.uk/jobs/customer-service-and-logistics-coordinator/57474318",
+   "apply_url": "https://www.reed.co.uk/jobs/customer-service-and-logistics-coordinator/57474318",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Job Role: Customer Service & Logistics Coordinator Salary: £26,000 rising to £27,281 on completion of training Hours: Monday to Friday 37.5 hours per week Our client, an established business who manufacture and distribute specialist products, is seeking a dynamic and enthusiastic Customer Service & Logistics Coordinator to join their…",
+   "responsibilities": [
+    "Ensure the accurate receipt, storage, and despatch of all finished products to customers using Microsoft Dynamics AXE, ensuring timely and accurate shipment of products.",
+    "Pick, pack, label, and despatch stock while adhering to stock rotation procedures.",
+    "Deal with telephone and email enquiries from both external and internal clients",
+    "Receive, check, and efficiently put away products as required.",
+    "Assist in the loading and unloading of vehicles as needed.",
+    "Drive key performance indicators to achieve departmental targets, including health and safety, quality, service, and cost efficiency."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 39,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Content & copywriting, Events, Customer service, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57471262",
+   "source": "Reed",
+   "title": "Promoter Assistant",
+   "employer": "Live Nation",
+   "location": "London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "comms"
+   ],
+   "salary": "Not stated",
+   "salary_min": null,
+   "salary_max": null,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-10-19",
+   "closing": "2026-11-30",
+   "listing_url": "https://www.reed.co.uk/jobs/promoter-assistant/57471262",
+   "apply_url": "https://www.reed.co.uk/jobs/promoter-assistant/57471262",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Company: Live Nation Department: Promotions Location: Farringdon, London Reports to: SVP Touring Working Hours: 40 plus additional hours required by the business Contract Type: Permanent Role Description The UK Promoting department is responsible for Promoting thousands of concerts throughout the UK every year.",
+   "responsibilities": [
+    "Sourcing availabilities with venues and routing tours",
+    "Managing holds, challenging dates, keeping records of what is held",
+    "Gathering venue and tour information to prepare accurate tour costings and budget templates",
+    "Confirming shows with stakeholders, sending, and updating tour itineraries",
+    "Processing show sign offs and placing insurance for shows",
+    "Working closely with the office administrator to ensure artist/venue contracts and work permits are processed in a timely manner"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "entry",
+   "match": {
+    "score": 39,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Events, Customer service, Admin & IT, Research & reporting",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7323,7 +8539,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7393,7 +8609,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7420,7 +8636,7 @@
    "closing": "2026-12-05",
    "listing_url": "https://www.reed.co.uk/jobs/homeseeker-admin-assistant-local-authority/57536091",
    "apply_url": "https://www.reed.co.uk/jobs/homeseeker-admin-assistant-local-authority/57536091",
-   "apply_via": "Employer site (reed.co.uk)",
+   "apply_via": "Reed (quick apply)",
    "summary": "Homeseeker Admin Assistant Job Type: Part-time, hybrid Location: Barnsley, S70 Pay:£13.70 per hour PAYE Hours:18.5 hours per week We are looking for a Homeseeker Admin Assistant to join a busy housing service within a customer-focused lettings and assessments team.",
    "responsibilities": [
     "Provide a front-line service for housing register, lettings and assessment enquiries.",
@@ -7432,15 +8648,15 @@
    ],
    "full_description": true,
    "process": {
-    "type": "Apply on employer / agency website",
+    "type": "Quick apply on Reed (CV)",
     "steps": [
-     "Open the apply link (employer or agency site)",
-     "Upload a tailored CV and complete the form",
+     "Sign in to Reed",
+     "Upload the tailored CV",
      "Write a tailored cover letter",
-     "Answer any screening questions, then submit"
+     "Add a short cover note, then submit"
     ],
-    "minutes_low": 60,
-    "minutes_high": 120,
+    "minutes_low": 45,
+    "minutes_high": 75,
     "notes": [
      "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
     ]
@@ -7463,7 +8679,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7529,7 +8745,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7595,7 +8811,73 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57504260",
+   "source": "Reed",
+   "title": "Administrator",
+   "employer": "Time Recruitment",
+   "location": "Greater Manchester",
+   "areas": [
+    "manchester"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£13.55 per hour",
+   "salary_min": 26422,
+   "salary_max": 26422,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-10-29",
+   "closing": "2026-12-10",
+   "listing_url": "https://www.reed.co.uk/jobs/administrator/57504260",
+   "apply_url": "https://www.reed.co.uk/jobs/administrator/57504260",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Administrator Location: UK (Office Based) Salary: National Minimum Wage + 5% Contract: Permanent, Full Time (40 hours per week) Time Recruitment, the preferred recruitment partner for this opportunity, is seeking an organised and customer-focused Administrator to join a growing service-led business.",
+   "responsibilities": [
+    "Act as the first point of contact for customer enquiries via phone and email.",
+    "Manage shared inboxes and ensure queries are dealt with promptly.",
+    "Process service requests, work orders, quotations, and related documentation.",
+    "Maintain accurate customer records and operational systems.",
+    "Support engineers and operational teams with scheduling and administration.",
+    "Communicate updates to customers regarding ongoing works and service requests."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 39,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Events, Customer service, Admin & IT, Research & reporting",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7660,7 +8942,141 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57541054",
+   "source": "Reed",
+   "title": "Customer Service Administrator",
+   "employer": "10 Recruitment Ltd",
+   "location": "Huddersfield",
+   "areas": [
+    "sheffield"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£26,125 - £28,190 per annum, OTE",
+   "salary_min": 26125,
+   "salary_max": 28190,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-06",
+   "closing": "2026-12-18",
+   "listing_url": "https://www.reed.co.uk/jobs/customer-service-administrator/57541054",
+   "apply_url": "https://www.reed.co.uk/jobs/customer-service-administrator/57541054",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Customer Service Administrator Location: Huddersfield Salary: £28,190 (including shift allowance and attendence bonus) Hours: 37.5 hours per week that covers days, and weekends; 4 on 4 off rota comprising of 2 early shifts (05:30 – 16:30) and 2 late shifts (10.00 - 21.00) Great with customers?",
+   "responsibilities": [
+    "Delivering excellent customer service via telephone, email and SMS, handling enquiries and resolving complaints professionally.",
+    "Supporting Resource Managers with daily communications, planning and administration.",
+    "Maintaining accurate information across resource planning and customer management systems.",
+    "Assisting with driver scheduling, overtime availability and resource planning.",
+    "Coordinating driver training, including refresher courses, defensive driving and ADR renewals.",
+    "Maintaining driver training records and capability matrices."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Weekend/evening work"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 39,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Content & copywriting, Customer service, Admin & IT, Research & reporting",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57546301",
+   "source": "Reed",
+   "title": "Customer Service Advisor",
+   "employer": "Hedin Automotive",
+   "location": "Bromley",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£23,223 - £27,633 per annum",
+   "salary_min": 23223,
+   "salary_max": 27633,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-09",
+   "closing": "2026-12-21",
+   "listing_url": "https://www.reed.co.uk/jobs/customer-service-advisor/57546301",
+   "apply_url": "https://www.reed.co.uk/jobs/customer-service-advisor/57546301",
+   "apply_via": "Reed (quick apply)",
+   "summary": "WHY WORK FOR HEDIN AUTOMOTIVE BMW & MINI. Join us as a Customer Service Advisor and become the welcoming voice of Hedin Automotive BMW & MINI.",
+   "responsibilities": [
+    "Answering and transferring inbound calls and online enquiries, ensuring accuracy, efficiency, and the highest standard of customer service",
+    "Accurately recording customer details and requirements when handling an enquiry",
+    "Arranging aftersales bookings by telephone and allocating work to relevant workshop teams",
+    "Providing customer estimates in line with company policy on schedules, times and pricing",
+    "Making outbound calls to customers when ordered parts have arrived and arranging convenient booking dates",
+    "Working closely with Service Team Managers and Sales Teams to maximise customer opportunities"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 39,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Events, Customer service, Admin & IT, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7727,75 +9143,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
-     "status": 200,
-     "state": "ok",
-     "note": "Page loaded"
-    }
-   }
-  },
-  {
-   "id": "reed-57560042",
-   "source": "Reed",
-   "title": "Social Work Assistant",
-   "employer": "4Recruitment Services",
-   "location": "Sheffield",
-   "areas": [
-    "sheffield"
-   ],
-   "categories": [
-    "support"
-   ],
-   "salary": "£20.17 per hour",
-   "salary_min": 39331,
-   "salary_max": 39331,
-   "contract": "Contract, Full-time",
-   "posted": "2026-11-11",
-   "closing": "2026-12-23",
-   "listing_url": "https://www.reed.co.uk/jobs/social-work-assistant/57560042",
-   "apply_url": "https://www.reed.co.uk/jobs/social-work-assistant/57560042",
-   "apply_via": "Reed (quick apply)",
-   "summary": "4Recruitment Services are seeking a Social Work Assistant for our client based in Sheffield. The role: To work alongside social workers in assessing the levels of need of children and young people, their families and carers and identifying appropriate plans and services to support them.",
-   "responsibilities": [
-    "To work alongside social workers in assessing the levels of need of children and young people, their families and carers and identifying appropriate plans and services to…",
-    "To carry out specific pieces of work identified as part of a plan to support children/young people and their families."
-   ],
-   "full_description": true,
-   "process": {
-    "type": "Quick apply on Reed (CV)",
-    "steps": [
-     "Sign in to Reed",
-     "Upload the tailored CV",
-     "Add a short cover note, then submit"
-    ],
-    "minutes_low": 15,
-    "minutes_high": 30,
-    "notes": [
-     "A DBS check is mentioned (usually after an offer)",
-     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
-    ]
-   },
-   "sponsorship": "not_stated",
-   "flags": [
-    "Driving licence",
-    "DBS check"
-   ],
-   "level": "entry",
-   "match": {
-    "score": 39,
-    "level": "stretch",
-    "reasons": [
-     "Skills overlap: Customer service, Admin & IT, Older people, Young people",
-     "+ Supports older people",
-     "+ Junior-friendly job title",
-     "− Driving licence required"
-    ]
-   },
-   "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
-   "link_check": {
-    "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7862,7 +9210,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7928,7 +9276,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7997,7 +9345,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8066,7 +9414,140 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57582887",
+   "source": "Reed",
+   "title": "Technical Sales Advisor",
+   "employer": "Wolseley",
+   "location": "Enfield",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "Not stated",
+   "salary_min": null,
+   "salary_max": null,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-17",
+   "closing": "2026-12-29",
+   "listing_url": "https://www.reed.co.uk/jobs/technical-sales-advisor/57582887",
+   "apply_url": "https://www.reed.co.uk/jobs/technical-sales-advisor/57582887",
+   "apply_via": "Reed (quick apply)",
+   "summary": "We are Pipe and Climate Centre, part of the Wolseley Group - a leading specialist trade merchant across the UK and Ireland. We pride ourselves in putting our people and customers at the heart of everything we do and best of all, provide opportunities to develop skills and build careers through our award-winning Wolseley Talent Guild.",
+   "responsibilities": [
+    "Providing sales and expert advice from a technical view.",
+    "Processing customer orders whether that is over the phone or email.",
+    "Building strong relationship with customers and searching for new business by making proactive sales calls.",
+    "Working closely with external sales team."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Weekend/evening work"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 38,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Customer service, Communication skills, Entry-level",
+     "+ Open to graduates / entry level",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57515026",
+   "source": "Reed",
+   "title": "Operations Assistant",
+   "employer": "Tiger Recruitment",
+   "location": "London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "comms"
+   ],
+   "salary": "£50,000 per annum, pro-rata",
+   "salary_min": 50000,
+   "salary_max": 50000,
+   "contract": "Contract, Part-time",
+   "posted": "2026-11-02",
+   "closing": "2026-11-30",
+   "listing_url": "https://www.reed.co.uk/jobs/operations-assistant/57515026",
+   "apply_url": "https://www.reed.co.uk/jobs/operations-assistant/57515026",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Operations Assistant Part time – 4 days £50,000 pro rata City of London 12-month fixed term contract An exciting opportunity for an individual to provide maternity leave cover for approximately 12 months. They will report to and work closely with the Global Head of People and Operations (based in Abu Dhabi) They will also work closely…",
+   "responsibilities": [
+    "Prepare, co-ordinate and maintain employee documentation ensuring approvals and records are stored place on people platform",
+    "Act as a first point of contact for employee queries, providing clear guidance and escalating complex or sensitive matters",
+    "Co-ordinate recruitment activity across region, including job descriptions, advertising, liaising with recruiters, sourcing candidates, interview co-ordination, candidate…",
+    "Manage pre-employment background verification checks, references and onboarding documentation",
+    "Co-ordinate onboarding so new joiners have the information, access, introductions and support needed to become effective quickly",
+    "Maintain onboarding resources, checklists and induction content, gathering feedback and improving the experience over time"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "entry",
+   "match": {
+    "score": 37,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Content & copywriting, Admin & IT, Research & reporting, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8132,7 +9613,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8202,7 +9683,75 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57527985",
+   "source": "Reed",
+   "title": "Customer Service Advisor",
+   "employer": "DMR Personnel Ltd",
+   "location": "Great Yarmouth",
+   "areas": [
+    "remote"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£27,000 - £29,000 per annum",
+   "salary_min": 27000,
+   "salary_max": 29000,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-04",
+   "closing": "2026-12-16",
+   "listing_url": "https://www.reed.co.uk/jobs/customer-service-advisor/57527985",
+   "apply_url": "https://www.reed.co.uk/jobs/customer-service-advisor/57527985",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Term: Permanent Location: Gapton Hall, Great Yarmouth, Norfolk Free daily parking (car needed as not near public transport routes) Free daily parking Hours: Full time Monday – Friday Full office working, (great team!!) no hybrid or remote at his stage 39 hours per week - no evenings, weekends or bank holidays Starting holiday 25 days…",
+   "responsibilities": [
+    "Our client is looking for a new team member to help them continue to provide their customers with excellent service.",
+    "You’ll be the one of the customer service teams, point of contact for business owners. Our clients customers will be making purchases, and our client is there to support them…",
+    "Our client thrives from customer feedback to pilot new ideas, you’ll need to listen to our customers and understand from them how we can build a product base.",
+    "You will be required to receive and direct incoming telephone calls and provide a range of administrative support to our clients sales and customer service teams.",
+    "Ongoing training is provided from day 1 in order to help you understand our business and to support your professional development.",
+    "Some compatible experience would be desirable, along with basic IT, written and verbal communication skills, however, character and enthusiasm are just as important, and as…"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Hybrid"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 37,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Customer service, Admin & IT, Research & reporting, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8271,7 +9820,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8340,7 +9889,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8406,7 +9955,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8473,7 +10022,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8536,7 +10085,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8597,7 +10146,74 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57552471",
+   "source": "Reed",
+   "title": "Financial Adviser",
+   "employer": "Fusion Consulting Ltd",
+   "location": "North London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£55,000 - £65,000 per annum, negotiable, inc benefits, OTE",
+   "salary_min": 55000,
+   "salary_max": 65000,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-10",
+   "closing": "2026-12-22",
+   "listing_url": "https://www.reed.co.uk/jobs/financial-adviser/57552471",
+   "apply_url": "https://www.reed.co.uk/jobs/financial-adviser/57552471",
+   "apply_via": "Reed (quick apply)",
+   "summary": "[FFFA1026] Financial Adviser Fusion Financial are a dynamic financial advisory firm who are committed to delivering expert financial guidance to individuals and businesses alike. We are looking for an experienced and motivated Financial Adviser to join our team.",
+   "responsibilities": [
+    "Manage an existing portfolio of clients, offering ongoing support, portfolio reviews, and financial planning services.",
+    "Maintain up-to-date knowledge of clients' financial needs and preferences."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a portfolio link",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 25,
+    "minutes_high": 50,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Portfolio requested"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 36,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Events, Community engagement, Customer service, Admin & IT, Research & reporting, Older people",
+     "+ Junior-friendly job title",
+     "− Asks for 3+ years' experience",
+     "− Sales/commission role"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8665,7 +10281,74 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57505759",
+   "source": "Reed",
+   "title": "Executive Assistant",
+   "employer": "Morgan Spencer",
+   "location": "London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "digital_community"
+   ],
+   "salary": "£70,000 - £80,000 per annum",
+   "salary_min": 70000,
+   "salary_max": 80000,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-10-29",
+   "closing": "2026-12-10",
+   "listing_url": "https://www.reed.co.uk/jobs/executive-assistant/57505759",
+   "apply_url": "https://www.reed.co.uk/jobs/executive-assistant/57505759",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Executive Assistant – Senior Leadership Support Up to £80,000 + Bonus Blackfriars - 5 days on site Experience of working as an EA to C Suite is ESSENTIAL for consideration. Role Purpose To provide high-level executive support to the CFO and Group Counsel, while contributing to the smooth operation of the Senior Leadership Team Key…",
+   "responsibilities": [
+    "Manage a highly complex, fast-paced diary, including UK and international travel arrangements.",
+    "Strategically organise annual, quarterly, monthly, and weekly meetings with both internal and external stakeholders.",
+    "Ensure that reports, actions, and minutes for the Executive Team are completed accurately and on time.",
+    "Review and prioritise incoming enquiries (emails, calls, invitations), responding directly or drafting correspondence on behalf of senior leaders.",
+    "Maintain efficient inbox and file-management systems for storing key documents and data.",
+    "Prepare presentations and reports, including coordination of Group-level reporting."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "entry",
+   "match": {
+    "score": 35,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Events, Customer service, Admin & IT, Research & reporting, Communication skills",
+     "+ Junior-friendly job title",
+     "− Asks for an experienced professional"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8730,7 +10413,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8796,7 +10479,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8864,7 +10547,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8932,7 +10615,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8991,7 +10674,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9057,7 +10740,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9126,77 +10809,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
-     "status": 200,
-     "state": "ok",
-     "note": "Page loaded"
-    }
-   }
-  },
-  {
-   "id": "reed-57534479",
-   "source": "Reed",
-   "title": "Traveller Officer",
-   "employer": "Southwark Council",
-   "location": "London",
-   "areas": [
-    "london"
-   ],
-   "categories": [
-    "digital_community"
-   ],
-   "salary": "£44,331 - £50,778 per annum",
-   "salary_min": 44331,
-   "salary_max": 50778,
-   "contract": "Permanent, Full-time",
-   "posted": "2026-11-05",
-   "closing": "2026-12-17",
-   "listing_url": "https://www.reed.co.uk/jobs/traveller-officer/57534479",
-   "apply_url": "https://www.reed.co.uk/jobs/traveller-officer/57534479",
-   "apply_via": "Reed (quick apply)",
-   "summary": "Southwark Council is the largest local authority social landlord in London, managing 55,000 homes lived in by 40% of Southwark’s residents. We are home to over 18,300 businesses including iconic London venues such as The Shard, The Tate Modern and Borough Market along with many social enterprises and we have a young, diverse, and…",
-   "responsibilities": [
-    "Act as the primary, on-site point of contact for residents during fire safety and improvement works.",
-    "Provide clear, timely communication about planned works, safety requirements, timelines, and any temporary arrangements.",
-    "Ensure residents understand and follow fire safety guidance and mitigation measures.",
-    "Work closely with contractors, fire safety teams, and project managers to facilitate safe site access and smooth progression of works.",
-    "Identify risks promptly, escalate issues appropriately, and help coordinate solutions.",
-    "Support new and existing residents with tenancy matters, site rules, and licence agreements."
-   ],
-   "full_description": true,
-   "process": {
-    "type": "Application form + supporting statement",
-    "steps": [
-     "Fill in personal details, education and employment history",
-     "Write a supporting statement against the person specification (STAR examples)",
-     "Complete the equality monitoring form and submit"
-    ],
-    "minutes_low": 120,
-    "minutes_high": 180,
-    "notes": [
-     "A DBS check is mentioned (usually after an offer)",
-     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
-    ]
-   },
-   "sponsorship": "not_stated",
-   "flags": [
-    "DBS check",
-    "Supporting statement"
-   ],
-   "level": "mid",
-   "match": {
-    "score": 34,
-    "level": "weak",
-    "reasons": [
-     "Skills overlap: Community engagement, Customer service, Admin & IT",
-     "+ Junior-friendly job title"
-    ]
-   },
-   "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
-   "link_check": {
-    "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9262,7 +10875,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9326,7 +10939,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9395,7 +11008,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9459,7 +11072,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9531,7 +11144,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9598,7 +11211,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9625,7 +11238,7 @@
    "closing": "2026-11-23",
    "listing_url": "https://www.reed.co.uk/jobs/receptionist/57546440",
    "apply_url": "https://www.reed.co.uk/jobs/receptionist/57546440",
-   "apply_via": "Employer site (reed.co.uk)",
+   "apply_via": "Reed (quick apply)",
    "summary": "Temporary Receptionist Attendance Administrator Job Type: Temporary (minimum 6 weeks, ongoing) Location: SW20, London Working Hours: Monday to Friday, 8:00 AM - 4:30 PM Start: Immediate We are seeking a Temporary Receptionist Attendance Administrator to join our clients team on an immediate basis.",
    "responsibilities": [
     "Manage the front desk, greeting and directing visitors appropriately.",
@@ -9637,15 +11250,15 @@
    ],
    "full_description": true,
    "process": {
-    "type": "Apply on employer / agency website",
+    "type": "Quick apply on Reed (CV)",
     "steps": [
-     "Open the apply link (employer or agency site)",
-     "Upload a tailored CV and complete the form",
+     "Sign in to Reed",
+     "Upload the tailored CV",
      "Write a tailored cover letter",
-     "Answer any screening questions, then submit"
+     "Add a short cover note, then submit"
     ],
-    "minutes_low": 60,
-    "minutes_high": 120,
+    "minutes_low": 45,
+    "minutes_high": 75,
     "notes": [
      "A DBS check is mentioned (usually after an offer)",
      "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
@@ -9668,7 +11281,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9733,7 +11346,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9802,7 +11415,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9867,7 +11480,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9935,7 +11548,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10005,7 +11618,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10072,7 +11685,70 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57552431",
+   "source": "Reed",
+   "title": "Young Persons Coach",
+   "employer": "Morgan Hunt Recruitment",
+   "location": "Manchester",
+   "areas": [
+    "manchester"
+   ],
+   "categories": [
+    "support"
+   ],
+   "salary": "£15.00 - £17.00 per hour",
+   "salary_min": 29250,
+   "salary_max": 33150,
+   "contract": "Temporary, Full-time",
+   "posted": "2026-11-10",
+   "closing": "2026-12-08",
+   "listing_url": "https://www.reed.co.uk/jobs/young-persons-coach/57552431",
+   "apply_url": "https://www.reed.co.uk/jobs/young-persons-coach/57552431",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Young Persons Coach Greater Manchester Temporary £15 - £17 per hour + holiday pay Our Client Are you passionate about supporting young people and helping them build a brighter, more stable future? We are working in partnership with a social enterprise to recruit a motivated, compassionate and creative Young Persons Coach to join a…",
+   "responsibilities": [
+    "Passionate about supporting young people and preventing homelessness.",
+    "Confident communicators who can build relationships with young people and partner organisations.",
+    "Organised, proactive and able to take ownership of their work."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 32,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Customer service, Older people, Young people",
+     "+ Supports older people"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10144,7 +11820,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10212,7 +11888,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10271,7 +11947,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10338,7 +12014,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10408,7 +12084,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10472,7 +12148,75 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57545505",
+   "source": "Reed",
+   "title": "Customer Marketing Executive",
+   "employer": "AJ Bell",
+   "location": "Southwark",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "Not stated",
+   "salary_min": null,
+   "salary_max": null,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-09",
+   "closing": "2026-12-21",
+   "listing_url": "https://www.reed.co.uk/jobs/customer-marketing-executive/57545505",
+   "apply_url": "https://www.reed.co.uk/jobs/customer-marketing-executive/57545505",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Job Description At AJ Bell, we believe investing should feel good. A big part of that is giving customers clear, timely communications that help them understand their options and feel confident about the decisions they make.",
+   "responsibilities": [
+    "Help make investing easier to understand by supporting clear, relevant customer communications across email and other channels.",
+    "Support campaigns such as Tax Year End and Refer a Friend, helping turn ideas into communications that reach customers at the right time.",
+    "Work with our CRM and Strategy & Insights teams to understand customer behaviour and use insight to make communications more relevant.",
+    "Write clear marketing briefs that help turn campaign ideas into effective customer communications.",
+    "Collaborate with Brand, Product, Legal, Compliance and Data, seeing first-hand how customer marketing comes together across AJ Bell.",
+    "Help build customer trust and confidence by making sure communications are accurate, appropriately approved and meet our regulatory standards."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Hybrid"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 32,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Events, Customer service, Admin & IT",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10533,7 +12277,139 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57565859",
+   "source": "Reed",
+   "title": "Customer Service Advisor",
+   "employer": "Dreams Ltd",
+   "location": "Loudwater",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "Not stated",
+   "salary_min": null,
+   "salary_max": null,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-13",
+   "closing": "2026-12-25",
+   "listing_url": "https://www.reed.co.uk/jobs/customer-service-advisor/57565859",
+   "apply_url": "https://www.reed.co.uk/jobs/customer-service-advisor/57565859",
+   "apply_via": "Reed (quick apply)",
+   "summary": "The Role What you`ll be doing day-to-day In a very fast paced environment Respond to incoming customer inquiries via phone, email, or chat in a professional and courteous manner. Identify and assess customer needs, providing accurate information and effective solutions.",
+   "responsibilities": [
+    "In a very fast paced environment Respond to incoming customer inquiries via phone, email, or chat in a professional and courteous manner.",
+    "Identify and assess customer needs, providing accurate information and effective solutions.",
+    "Assist customers in navigating our products/services and resolving any concerns or issues.",
+    "Record and maintain accurate customer interaction details in our order management systems.",
+    "Collaborate with other team members to share insights and improve overall service quality.",
+    "Uphold company policies and procedures to ensure consistency and compliance."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Hybrid"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 32,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Community engagement, Customer service, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57565452",
+   "source": "Reed",
+   "title": "B2B Client Services Executive",
+   "employer": "Hays Specialist Recruitment Limited",
+   "location": "London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£35,000 per annum",
+   "salary_min": 35000,
+   "salary_max": 35000,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-13",
+   "closing": "2026-12-25",
+   "listing_url": "https://www.reed.co.uk/jobs/b2b-client-services-executive/57565452",
+   "apply_url": "https://www.reed.co.uk/jobs/b2b-client-services-executive/57565452",
+   "apply_via": "Reed (quick apply)",
+   "summary": "*A great client of ours - we have placed several very happy candidates here, including their wonderful Client Services Manager!* Our client, a Global Manufacturer of high quality digital wireless headset systems, are looking to recruit a personable, articulate Client Services Executive to join their fun, sociable business.",
+   "responsibilities": [
+    "Their market-leading products are developed with very creative design and high-quality materials that meet the needs of their wide/diverse customer community."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a portfolio link",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 25,
+    "minutes_high": 50,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Portfolio requested"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 32,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Community engagement, Customer service, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10599,7 +12475,72 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57499352",
+   "source": "Reed",
+   "title": "NIHL File Handler",
+   "employer": "Keoghs LLP",
+   "location": "Lostock",
+   "areas": [
+    "manchester"
+   ],
+   "categories": [
+    "support"
+   ],
+   "salary": "Not stated",
+   "salary_min": null,
+   "salary_max": null,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-10-27",
+   "closing": "2026-12-08",
+   "listing_url": "https://www.reed.co.uk/jobs/nihl-file-handler/57499352",
+   "apply_url": "https://www.reed.co.uk/jobs/nihl-file-handler/57499352",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Reviewing documentation, evidence, medical records and personnel records, and preparing detailed reports. Handling all aspects of disclosure and ensuring compliance with procedural requirements.",
+   "responsibilities": [
+    "Experience handling litigated NIHL claims and managing a caseload independently.",
+    "Strong understanding of litigation processes, court procedures and disclosure requirements.",
+    "Ability to review evidence,medical records and witness statements, and prepare clear reports.",
+    "Experience instructing Counsel and Experts and attending hearings, conferences and trials.",
+    "Strong drafting, research and communication skills.",
+    "Ability to build effective relationships with Insurers, Insureds and other stakeholders."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 31,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Customer service, Admin & IT, Research & reporting, Communication skills"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10662,7 +12603,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10730,7 +12671,139 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57471874",
+   "source": "Reed",
+   "title": "Customer Service Advisor (Shifts)",
+   "employer": "Reed",
+   "location": "Huddersfield",
+   "areas": [
+    "sheffield"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£13.33 per hour, inc benefits",
+   "salary_min": 25993,
+   "salary_max": 25993,
+   "contract": "Temporary, Full-time",
+   "posted": "2026-10-19",
+   "closing": "2026-11-19",
+   "listing_url": "https://www.reed.co.uk/jobs/customer-service-advisor-shifts/57471874",
+   "apply_url": "https://www.reed.co.uk/jobs/customer-service-advisor-shifts/57471874",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Ready to take the next step in your career and join a fast-paced, supportive team? We’re offering an exciting opportunity for a Customer Service Administrator to join a leading client in Huddersfield on a temporary basis—with strong potential to become permanent.",
+   "responsibilities": [
+    "Be the key point of contact for customers, ensuring a seamless journey from order to delivery",
+    "Accurately process and manage orders within the planning system",
+    "Coordinate delivery schedules, negotiating suitable times with customers",
+    "Resolve queries, complaints, and safety-critical issues quickly and professionally",
+    "Keep systems updated to support efficient planning and operations",
+    "Track KPIs, log additional costs, and support day-to-day admin functions"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 30,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Customer service, Admin & IT, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57471881",
+   "source": "Reed",
+   "title": "Customer Service Administrator (shifts)",
+   "employer": "Reed",
+   "location": "Huddersfield",
+   "areas": [
+    "sheffield"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£13.33 per hour, inc benefits",
+   "salary_min": 25993,
+   "salary_max": 25993,
+   "contract": "Temporary, Full-time",
+   "posted": "2026-10-19",
+   "closing": "2026-11-19",
+   "listing_url": "https://www.reed.co.uk/jobs/customer-service-administrator-shifts/57471881",
+   "apply_url": "https://www.reed.co.uk/jobs/customer-service-administrator-shifts/57471881",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Ready to take the next step in your career and join a fast-paced, supportive team? We’re offering an exciting opportunity for a Customer Service Administrator to join a leading client in Huddersfield on a temporary basis—with strong potential to become permanent.",
+   "responsibilities": [
+    "Be the key point of contact for customers, ensuring a seamless journey from order to delivery",
+    "Accurately process and manage orders within the planning system",
+    "Coordinate delivery schedules, negotiating suitable times with customers",
+    "Resolve queries, complaints, and safety-critical issues quickly and professionally",
+    "Keep systems updated to support efficient planning and operations",
+    "Track KPIs, log additional costs, and support day-to-day admin functions"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 30,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Customer service, Admin & IT, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10794,7 +12867,205 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57488352",
+   "source": "Reed",
+   "title": "Customer Service Advisor",
+   "employer": "Reed",
+   "location": "Huddersfield",
+   "areas": [
+    "sheffield"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£13.33 per hour, inc benefits",
+   "salary_min": 25993,
+   "salary_max": 25993,
+   "contract": "Temporary, Full-time",
+   "posted": "2026-10-23",
+   "closing": "2026-11-23",
+   "listing_url": "https://www.reed.co.uk/jobs/customer-service-advisor/57488352",
+   "apply_url": "https://www.reed.co.uk/jobs/customer-service-advisor/57488352",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Ready to take the next step in your career and join a fast-paced, supportive team? We’re offering an exciting opportunity for a Customer Service Administrator to join a leading client in Huddersfield on a temporary basis—with strong potential to become permanent.",
+   "responsibilities": [
+    "Be the key point of contact for customers, ensuring a seamless journey from order to delivery",
+    "Accurately process and manage orders within the planning system",
+    "Coordinate delivery schedules, negotiating suitable times with customers",
+    "Resolve queries, complaints, and safety-critical issues quickly and professionally",
+    "Keep systems updated to support efficient planning and operations",
+    "Track KPIs, log additional costs, and support day-to-day admin functions"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 30,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Customer service, Admin & IT, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57488347",
+   "source": "Reed",
+   "title": "Customer Service Administrator",
+   "employer": "Reed",
+   "location": "Huddersfield",
+   "areas": [
+    "sheffield"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£13.33 per hour, inc benefits",
+   "salary_min": 25993,
+   "salary_max": 25993,
+   "contract": "Temporary, Full-time",
+   "posted": "2026-10-23",
+   "closing": "2026-11-23",
+   "listing_url": "https://www.reed.co.uk/jobs/customer-service-administrator/57488347",
+   "apply_url": "https://www.reed.co.uk/jobs/customer-service-administrator/57488347",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Ready to take the next step in your career and join a fast-paced, supportive team? We’re offering an exciting opportunity for a Customer Service Administrator to join a leading client in Huddersfield on a temporary basis—with strong potential to become permanent.",
+   "responsibilities": [
+    "Be the key point of contact for customers, ensuring a seamless journey from order to delivery",
+    "Accurately process and manage orders within the planning system",
+    "Coordinate delivery schedules, negotiating suitable times with customers",
+    "Resolve queries, complaints, and safety-critical issues quickly and professionally",
+    "Keep systems updated to support efficient planning and operations",
+    "Track KPIs, log additional costs, and support day-to-day admin functions"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 30,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Customer service, Admin & IT, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57546263",
+   "source": "Reed",
+   "title": "Customer Service Advisor",
+   "employer": "Candidate Source Ltd",
+   "location": "London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£28,860 per annum",
+   "salary_min": 28860,
+   "salary_max": 28860,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-09",
+   "closing": "2026-11-23",
+   "listing_url": "https://www.reed.co.uk/jobs/customer-service-advisor/57546263",
+   "apply_url": "https://www.reed.co.uk/jobs/customer-service-advisor/57546263",
+   "apply_via": "Reed (quick apply)",
+   "summary": "A highly successful and well-established e-commerce business selling sports, fitness, healthcare, safety and pet products is looking for an office -based Customer Service Advisor to join their team in Clapham, London. The role is fully office-based in Clapham, Central London.",
+   "responsibilities": [
+    "28 days of holiday including bank holidays (rising by a further holiday for each year of service up to 33 days of holiday)",
+    "Regular staff socials funded by the business",
+    "Weekly McDonald’s breakfasts",
+    "Free tea and coffee",
+    "Friday beers, soft drinks, chocolate, sweets and snacks",
+    "Staff discount on products"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 30,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Content & copywriting, Customer service, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10860,7 +13131,74 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57472693",
+   "source": "Reed",
+   "title": "Client Services Administrator",
+   "employer": "TEMPLEGATE RECRUITMENT",
+   "location": "Euxton",
+   "areas": [
+    "manchester"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£25,000 - £30,000 per annum",
+   "salary_min": 25000,
+   "salary_max": 30000,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-10-19",
+   "closing": "2026-11-30",
+   "listing_url": "https://www.reed.co.uk/jobs/client-services-administrator/57472693",
+   "apply_url": "https://www.reed.co.uk/jobs/client-services-administrator/57472693",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Benefits Hybrid working – opportunity to work from home and the office Employer pension contribution of 4% with salary sacrifice available for employee contributions 28 days annual leave plus Bank Holidays Option to purchase up to an additional 5 days annual leave Group Life Cover (4 x salary) Rolling sick pay scheme Ongoing training…",
+   "responsibilities": [
+    "They offer a collaborative and supportive environment where employees are encouraged to develop professionally and build rewarding long-term careers.",
+    "This is an excellent opportunity for an ambitious IFA Administrator looking to develop their career within a successful and forward-thinking financial planning business.",
+    "The Role As an IFA Administrator, you will provide comprehensive administrative support to Financial Advisers, clients, and colleagues, ensuring the smooth delivery of…",
+    "The successful IFA Administrator will play a vital role in maintaining high service standards, processing business efficiently, and supporting the client journey from initial…"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Hybrid",
+    "Remote/home-based"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 30,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Customer service, Admin & IT, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10925,7 +13263,73 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57532917",
+   "source": "Reed",
+   "title": "Office Administrator",
+   "employer": "ARJ Investments London",
+   "location": "Loughton",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "Not stated",
+   "salary_min": null,
+   "salary_max": null,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-05",
+   "closing": "2026-12-03",
+   "listing_url": "https://www.reed.co.uk/jobs/office-administrator/57532917",
+   "apply_url": "https://www.reed.co.uk/jobs/office-administrator/57532917",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Office Administrator Location: Loughton, Essex Salary: Competitive, dependent on experience Employment Type: Full-Time (Monday to Friday, 40 hours per week) Are you an organised, proactive individual with excellent communication skills and a passion for keeping things running smoothly?",
+   "responsibilities": [
+    "Providing general administrative support to ensure the smooth day-to-day running of the office.",
+    "Managing filing, scanning and maintaining accurate records and documentation.",
+    "Assisting with trade debtor management, including contacting clients regarding outstanding payments.",
+    "Building and maintaining positive relationships with external clients and stakeholders.",
+    "Handling incoming telephone calls and responding to emails in a professional and timely manner.",
+    "Communicating confidently with a variety of stakeholders, both verbally and in writing."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 30,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Customer service, Admin & IT, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10995,7 +13399,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11063,7 +13467,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11124,7 +13528,139 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57498321",
+   "source": "Reed",
+   "title": "Customer Service Advisor",
+   "employer": "SC4 Recruitment Limited",
+   "location": "Harlow",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£28,500 - £30,000 per annum",
+   "salary_min": 28500,
+   "salary_max": 30000,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-10-27",
+   "closing": "2026-12-08",
+   "listing_url": "https://www.reed.co.uk/jobs/customer-service-advisor/57498321",
+   "apply_url": "https://www.reed.co.uk/jobs/customer-service-advisor/57498321",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Customer Service Advisor - Harlow, Essex £30,000 pa | Office-based | Monday - Friday We're looking for a customer-service-focused professional with experience in an office-based customer service role, supporting customers via inbound emails, resolving issues and enquiries, and providing accurate information on stock availability and…",
+   "responsibilities": [
+    "Responding to customer enquiries via email and telephone",
+    "Resolving customer issues quickly and professionally",
+    "Providing order and delivery support",
+    "Liaising with internal departments",
+    "Maintaining accurate customer records",
+    "Contributing ideas to improve service and customer experience"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 30,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Customer service, Admin & IT, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57546980",
+   "source": "Reed",
+   "title": "Customer Service Coordinator",
+   "employer": "Reed",
+   "location": "Sheffield",
+   "areas": [
+    "sheffield"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£13.45 per hour, inc benefits",
+   "salary_min": 26227,
+   "salary_max": 26227,
+   "contract": "Temporary, Full-time",
+   "posted": "2026-11-09",
+   "closing": "2026-12-09",
+   "listing_url": "https://www.reed.co.uk/jobs/customer-service-coordinator/57546980",
+   "apply_url": "https://www.reed.co.uk/jobs/customer-service-coordinator/57546980",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Customer Service Coordinator Sheffield | £13.45 per Hour | Temporary Contract | Immediate Start We are currently recruiting for a Customer Service Coordinator to join a busy and fast-paced office environment in Sheffield.",
+   "responsibilities": [
+    "Responding to customer enquiries via telephone and email",
+    "Providing updates and resolving customer queries",
+    "Coordinating requests and ensuring timely follow-up",
+    "Maintaining accurate records and updating internal systems",
+    "Supporting general administration tasks",
+    "Liaising with colleagues across different departments"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 30,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Customer service, Admin & IT, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11185,7 +13721,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11247,7 +13783,144 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57520869",
+   "source": "Reed",
+   "title": "Mortgage & Protection Advisor",
+   "employer": "YOPA",
+   "location": "Hinckley",
+   "areas": [
+    "remote"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£28,000 - £35,000 per annum",
+   "salary_min": 28000,
+   "salary_max": 35000,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-03",
+   "closing": "2026-12-15",
+   "listing_url": "https://www.reed.co.uk/jobs/mortgage-amp-protection-advisor/57520869",
+   "apply_url": "https://www.reed.co.uk/jobs/mortgage-amp-protection-advisor/57520869",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Remote, home based role Between £28-£30,000 (depending on experience) Year one OTE £50k+ Year two OTE £75k+ As a Mortgage and Protection Advisor at Scout Financial Services, you will be responsible for building great relationships with our customers whilst providing accurate and up-to-date advice on our range of regulated products and…",
+   "responsibilities": [
+    "Conducting sales opportunity calls with customers, building relationships and advising on our range of regulated products and services including Mortgages, Life Insurance,…",
+    "Building strong relationships within our estate agency partner Yopa to motivate them to refer their buyers and sellers to you and ensure your diary is always full of quality leads.",
+    "Working with your administrator to proactively manage the customer experience from application to completion to ensure they receive exceptional service and come back for a…",
+    "Looking for referral opportunities to be sent over to our specialist partners in conveyancing, buildings & contents, commercial finance, equity release, investment and pension…"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Hybrid",
+    "Remote/home-based"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 30,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Customer service, Admin & IT, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57521689",
+   "source": "Reed",
+   "title": "IFA Client Services Executive",
+   "employer": "NJR Recruitment",
+   "location": "Manchester",
+   "areas": [
+    "manchester"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£28,500 - £30,000 per annum",
+   "salary_min": 28500,
+   "salary_max": 30000,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-03",
+   "closing": "2026-12-15",
+   "listing_url": "https://www.reed.co.uk/jobs/ifa-client-services-executive/57521689",
+   "apply_url": "https://www.reed.co.uk/jobs/ifa-client-services-executive/57521689",
+   "apply_via": "Reed (quick apply)",
+   "summary": "IFA Client Services Executive Location: Manchester City Centre (Office-Based) Salary: £28,500 - £30,000 Contract: Full-Time, Permanent Are you an experienced financial services administrator looking to take the next step in your career?",
+   "responsibilities": [
+    "Prepare and issue annual review packs, including valuations, performance data, drawdown summaries, income sustainability and charges disclosures",
+    "Produce ad hoc valuation reports and manage client review documentation",
+    "Issue Investment Risk Questionnaires and Fact Finds, updating internal systems and communicating changes to Advisers",
+    "Complete quarterly managed portfolio rebalances and follow-up checks",
+    "Carry out Anti-Money Laundering (AML) checks using Smartsearch",
+    "Process client servicing requests, including changes of address, death claims, surrenders and withdrawals"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a portfolio link",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 25,
+    "minutes_high": 50,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Portfolio requested",
+    "Hybrid"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 30,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Customer service, Admin & IT, Research & reporting",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11313,7 +13986,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11379,7 +14052,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11445,7 +14118,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11511,7 +14184,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11577,7 +14250,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11640,7 +14313,76 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57563455",
+   "source": "Reed",
+   "title": "Client Services Executive - Financial Services",
+   "employer": "Carousel Consultancy Ltd",
+   "location": "London",
+   "areas": [
+    "london",
+    "remote"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£40,000 - £43,000 per annum",
+   "salary_min": 40000,
+   "salary_max": 43000,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-12",
+   "closing": "2026-12-24",
+   "listing_url": "https://www.reed.co.uk/jobs/client-services-executive-financial-services/57563455",
+   "apply_url": "https://www.reed.co.uk/jobs/client-services-executive-financial-services/57563455",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Client Services Executive - Financial Services - Remote Working (UK) – up to £43k We are on the hunt for a proactive, personable and professional Client Services Executive to join a successful financial services company on a predominantly remote working (UK) basis.",
+   "responsibilities": [
+    "First point of contact for client liaison",
+    "Responding to queries from clients regarding investments, how the product or platform works and queries regarding money in and withdrawals",
+    "Supporting transfers of funds from other ISA providers and transfers out to other ISA providers",
+    "Assisting potential customers with the application and onboarding processes",
+    "Reconciling receipts on the platform to bank accounts daily",
+    "Completing KYC checks"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Remote/home-based"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 30,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Events, Customer service, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11708,7 +14450,141 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-17T20:48:42+00:00",
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57572735",
+   "source": "Reed",
+   "title": "Complaints & Feedback Officer (Part Time)",
+   "employer": "Liberty Group",
+   "location": "Liverpool",
+   "areas": [
+    "manchester"
+   ],
+   "categories": [
+    "digital_community"
+   ],
+   "salary": "Not stated",
+   "salary_min": null,
+   "salary_max": null,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-16",
+   "closing": "2026-12-28",
+   "listing_url": "https://www.reed.co.uk/jobs/complaints-amp-feedback-officer-part-time/57572735",
+   "apply_url": "https://www.reed.co.uk/jobs/complaints-amp-feedback-officer-part-time/57572735",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Are you an experienced Complaints & Feedback Officer based in or near Liverpool? Part Time Hours (2 days, 16 hours) Join Liberty and make a real difference in the communities we serve!",
+   "responsibilities": [
+    "Ensuring complaints are acknowledged and ensuring customers are kept informed throughout the complaint process",
+    "Provide regular, accurate and timely reports"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "A DBS check is mentioned (usually after an offer)",
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "DBS check",
+    "Remote/home-based"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 30,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Customer service, Admin & IT, Research & reporting",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57518765",
+   "source": "Reed",
+   "title": "Customer Service Advisor",
+   "employer": "CCA Recruitment Group",
+   "location": "Leicester",
+   "areas": [
+    "remote"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£13.28 per hour",
+   "salary_min": 25896,
+   "salary_max": 25896,
+   "contract": "Temporary, Part-time",
+   "posted": "2026-11-03",
+   "closing": "2027-01-26",
+   "listing_url": "https://www.reed.co.uk/jobs/customer-service-advisor/57518765",
+   "apply_url": "https://www.reed.co.uk/jobs/customer-service-advisor/57518765",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Role: Customer Service Advisor Location: Leicester LE19 Contract: Temp to Perm Hours: Part time- Saturday, Sunday and Monday working- 08.30am-17.00pm. As a Customer Service Advisor you’ll be the first point of contact for our customers, handling outbound calls, also emails and text queries and providing excellent service with every…",
+   "responsibilities": [
+    "Making calls in a professional and friendly manner",
+    "Resolving queries efficiently and accurately",
+    "Providing product/service information to customers",
+    "Logging details of calls into our system",
+    "Escalating issues to the relevant department when necessary"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "A DBS check is mentioned (usually after an offer)",
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "DBS check"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 30,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Content & copywriting, Customer service, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-17T21:00:16+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"

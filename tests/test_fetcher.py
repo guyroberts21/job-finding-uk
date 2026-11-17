@@ -46,6 +46,17 @@ class Helpers(unittest.TestCase):
         senior = fj.match_score("Senior Communications Manager", "social media content events community", [])
         self.assertGreater(junior["score"], senior["score"] + 30)
 
+    def test_application_form_only_when_asked(self):
+        reed = "https://www.reed.co.uk/jobs/1"
+        duty = "Preparing illustrations and application forms. Person Specification: Essential - admin experience."
+        self.assertEqual(fj.estimate_process(duty, reed, "Reed", False, fj.flags_for(duty))["type"], "Quick apply on Reed (CV)")
+        ask = "Please ensure you fully answer the questions on the application form."
+        p = fj.estimate_process(ask, reed, "Reed", False, fj.flags_for(ask))
+        self.assertEqual(p["type"], "Quick apply on Reed (CV)")
+        self.assertIn("Answer the application questions in full", p["steps"])
+        stmt = "Please complete your Supporting Statement against the Person Specification."
+        self.assertIn("supporting statement", fj.estimate_process(stmt, reed, "Reed", False, fj.flags_for(stmt))["type"])
+
     def test_reed_self_link_is_not_external(self):
         # Reed's API returns the Reed listing as externalUrl when there's no employer link.
         url = "https://www.reed.co.uk/jobs/admin-assistant/123"

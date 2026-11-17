@@ -250,7 +250,8 @@ FLAG_RULES = [
     ("Mandarin/Chinese", r"\b(mandarin|cantonese|chinese)\b"),
     ("Portfolio requested", r"\bportfolio\b"),
     ("Cover letter", r"cover(ing)? letter"),
-    ("Supporting statement", r"supporting statement|personal statement|person specification"),
+    # ("Person specification" alone is just a section heading, so it isn't counted.)
+    ("Supporting statement", r"supporting statement|personal statement|statement (of|in) support"),
     ("No CVs accepted", r"(cvs?|curriculum vitae) (will not|won't|are not|is not) (be )?(accepted|considered)|we do not accept cvs|no cvs"),
     ("Assessment/test", r"\b(assessment|test|task|presentation) (will|may) (be|form)|online test|skills test|written exercise"),
     ("Weekend/evening work", r"\b(weekends?|evenings?) (work|working|may be required|as required)|work (some )?(weekends|evenings)"),
@@ -302,8 +303,13 @@ def estimate_process(text: str, apply_url: str, source: str, external: bool, fla
     t = text.lower()
     dom = domain_of(apply_url)
     portal_key = next((k for k in PORTALS if k in dom), None)
+    # Only count an application form when the advert tells you to fill one in, not when it's one of the duties.
+    app_form = re.search(r"(complete|completing|fill in|fill out|submit|download|request|questions on|apply (using|via|on|with)) "
+                         r"(the |an |our |your )?(online )?application (form|pack)|"
+                         r"application (form|pack)s? (is|are|can be|must|should|will|available)", t) is not None
+    reed_internal = source == "Reed" and not external
     form_heavy = ("Supporting statement" in flags or "No CVs accepted" in flags
-                  or re.search(r"application form|application pack", t) is not None
+                  or (app_form and not reed_internal)
                   or (portal_key in HEAVY_PORTALS))
     steps: list[str] = []
     notes: list[str] = []
@@ -343,6 +349,10 @@ def estimate_process(text: str, apply_url: str, source: str, external: bool, fla
         steps += ["Open the listing (Adzuna forwards you to the advertiser)", "Follow the advertiser's apply steps",
                   "Upload a tailored CV and submit"]
 
+    if app_form and reed_internal and not form_heavy:
+        # On Reed an "application form" means the screening questions after you press Apply.
+        steps.insert(max(len(steps) - 1, 0), "Answer the application questions in full")
+        low, high = low + 15, high + 30
     if "Cover letter" in flags and "covering" not in " ".join(steps).lower():
         steps.insert(max(len(steps) - 1, 0), "Write a tailored cover letter")
         low, high = low + 30, high + 45
@@ -795,6 +805,13 @@ def main() -> int:
     for jid, prev in previous.items():
         if jid in jobs or excluded_title(prev.get("title", "")):
             continue
+        if prev.get("source") == "Reed" and jid in cache:
+            # Rebuild from the cached advert so carried-over jobs pick up any rule or config changes.
+            rebuilt = build_job(jid, "Reed", {"jobId": jid.removeprefix("reed-"), "jobTitle": prev.get("title")},
+                                cache[jid], prev.get("categories") or [], prev.get("areas") or [], prev)
+            if rebuilt:
+                rebuilt["last_seen"] = prev.get("last_seen") or rebuilt["last_seen"]
+                prev = rebuilt
         if (prev.get("match") or {}).get("score", 0) < SEARCHES["min_score_to_keep"]:
             continue
         if prev.get("last_seen", "") >= keep_after and not (prev.get("closing") and prev["closing"] < TODAY.isoformat()):

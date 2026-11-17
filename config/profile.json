@@ -29,6 +29,7 @@
     { "label": "Manager role", "points": 18, "field": "title", "pattern": "\\bmanager\\b" },
     { "label": "Asks for 3+ years' experience", "points": 15, "pattern": "\\b([3-9]|three|four|five)\\+? years?'? (of )?(relevant |previous |proven )?experience" },
     { "label": "Asks for 2 years' experience", "points": 7, "pattern": "\\b(2|two)\\+? years?'? (of )?(relevant |previous |proven )?experience" },
+    { "label": "Asks for an experienced professional", "points": 10, "pattern": "\\b(an experienced [a-z]+ (professional|practitioner|officer|specialist)|extensive experience|significant experience|substantial experience|proven track record)\\b" },
     { "label": "Driving licence required", "points": 8, "pattern": "(full|valid|clean) (uk )?driving licen[cs]e|access to (a|your own|own) (car|vehicle)" },
     { "label": "Specialist qualification needed", "points": 20, "pattern": "\\b(qts|cipd|aat|acca|nmc registration|level 3 (diploma|qualification) in (health|social) care)\\b" },
     { "label": "Sales/commission role", "points": 10, "pattern": "\\b(commission|sales targets|cold calling|telesales)\\b" }

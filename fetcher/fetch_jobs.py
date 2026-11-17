@@ -31,6 +31,14 @@ import urllib.request
 from html.parser import HTMLParser
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# Optional local .env file (KEY=value lines) for running on your own machine. It's git-ignored.
+_env_path = os.path.join(ROOT, ".env")
+if os.path.exists(_env_path):
+    for _line in open(_env_path, encoding="utf-8"):
+        _k, _, _v = _line.strip().partition("=")
+        if _k and not _k.startswith("#") and _v:
+            os.environ.setdefault(_k.strip(), _v.strip().strip('"').strip("'"))
 SEARCHES = json.load(open(os.path.join(ROOT, "config", "searches.json"), encoding="utf-8"))
 PROFILE = json.load(open(os.path.join(ROOT, "config", "profile.json"), encoding="utf-8"))
 OUT_PATH = os.path.join(ROOT, "docs", "data", "jobs.json")
@@ -499,9 +507,13 @@ def collect_reed(key: str, errors: list) -> dict[str, dict]:
 
 def collect_adzuna(app_id: str, app_key: str, errors: list) -> dict[str, dict]:
     found: dict[str, dict] = {}
+    calls_left = SEARCHES.get("adzuna_max_calls_per_run", 20)  # free/test keys have small daily limits
     for cat in SEARCHES["categories"]:
-        for kw in cat.get("adzuna_keywords", cat["keywords"][:2]):
+        for kw in cat.get("adzuna_keywords", cat["keywords"][:1]):
             for loc in SEARCHES["locations"]:
+                if calls_left <= 0:
+                    return found
+                calls_left -= 1
                 try:
                     results = adzuna_search(app_id, app_key, kw, loc)
                 except Exception as e:

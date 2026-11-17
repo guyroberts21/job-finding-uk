@@ -1,34 +1,87 @@
 {
   "locations": [
-    { "id": "manchester", "label": "Manchester", "reed": "Manchester", "adzuna": "Manchester", "distance": 15 },
-    { "id": "sheffield", "label": "Sheffield", "reed": "Sheffield", "adzuna": "Sheffield", "distance": 10 },
-    { "id": "london", "label": "London", "reed": "London", "adzuna": "London", "distance": 10 },
-    { "id": "remote", "label": "Remote (UK)", "reed": "", "adzuna": "UK", "distance": 0, "remote": true }
+    {
+      "id": "manchester",
+      "label": "Manchester",
+      "reed": "Manchester",
+      "adzuna": "Manchester",
+      "distance": 15
+    },
+    {
+      "id": "sheffield",
+      "label": "Sheffield",
+      "reed": "Sheffield",
+      "adzuna": "Sheffield",
+      "distance": 10
+    },
+    {
+      "id": "london",
+      "label": "London",
+      "reed": "London",
+      "adzuna": "London",
+      "distance": 10
+    },
+    {
+      "id": "remote",
+      "label": "Remote (UK)",
+      "reed": "",
+      "adzuna": "UK",
+      "distance": 0,
+      "remote": true
+    }
   ],
   "categories": [
     {
       "id": "digital_community",
       "label": "Digital inclusion & community",
-      "keywords": ["digital inclusion", "community engagement", "community development", "library assistant"],
-      "adzuna_keywords": ["digital inclusion", "community engagement"]
+      "keywords": [
+        "digital inclusion",
+        "community engagement",
+        "community development",
+        "library assistant"
+      ],
+      "adzuna_keywords": [
+        "digital inclusion"
+      ]
     },
     {
       "id": "comms",
       "label": "Comms, content & social",
-      "keywords": ["communications assistant", "social media assistant", "content assistant", "marketing assistant"],
-      "adzuna_keywords": ["communications assistant", "social media assistant"]
+      "keywords": [
+        "communications assistant",
+        "social media assistant",
+        "content assistant",
+        "marketing assistant"
+      ],
+      "adzuna_keywords": [
+        "communications assistant"
+      ]
     },
     {
       "id": "admin",
       "label": "Admin & customer service",
-      "keywords": ["administration assistant", "customer service advisor", "receptionist", "client services"],
-      "adzuna_keywords": ["administration assistant", "client services"]
+      "keywords": [
+        "administration assistant",
+        "customer service advisor",
+        "receptionist",
+        "client services"
+      ],
+      "adzuna_keywords": [
+        "administration assistant"
+      ]
     },
     {
       "id": "support",
       "label": "Older people, youth & Mandarin",
-      "keywords": ["independent living", "youth engagement", "befriending", "mandarin"],
-      "adzuna_keywords": ["independent living", "mandarin"]
+      "keywords": [
+        "independent living",
+        "youth engagement",
+        "befriending",
+        "mandarin"
+      ],
+      "adzuna_keywords": [
+        "independent living"
+      ]
     }
   ],
   "reed_results_per_search": 40,
@@ -38,9 +91,35 @@
   "min_score_to_keep": 30,
   "keep_unseen_days": 3,
   "exclude_title_terms": [
-    "nurse", "nursing", "hgv", "chef", "engineer", "developer", "accountant", "solicitor", "paralegal",
-    "teacher", "lecturer", "electrician", "plumber", "surveyor", "pharmac", "doctor", "physio",
-    "warehouse", "cleaner", "security officer", "dental", "veterinary", "mechanic", "driver",
-    "care assistant", "support worker - nights", "estate agent", "recruitment consultant", "telesales"
-  ]
+    "nurse",
+    "nursing",
+    "hgv",
+    "chef",
+    "engineer",
+    "developer",
+    "accountant",
+    "solicitor",
+    "paralegal",
+    "teacher",
+    "lecturer",
+    "electrician",
+    "plumber",
+    "surveyor",
+    "pharmac",
+    "doctor",
+    "physio",
+    "warehouse",
+    "cleaner",
+    "security officer",
+    "dental",
+    "veterinary",
+    "mechanic",
+    "driver",
+    "care assistant",
+    "support worker - nights",
+    "estate agent",
+    "recruitment consultant",
+    "telesales"
+  ],
+  "adzuna_max_calls_per_run": 20
 }

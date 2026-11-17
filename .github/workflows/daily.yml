@@ -45,6 +45,8 @@ jobs:
             echo "No data changes"
           else
             git commit -m "Daily job update $(date -u +%F)"
+            # Someone may have pushed code while this ran; replay the data commit on top.
+            git pull --rebase origin main
             git push
           fi
 

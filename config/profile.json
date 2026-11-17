@@ -1,0 +1,38 @@
+{
+  "_note": "Skills profile used for the match %. Built from the CV themes only - no names or contact details, because this repo is public.",
+  "skill_groups": [
+    { "label": "Social media", "weight": 5, "terms": ["social media", "instagram", "facebook", "tiktok", "linkedin", "twitter", "weibo", "wechat", "xiaohongshu", "rednote"] },
+    { "label": "Content & copywriting", "weight": 4, "terms": ["content", "copywriting", "copy", "newsletter", "blog", "website", "promotional"] },
+    { "label": "Video & design", "weight": 4, "terms": ["video", "filming", "editing", "photoshop", "canva", "graphic", "poster", "premiere", "capcut"] },
+    { "label": "Events", "weight": 4, "terms": ["event", "events", "workshop", "festival", "activities", "sessions"] },
+    { "label": "Community engagement", "weight": 5, "terms": ["community", "engagement", "residents", "outreach", "volunteer", "volunteers"] },
+    { "label": "Digital inclusion", "weight": 6, "terms": ["digital inclusion", "digital skills", "digital support", "online services", "it help", "digital champion", "digitally excluded"] },
+    { "label": "Customer service", "weight": 4, "terms": ["customer service", "customers", "client", "clients", "enquiries", "reception", "front desk", "visitors"] },
+    { "label": "Admin & IT", "weight": 4, "terms": ["administration", "administrative", "admin", "data entry", "records", "filing", "scheduling", "diary", "microsoft office", "excel", "outlook"] },
+    { "label": "Research & reporting", "weight": 3, "terms": ["research", "feedback", "report", "reports", "analysis", "survey", "spss"] },
+    { "label": "Older people", "weight": 5, "terms": ["older people", "older adults", "elderly", "independent living", "retirement", "age uk", "befriend", "befriending", "later life"] },
+    { "label": "Young people", "weight": 3, "terms": ["young people", "youth", "students"] },
+    { "label": "Journalism & media", "weight": 4, "terms": ["journalism", "news", "press", "press office", "public relations", "editorial", "storytelling"] },
+    { "label": "Communication skills", "weight": 3, "terms": ["communication skills", "written and verbal", "verbal and written", "communicate clearly"] },
+    { "label": "Languages", "weight": 6, "terms": ["mandarin", "chinese", "bilingual", "cantonese"] },
+    { "label": "Entry-level", "weight": 4, "terms": ["graduate", "entry level", "entry-level", "trainee", "junior", "no experience necessary", "full training"] }
+  ],
+  "score_target_weight": 32,
+  "bonuses": [
+    { "label": "Mandarin/Chinese is an asset", "points": 12, "pattern": "\\b(mandarin|chinese speak|cantonese)\\b" },
+    { "label": "Open to graduates / entry level", "points": 8, "pattern": "\\b(graduate|entry[ -]level|no experience (is )?(necessary|required)|full training)\\b" },
+    { "label": "Digital inclusion work", "points": 8, "pattern": "digital inclusion|digital champion|digital skills" },
+    { "label": "Supports older people", "points": 6, "pattern": "older (people|adults|persons)|elderly|independent living|later life" }
+  ],
+  "penalties": [
+    { "label": "Senior role", "points": 35, "field": "title", "pattern": "\\b(senior|head of|director|principal|lead)\\b" },
+    { "label": "Manager role", "points": 18, "field": "title", "pattern": "\\bmanager\\b" },
+    { "label": "Asks for 3+ years' experience", "points": 15, "pattern": "\\b([3-9]|three|four|five)\\+? years?'? (of )?(relevant |previous |proven )?experience" },
+    { "label": "Asks for 2 years' experience", "points": 7, "pattern": "\\b(2|two)\\+? years?'? (of )?(relevant |previous |proven )?experience" },
+    { "label": "Driving licence required", "points": 8, "pattern": "(full|valid|clean) (uk )?driving licen[cs]e|access to (a|your own|own) (car|vehicle)" },
+    { "label": "Specialist qualification needed", "points": 20, "pattern": "\\b(qts|cipd|aat|acca|nmc registration|level 3 (diploma|qualification) in (health|social) care)\\b" },
+    { "label": "Sales/commission role", "points": 10, "pattern": "\\b(commission|sales targets|cold calling|telesales)\\b" }
+  ],
+  "title_boost_terms": ["assistant", "coordinator", "officer", "administrator", "advisor", "adviser", "executive", "support"],
+  "title_boost_points": 6
+}

@@ -1,0 +1,45 @@
+{
+ "meta": {
+  "status": "needs_api_keys",
+  "last_attempt": "2026-11-17T20:15:39+00:00",
+  "message": "Add the REED_API_KEY (and optionally ADZUNA_APP_ID / ADZUNA_APP_KEY) repository secrets, then re-run the workflow.",
+  "generated_at": null,
+  "categories": [
+   {
+    "id": "digital_community",
+    "label": "Digital inclusion & community"
+   },
+   {
+    "id": "comms",
+    "label": "Comms, content & social"
+   },
+   {
+    "id": "admin",
+    "label": "Admin & customer service"
+   },
+   {
+    "id": "support",
+    "label": "Older people, youth & Mandarin"
+   }
+  ],
+  "locations": [
+   {
+    "id": "manchester",
+    "label": "Manchester"
+   },
+   {
+    "id": "sheffield",
+    "label": "Sheffield"
+   },
+   {
+    "id": "london",
+    "label": "London"
+   },
+   {
+    "id": "remote",
+    "label": "Remote (UK)"
+   }
+  ]
+ },
+ "jobs": []
+}

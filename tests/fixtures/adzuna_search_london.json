@@ -1,0 +1,35 @@
+{
+ "results": [
+  {
+   "id": "5001",
+   "title": "Mandarin Speaking Customer Service Advisor",
+   "company": {
+    "display_name": "Example Travel"
+   },
+   "location": {
+    "display_name": "London, UK"
+   },
+   "description": "Handle customer enquiries by phone and email in English and Mandarin. Graduates welcome. Full training provided.",
+   "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5001",
+   "created": "2026-11-13T09:00:00Z",
+   "salary_min": 25000,
+   "salary_max": 27000,
+   "salary_is_predicted": "0",
+   "contract_time": "full_time",
+   "contract_type": "permanent"
+  },
+  {
+   "id": "5002",
+   "title": "Digital Inclusion Assistant",
+   "company": {
+    "display_name": "Example Community Trust"
+   },
+   "location": {
+    "display_name": "Manchester"
+   },
+   "description": "duplicate of reed",
+   "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5002",
+   "created": "2026-11-10T09:00:00Z"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+name: Daily job update
+
+on:
+  schedule:
+    - cron: "37 5 * * *"   # every day at 05:37 UTC (early morning UK time)
+  workflow_dispatch:        # "Run workflow" button in the Actions tab
+  push:
+    branches: [main]
+    paths: ["docs/**", "fetcher/**", "config/**", ".github/workflows/**"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-job-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch and enrich jobs
+        env:
+          REED_API_KEY: ${{ secrets.REED_API_KEY }}
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+        run: python fetcher/fetch_jobs.py
+
+      - name: Save today's data to the repo
+        run: |
+          git config user.name "job-finder-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          if [ -d data ]; then git add data; fi
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "Daily job update $(date -u +%F)"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - id: deploy
+        uses: actions/deploy-pages@v4

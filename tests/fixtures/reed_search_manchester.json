@@ -1,0 +1,48 @@
+{
+ "results": [
+  {
+   "jobId": 101,
+   "employerName": "Example Community Trust",
+   "jobTitle": "Digital Inclusion Assistant",
+   "locationName": "Manchester",
+   "minimumSalary": 24500,
+   "maximumSalary": 26000,
+   "expirationDate": "20/12/2026",
+   "date": "10/11/2026",
+   "jobDescription": "Support residents to get online at library digital help sessions...",
+   "jobUrl": "https://www.reed.co.uk/jobs/digital-inclusion-assistant/101"
+  },
+  {
+   "jobId": 102,
+   "employerName": "Sample Housing Group",
+   "jobTitle": "Senior Communications Manager",
+   "locationName": "Salford",
+   "minimumSalary": 45000,
+   "maximumSalary": 50000,
+   "expirationDate": "30/11/2026",
+   "date": "12/11/2026",
+   "jobDescription": "Lead our communications team. 5 years experience required.",
+   "jobUrl": "https://www.reed.co.uk/jobs/senior-comms/102"
+  },
+  {
+   "jobId": 103,
+   "employerName": "Old Job Ltd",
+   "jobTitle": "Administration Assistant",
+   "locationName": "Manchester",
+   "expirationDate": "01/11/2026",
+   "date": "01/10/2026",
+   "jobDescription": "Expired one",
+   "jobUrl": "https://www.reed.co.uk/jobs/admin/103"
+  },
+  {
+   "jobId": 104,
+   "employerName": "Warehouse Co",
+   "jobTitle": "Warehouse Operative",
+   "locationName": "Trafford",
+   "expirationDate": "20/12/2026",
+   "date": "12/11/2026",
+   "jobDescription": "Picking",
+   "jobUrl": "https://www.reed.co.uk/jobs/wh/104"
+  }
+ ]
+}

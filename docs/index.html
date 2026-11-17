@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Finder</title>
+<meta name="description" content="Daily-updated graduate roles in comms, community, admin and support, with application details and a match estimate.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topline" aria-hidden="true"></div>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div>
+      <h1>Job Finder</h1>
+      <p class="tagline">Graduate roles in comms, community, admin &amp; support, refreshed every morning.</p>
+    </div>
+    <div class="updated" id="updated" aria-live="polite">Loading…</div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="stats" id="stats" aria-label="Summary"></section>
+
+  <div class="notice" id="notice" hidden></div>
+
+  <section class="filters" aria-label="Filters">
+    <div class="filter-row">
+      <label class="field grow">
+        <span>Search</span>
+        <input type="search" id="q" placeholder="Title, employer, skill…" autocomplete="off">
+      </label>
+      <label class="field">
+        <span>Location</span>
+        <select id="loc"><option value="">All locations</option></select>
+      </label>
+      <label class="field">
+        <span>Visa sponsorship</span>
+        <select id="visa">
+          <option value="">Any</option>
+          <option value="offered">Sponsorship offered</option>
+          <option value="not_stated">Not stated</option>
+          <option value="rtw_required">Right to work required</option>
+          <option value="not_offered">Not offered</option>
+        </select>
+      </label>
+      <label class="field">
+        <span>Sort by</span>
+        <select id="sort">
+          <option value="match">Best match</option>
+          <option value="closing">Closing soonest</option>
+          <option value="posted">Newest</option>
+          <option value="salary">Highest salary</option>
+          <option value="time">Quickest to apply</option>
+        </select>
+      </label>
+    </div>
+    <div class="filter-row">
+      <div class="chips" id="cats" role="group" aria-label="Job types"></div>
+    </div>
+    <div class="filter-row">
+      <label class="field range">
+        <span>Minimum match: <strong id="minval">40%</strong></span>
+        <input type="range" id="min" min="0" max="90" step="5" value="40">
+      </label>
+      <label class="check"><input type="checkbox" id="hideSenior" checked> Hide senior roles</label>
+      <label class="check"><input type="checkbox" id="newOnly"> New today</label>
+      <label class="check"><input type="checkbox" id="closingSoon"> Closing within 7 days</label>
+      <button type="button" class="link-btn" id="reset">Reset filters</button>
+    </div>
+  </section>
+
+  <p class="count" id="count" aria-live="polite"></p>
+
+  <div class="table-wrap">
+    <table class="jobs">
+      <thead>
+        <tr>
+          <th scope="col">Match</th>
+          <th scope="col">Role</th>
+          <th scope="col">Location</th>
+          <th scope="col">Salary</th>
+          <th scope="col">Closes</th>
+          <th scope="col">Application</th>
+          <th scope="col">Visa</th>
+          <th scope="col">Links</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+</main>
+
+<footer class="wrap footer">
+  <p>Listings come from the official <a href="https://www.reed.co.uk" target="_blank" rel="noopener noreferrer">Jobs by Reed</a> and <a href="https://www.adzuna.co.uk" target="_blank" rel="noopener noreferrer">Jobs by Adzuna</a> APIs. Links are checked daily, but always confirm details and closing dates on the listing before applying.</p>
+  <p>Match % and application times are automated estimates based on the CV's skills, not a guarantee.</p>
+</footer>
+
+<div class="toast" id="toast" role="status" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>

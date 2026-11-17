@@ -39,6 +39,22 @@ class Helpers(unittest.TestCase):
         senior = fj.match_score("Senior Communications Manager", "social media content events community", [])
         self.assertGreater(junior["score"], senior["score"] + 30)
 
+    def test_reed_self_link_is_not_external(self):
+        # Reed's API returns the Reed listing as externalUrl when there's no employer link.
+        url = "https://www.reed.co.uk/jobs/admin-assistant/123"
+        job = fj.build_job("reed-123", "Reed", {"jobId": 123, "jobTitle": "Admin Assistant"},
+                           {"jobTitle": "Admin Assistant", "jobUrl": url, "externalUrl": url,
+                            "jobDescription": "<p>Support the office team with admin and customer enquiries.</p>"},
+                           {"admin"}, {"london"}, None)
+        self.assertEqual(job["apply_url"], url)
+        self.assertEqual(job["apply_via"], "Reed (quick apply)")
+        self.assertEqual(job["process"]["type"], "Quick apply on Reed (CV)")
+        ext = fj.build_job("reed-124", "Reed", {"jobId": 124, "jobTitle": "Admin Assistant"},
+                           {"jobTitle": "Admin Assistant", "jobUrl": url, "externalUrl": "https://jobs.example.org/apply/9",
+                            "jobDescription": "<p>Support the office team.</p>"}, {"admin"}, {"london"}, None)
+        self.assertEqual(ext["apply_url"], "https://jobs.example.org/apply/9")
+        self.assertTrue(ext["process"]["type"].startswith("Apply on employer"))
+
     def test_responsibilities_from_list(self):
         text, groups = fj.parse_description("<p><strong>Key responsibilities:</strong></p><ul><li>Support residents at digital sessions</li><li>Plan community events</li></ul><p><strong>About you</strong></p><ul><li>Good communicator</li></ul>")
         self.assertEqual(fj.extract_responsibilities(groups, text), ["Support residents at digital sessions", "Plan community events"])
@@ -48,7 +64,7 @@ class EndToEnd(unittest.TestCase):
     def test_fixture_run(self):
         tmp = tempfile.mkdtemp()
         try:
-            shutil.copytree(ROOT, os.path.join(tmp, "repo"), ignore=shutil.ignore_patterns(".git", "data", "jobs.json"))
+            shutil.copytree(ROOT, os.path.join(tmp, "repo"), ignore=shutil.ignore_patterns(".git", "data", "jobs.json", ".env"))
             repo = os.path.join(tmp, "repo")
             env = {**os.environ, "JOBFINDER_FIXTURES": os.path.join(repo, "tests", "fixtures"),
                    "JOBFINDER_SKIP_LINK_CHECK": "1", "JOBFINDER_TODAY": "2026-11-18"}

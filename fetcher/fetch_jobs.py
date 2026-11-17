@@ -543,6 +543,10 @@ def build_job(jid: str, source: str, raw: dict, details: dict | None, categories
         desc_html = d.get("jobDescription") or raw.get("jobDescription") or ""
         listing_url = d.get("jobUrl") or raw.get("jobUrl") or f"https://www.reed.co.uk/jobs/{raw.get('jobId')}"
         external = (d.get("externalUrl") or "").strip()
+        # Reed's API fills externalUrl with the Reed listing itself when there's no employer link,
+        # so only treat it as external when it points somewhere other than reed.co.uk.
+        if not external.startswith("http") or domain_of(external).endswith("reed.co.uk"):
+            external = ""
         apply_url = external or listing_url
         posted = parse_uk_date(d.get("datePosted") or raw.get("date"))
         closing = parse_uk_date(d.get("expirationDate") or raw.get("expirationDate"))
@@ -612,7 +616,7 @@ CLOSED_RX = re.compile(r"this (job|vacancy|position) (has )?(now )?(expired|clos
                        r"vacancy (has )?(now )?closed|position has been filled|job (is )?no longer available|this listing has expired", re.I)
 
 
-def check_url(url: str) -> dict:
+def check_url(url: str, retries: int = 2) -> dict:
     result = {"checked": NOW_ISO, "status": None, "state": "unknown", "note": ""}
     if not url.startswith("http"):
         result.update(state="broken", note="Not a web link")
@@ -629,6 +633,13 @@ def check_url(url: str) -> dict:
                 result.update(state="ok", note="Page loaded")
     except urllib.error.HTTPError as e:
         result["status"] = e.code
+        if e.code == 429 and retries > 0:  # rate-limited: back off and try again
+            try:
+                wait = min(int(e.headers.get("Retry-After") or 0), 30)
+            except ValueError:
+                wait = 0
+            time.sleep(wait or 10)
+            return check_url(url, retries - 1)
         if e.code in (404, 410):
             result.update(state="broken", note=f"Page not found ({e.code})")
         elif e.code in (401, 403, 429, 999):
@@ -645,16 +656,24 @@ def run_link_checks(jobs: list[dict]):
         for j in jobs:
             j["link_check"] = {"listing": {"checked": NOW_ISO, "status": None, "state": "skipped", "note": "Test run"}}
         return
-    targets = []
+    # Group by site and check each site's links one at a time with a pause, so busy sites like
+    # reed.co.uk don't rate-limit us. Different sites are still checked in parallel.
+    by_host: dict[str, list] = {}
     for j in jobs:
-        targets.append((j, "listing", j["listing_url"]))
+        j["link_check"] = {}
+        by_host.setdefault(domain_of(j["listing_url"]), []).append((j, "listing", j["listing_url"]))
         if j["apply_url"] != j["listing_url"]:
-            targets.append((j, "apply", j["apply_url"]))
+            by_host.setdefault(domain_of(j["apply_url"]), []).append((j, "apply", j["apply_url"]))
+
+    def check_host(host, items):
+        pause = 1.0 if "reed.co.uk" in host or "adzuna" in host else 0.5
+        for i, (j, kind, url) in enumerate(items):
+            if i:
+                time.sleep(pause)
+            j["link_check"][kind] = check_url(url)
+
     with cf.ThreadPoolExecutor(max_workers=8) as pool:
-        futures = {pool.submit(check_url, url): (j, kind) for j, kind, url in targets}
-        for fut in cf.as_completed(futures):
-            j, kind = futures[fut]
-            j.setdefault("link_check", {})[kind] = fut.result()
+        list(pool.map(lambda kv: check_host(*kv), by_host.items()))
 
 
 # --------------------------------------------------------------------------- main
@@ -770,7 +789,9 @@ def main() -> int:
     # Keep recently-seen jobs that dropped out of today's search results (API pages shift day to day).
     keep_after = (TODAY - dt.timedelta(days=SEARCHES["keep_unseen_days"])).isoformat()
     for jid, prev in previous.items():
-        if jid in jobs:
+        if jid in jobs or excluded_title(prev.get("title", "")):
+            continue
+        if (prev.get("match") or {}).get("score", 0) < SEARCHES["min_score_to_keep"]:
             continue
         if prev.get("last_seen", "") >= keep_after and not (prev.get("closing") and prev["closing"] < TODAY.isoformat()):
             jobs[jid] = prev

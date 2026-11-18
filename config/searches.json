@@ -49,6 +49,10 @@
       "jooble_keywords": [
         "community engagement officer",
         "library assistant"
+      ],
+      "nhs_keywords": [
+        "engagement",
+        "volunteer coordinator"
       ]
     },
     {
@@ -66,6 +70,9 @@
       "jooble_keywords": [
         "social media assistant",
         "communications officer"
+      ],
+      "nhs_keywords": [
+        "communications"
       ]
     },
     {
@@ -83,6 +90,11 @@
       "jooble_keywords": [
         "customer service advisor",
         "administrator"
+      ],
+      "nhs_keywords": [
+        "administrator",
+        "receptionist",
+        "patient services"
       ]
     },
     {
@@ -100,6 +112,10 @@
       "jooble_keywords": [
         "mandarin speaking",
         "older people"
+      ],
+      "nhs_keywords": [
+        "social prescribing",
+        "care navigator"
       ]
     }
   ],
@@ -108,9 +124,12 @@
   "jooble_results_per_search": 30,
   "jooble_max_calls_per_run": 32,
   "jooble_host": "uk.jooble.org",
+  "nhs_enabled": true,
+  "nhs_results_per_search": 50,
   "max_days_old": 30,
   "max_detail_lookups_per_run": 250,
   "min_score_to_keep": 30,
+  "nhs_min_score_to_keep": 15,
   "keep_unseen_days": 3,
   "exclude_title_terms": [
     "nurse",
@@ -176,7 +195,29 @@
     "korean speaking",
     "legal ea",
     "life science",
-    "stockroom"
+    "stockroom",
+    "phlebotom",
+    "therapist",
+    "psycholog",
+    "radiograph",
+    "midwi",
+    "paramedic",
+    "healthcare assistant",
+    "health care assistant",
+    "healthcare support worker",
+    "hospital porter",
+    "portering",
+    "dietitian",
+    "sonographer",
+    "optometrist",
+    "pharmacy technician",
+    "theatre practitioner",
+    "theatre support",
+    "social worker",
+    "podiatr",
+    "general practitioner",
+    "health care assistant",
+    "nursing associate"
   ],
   "adzuna_max_calls_per_run": 20
 }

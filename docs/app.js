@@ -281,6 +281,7 @@
 
   const SOURCE_LINKS = {
     Reed: ["https://www.reed.co.uk", "reedJobs"],
+    "NHS Jobs": ["https://www.jobs.nhs.uk", "nhsJobs"],
     Adzuna: ["https://www.adzuna.co.uk", "adzunaJobs"],
     Jooble: ["https://uk.jooble.org", "joobleJobs"],
   };

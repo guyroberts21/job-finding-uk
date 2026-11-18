@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<nhsJobs>
+  <vacancyDetails>
+    <id>1</id>
+    <reference>X0001-26-0001</reference>
+    <title>Care Navigator  </title>
+    <description>Be the first point of contact for patients, help them access community services and support older people to live independently. Full training provided. Unfortunately this role does not attract sponsorship.</description>
+    <employer>Example Primary Care Network</employer>
+    <type>Permanent</type>
+    <salary>£24071.00 to £25674.00</salary>
+    <closeDate>2026-12-05</closeDate>
+    <postDate>2026-11-12T09:00:00.000000000</postDate>
+    <url>https://beta.jobs.nhs.uk/candidate/jobadvert/X0001-26-0001</url>
+    <locations><location>Manchester, M1 1AA</location></locations>
+  </vacancyDetails>
+  <vacancyDetails>
+    <id>2</id>
+    <reference>X0001-26-0002</reference>
+    <title>Nurse Prescriber</title>
+    <description>Clinical role.</description>
+    <employer>Example Medical Centre</employer>
+    <type>Permanent</type>
+    <salary>£45000.00</salary>
+    <closeDate>2026-12-05</closeDate>
+    <postDate>2026-11-12T09:00:00.000000000</postDate>
+    <url>https://beta.jobs.nhs.uk/candidate/jobadvert/X0001-26-0002</url>
+    <locations><location>Manchester, M1 1AA</location></locations>
+  </vacancyDetails>
+  <vacancyDetails>
+    <id>3</id>
+    <reference>X0001-26-0003</reference>
+    <title>Booking Clerk</title>
+    <description>Unrelated fuzzy match.</description>
+    <employer>Example Trust</employer>
+    <type>Permanent</type>
+    <salary>£23000.00</salary>
+    <closeDate>2026-12-05</closeDate>
+    <postDate>2026-11-12T09:00:00.000000000</postDate>
+    <url>https://beta.jobs.nhs.uk/candidate/jobadvert/X0001-26-0003</url>
+    <locations><location>Manchester, M1 1AA</location></locations>
+  </vacancyDetails>
+  <totalPages>1</totalPages>
+  <totalResults>3</totalResults>
+</nhsJobs>

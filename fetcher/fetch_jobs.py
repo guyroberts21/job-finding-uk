@@ -28,6 +28,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -233,6 +234,7 @@ def sponsorship_status(text: str) -> str:
     if re.search(r"(unable|not able) to (offer|provide|consider)[^.]{0,30}sponsor|"
                  r"(cannot|can't|can not|do not|don't|will not|won't|does not|doesn't) (offer|provide|support)[^.]{0,30}sponsor|"
                  r"sponsorship (is )?(not|un)(available|offered|provided)|no (visa )?sponsorship|"
+                 r"(does not|doesn't|will not|won't) attract (visa )?sponsorship|not eligible for (visa )?sponsorship|"
                  r"not (in a position|able) to sponsor|not (be )?open to sponsorship|without (visa )?sponsorship|"
                  r"(unable|not able) to accept applica\w+ (with|on|who (hold|require))[^.]{0,30}visa", t):
         return "not_offered"
@@ -271,7 +273,7 @@ PORTALS = {
     "webitrent.com": "council / public-sector portal (iTrent)",
     "jobs.ac.uk": "jobs.ac.uk university portal",
     "trac.jobs": "NHS (Trac) application form",
-    "jobs.nhs.uk": "NHS Jobs application form",
+    "jobs.nhs.uk": "NHS Jobs website",
     "successfactors": "SuccessFactors portal",
     "myworkdayjobs.com": "Workday portal",
     "taleo.net": "Taleo portal",
@@ -503,6 +505,38 @@ def jooble_search(key, keywords, loc) -> list[dict]:
     return http_json(f"https://{host}/api/{urllib.parse.quote(key, safe='')}", body=body).get("jobs", []) or []
 
 
+def nhs_search(keywords, loc) -> list[dict]:
+    """Official NHS Jobs search API (no key): https://www.jobs.nhs.uk/api/v1/search_xml — published by NHSBSA for job boards."""
+    if FIXTURES:
+        path = os.path.join(FIXTURES, f"nhs_search_{loc['id']}.xml")
+        if not os.path.exists(path):
+            return []
+        with open(path, encoding="utf-8") as f:
+            xml_text = f.read()
+    else:
+        params = {"keyword": keywords, "location": loc.get("nhs", loc["adzuna"]), "distance": loc["distance"],
+                  "limit": SEARCHES.get("nhs_results_per_search", 50)}  # default sort is relevance
+        req = urllib.request.Request("https://www.jobs.nhs.uk/api/v1/search_xml?" + urllib.parse.urlencode(params),
+                                     headers={"User-Agent": API_UA, "Accept": "application/xml"})
+        xml_text = None
+        for attempt in range(3):
+            try:
+                with urllib.request.urlopen(req, timeout=30) as resp:
+                    xml_text = resp.read().decode("utf-8")
+                break
+            except (urllib.error.URLError, TimeoutError):
+                if attempt == 2:
+                    raise
+                time.sleep(3 * (attempt + 1))
+    root = ET.fromstring(xml_text)
+    out = []
+    for v in root.iter("vacancyDetails"):
+        rec = {child.tag: (child.text or "").strip() for child in v if child.tag != "locations"}
+        rec["locations"] = [(l.text or "").strip() for l in v.iter("location") if (l.text or "").strip()]
+        out.append(rec)
+    return out
+
+
 def strip_tags(s: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", s or ""))).strip()
 
@@ -520,7 +554,7 @@ def excluded_title(title: str) -> bool:
     return any(term in t for term in SEARCHES["exclude_title_terms"])
 
 
-SOURCE_RANK = {"Reed": 0, "Adzuna": 1, "Jooble": 2}
+SOURCE_RANK = {"Reed": 0, "NHS Jobs": 1, "Adzuna": 2, "Jooble": 3}
 
 
 def norm_key(title: str, employer: str) -> str:
@@ -612,6 +646,38 @@ def collect_jooble(key: str, errors: list) -> dict[str, dict]:
     return found
 
 
+def nhs_title_matches(title: str, keyword: str) -> bool:
+    """NHS Jobs keyword search is fuzzy and always fills the page, so keep only titles that share a real word with the search."""
+    words = [w.rstrip("s") for w in re.findall(r"[a-z]+", keyword.lower()) if len(w) >= 5]
+    t = title.lower()
+    return not words or any(w in t for w in words)
+
+
+def collect_nhs(errors: list) -> dict[str, dict]:
+    found: dict[str, dict] = {}
+    for cat in SEARCHES["categories"]:
+        for kw in cat.get("nhs_keywords", []):
+            for loc in SEARCHES["locations"]:
+                if loc.get("remote"):  # NHS Jobs search is location-based
+                    continue
+                try:
+                    results = nhs_search(kw, loc)
+                except Exception as e:
+                    errors.append(f"NHS Jobs '{kw}' / {loc['label']}: {e}")
+                    continue
+                for r in results:
+                    title = strip_tags(r.get("title") or "")
+                    if not title or excluded_title(title) or not r.get("reference") or not nhs_title_matches(title, kw):
+                        continue
+                    jid = f"nhs-{r['reference']}"
+                    item = found.setdefault(jid, {"raw": r, "categories": set(), "areas": set()})
+                    item["categories"].add(cat["id"])
+                    item["areas"].add(loc["id"])
+                if not FIXTURES:
+                    time.sleep(0.5)
+    return found
+
+
 def build_job(jid: str, source: str, raw: dict, details: dict | None, categories, areas, prev: dict | None) -> dict | None:
     if source == "Reed":
         d = details or {}
@@ -634,6 +700,23 @@ def build_job(jid: str, source: str, raw: dict, details: dict | None, categories
         contract = ", ".join(x for x in [d.get("contractType"), "Part-time" if d.get("partTime") else ("Full-time" if d.get("fullTime") else None)] if x)
         apply_via = f"Employer site ({domain_of(external)})" if external else "Reed (quick apply)"
         detail_ok = bool(details)
+    elif source == "NHS Jobs":
+        title = strip_tags(raw.get("title") or "")
+        employer = strip_tags(raw.get("employer") or "")
+        location = "; ".join(raw.get("locations") or [])
+        desc_html = raw.get("description") or ""
+        ref = urllib.parse.quote(raw.get("reference") or "", safe="-")
+        listing_url = f"https://www.jobs.nhs.uk/candidate/jobadvert/{ref}" if ref else (raw.get("url") or "")
+        apply_url = listing_url
+        external = ""
+        posted = parse_uk_date(raw.get("postDate"))
+        closing = parse_uk_date(raw.get("closeDate"))
+        raw_sal = strip_tags(raw.get("salary") or "")
+        lo, hi = salary_range(raw_sal)
+        sal = salary_text(lo, hi) if lo else (raw_sal or "Not stated")
+        contract = strip_tags(raw.get("type") or "")
+        apply_via = "NHS Jobs"
+        detail_ok = False
     elif source == "Jooble":
         title = strip_tags(raw.get("title") or "")
         employer = strip_tags(raw.get("company") or "")
@@ -759,7 +842,7 @@ def run_link_checks(jobs: list[dict]):
             by_host.setdefault(domain_of(j["apply_url"]), []).append((j, "apply", j["apply_url"]))
 
     def check_host(host, items):
-        pause = 1.0 if any(s in host for s in ("reed.co.uk", "adzuna", "jooble")) else 0.5
+        pause = 1.0 if any(s in host for s in ("reed.co.uk", "adzuna", "jooble", "jobs.nhs.uk")) else 0.5
         for i, (j, kind, url) in enumerate(items):
             if i:
                 time.sleep(pause)
@@ -789,6 +872,13 @@ def write_output(jobs: list[dict], meta: dict):
     os.replace(tmp, OUT_PATH)
 
 
+def min_score(job):
+    """NHS Jobs gives only a ~150-character preview, so it gets its own (lower) bar; its titles are already filtered."""
+    if job.get("source") == "NHS Jobs":
+        return SEARCHES.get("nhs_min_score_to_keep", SEARCHES["min_score_to_keep"])
+    return SEARCHES["min_score_to_keep"]
+
+
 def main() -> int:
     reed_key = os.environ.get("REED_API_KEY", "").strip()
     az_id = os.environ.get("ADZUNA_APP_ID", "").strip()
@@ -808,7 +898,8 @@ def main() -> int:
     errors: list[str] = []
     sources_used = []
 
-    if not reed_key and not (az_id and az_key) and not jooble_key:
+    nhs_on = bool(SEARCHES.get("nhs_enabled", True))  # NHS Jobs needs no key
+    if not reed_key and not (az_id and az_key) and not jooble_key and not nhs_on:
         log("No API keys set - keeping existing data.")
         meta = {**prev_meta, "status": "needs_api_keys", "last_attempt": NOW_ISO,
                 "message": "Add the REED_API_KEY (and optionally ADZUNA_APP_ID / ADZUNA_APP_KEY) repository secrets, then re-run the workflow."}
@@ -823,6 +914,10 @@ def main() -> int:
         sources_used.append("Reed")
         for jid, item in collect_reed(reed_key, errors).items():
             raw[jid] = ("Reed", item)
+    if nhs_on:
+        sources_used.append("NHS Jobs")
+        for jid, item in collect_nhs(errors).items():
+            raw[jid] = ("NHS Jobs", item)
     if az_id and az_key:
         sources_used.append("Adzuna")
         for jid, item in collect_adzuna(az_id, az_key, errors).items():
@@ -867,7 +962,7 @@ def main() -> int:
             continue
         if job["posted"] and job["posted"] < max_age.isoformat():
             continue
-        if job["match"]["score"] < SEARCHES["min_score_to_keep"]:
+        if job["match"]["score"] < min_score(job):
             continue
         key = norm_key(job["title"], job["employer"])
         if key in dedupe:  # same job on several sources: prefer Reed (closing dates + full text), then Adzuna, then Jooble
@@ -899,7 +994,7 @@ def main() -> int:
             if rebuilt:
                 rebuilt["last_seen"] = prev.get("last_seen") or rebuilt["last_seen"]
                 prev = rebuilt
-        if (prev.get("match") or {}).get("score", 0) < SEARCHES["min_score_to_keep"]:
+        if (prev.get("match") or {}).get("score", 0) < min_score(prev):
             continue
         if prev.get("last_seen", "") >= keep_after and not (prev.get("closing") and prev["closing"] < TODAY.isoformat()):
             jobs[jid] = prev

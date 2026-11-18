@@ -99,6 +99,7 @@
       reedJobs: "Jobs by Reed",
       adzunaJobs: "Jobs by Adzuna",
       joobleJobs: "Jooble",
+      nhsJobs: "NHS Jobs",
       minutes: "{n} min",
       hours: "{n} h",
       listSep: ", ",
@@ -198,6 +199,7 @@
       reedJobs: "Reed 招聘",
       adzunaJobs: "Adzuna 招聘",
       joobleJobs: "Jooble",
+      nhsJobs: "NHS Jobs（英国国民医疗服务体系）",
       minutes: "{n} 分钟",
       hours: "{n} 小时",
       listSep: "、",
@@ -224,6 +226,8 @@
     "Via Jooble to the employer / agency site": "经 Jooble 跳转到雇主 / 中介网站",
     "Open the listing (Jooble forwards you to the original advert)": "打开职位页面（Jooble 会跳转到原始招聘广告）",
     "Jooble → advertiser": "Jooble → 招聘方",
+    "Create an account on the NHS Jobs website": "在 NHS Jobs 网站注册账号",
+    "NHS Jobs": "NHS Jobs 网站",
     // steps
     "Request or download the application pack": "索取或下载申请资料包",
     "Fill in personal details, education and employment history": "填写个人信息、教育和工作经历",
@@ -320,7 +324,8 @@
   ];
 
   const ZH_CONTRACT = { permanent: "长期", contract: "合同", temporary: "临时", "full-time": "全职", "part-time": "兼职",
-    internship: "实习", apprenticeship: "学徒", volunteer: "志愿者" };
+    internship: "实习", apprenticeship: "学徒", volunteer: "志愿者", secondment: "借调", "fixed-term": "固定期限",
+    "fixed term": "固定期限", bank: "临时人员库（Bank）" };
   const ZH_SALARY = [
     [/\bper annum\b/gi, "/年"], [/\bper year\b/gi, "/年"], [/\bper hour\b/gi, "/小时"], [/\bper day\b/gi, "/天"],
     [/\bper week\b/gi, "/周"], [/\bper month\b/gi, "/月"], [/\bpro[- ]rata\b/gi, "按比例"], [/\binc(luding)? benefits\b/gi, "含福利"],

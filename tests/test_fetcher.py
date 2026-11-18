@@ -103,6 +103,16 @@ class EndToEnd(unittest.TestCase):
             self.assertEqual((jo["salary_min"], jo["salary_max"]), (27000, 29000))
             self.assertEqual(jo["process"]["type"], "Via Jooble to the employer / agency site")
             self.assertEqual(jo["listing_url"], "https://uk.jooble.org/desc/9001")
+            self.assertIn("NHS Jobs", data["meta"]["sources"])
+            nhs = [j for j in data["jobs"] if j["source"] == "NHS Jobs"]
+            self.assertEqual([j["title"] for j in nhs], ["Care Navigator"])  # clinical title excluded, fuzzy match dropped
+            cn = nhs[0]
+            self.assertEqual(cn["listing_url"], "https://www.jobs.nhs.uk/candidate/jobadvert/X0001-26-0001")
+            self.assertEqual(cn["closing"], "2026-12-05")
+            self.assertEqual(cn["salary"], "£24,071–£25,674")
+            self.assertEqual(cn["sponsorship"], "not_offered")
+            self.assertEqual(cn["process"]["type"], "Application form + supporting statement")
+            self.assertIn("Create an account on the NHS Jobs website", cn["process"]["steps"])
             for j in data["jobs"]:
                 self.assertTrue(j["listing_url"].startswith("https://"))
                 self.assertTrue(j["apply_url"].startswith("https://"))

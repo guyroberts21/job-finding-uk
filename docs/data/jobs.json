@@ -1,8 +1,8 @@
 {
  "meta": {
   "status": "ok",
-  "generated_at": "2026-11-18T10:19:43+00:00",
-  "last_attempt": "2026-11-18T10:19:43+00:00",
+  "generated_at": "2026-11-18T14:31:44+00:00",
+  "last_attempt": "2026-11-18T14:31:44+00:00",
   "date": "2026-11-18",
   "sources": [
    "Reed",
@@ -10,8 +10,8 @@
    "Adzuna",
    "Jooble"
   ],
-  "total": 339,
-  "new_today": 85,
+  "total": 353,
+  "new_today": 102,
   "errors": [],
   "categories": [
    {
@@ -111,7 +111,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -180,7 +180,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -249,7 +249,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -319,7 +319,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -385,7 +385,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -454,7 +454,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -520,7 +520,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -589,7 +589,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -657,7 +657,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -725,7 +725,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -794,7 +794,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -863,7 +863,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -934,7 +934,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1002,7 +1002,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1067,7 +1067,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1134,7 +1134,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1199,7 +1199,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1263,7 +1263,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1331,7 +1331,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1400,7 +1400,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1468,7 +1468,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1538,7 +1538,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1604,7 +1604,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1668,7 +1668,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1735,7 +1735,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1801,7 +1801,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1865,7 +1865,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -1932,7 +1932,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2002,7 +2002,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2068,7 +2068,73 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57587181",
+   "source": "Reed",
+   "title": "Engagement Officer (Fitness to Practise Improvement Programme)",
+   "employer": "General Dental Council",
+   "location": "London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "comms"
+   ],
+   "salary": "£37,524 - £43,352 per annum",
+   "salary_min": 37524,
+   "salary_max": 43352,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-18",
+   "closing": "2026-12-02",
+   "listing_url": "https://www.reed.co.uk/jobs/engagement-officer-fitness-to-practise-improvement-programme/57587181",
+   "apply_url": "https://www.reed.co.uk/jobs/engagement-officer-fitness-to-practise-improvement-programme/57587181",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Engagement Officer (Fitness to Practise Improvement Programme) Location: London / Hybrid (2 days in office / 3 days at home) Salary: £37,524 - £43,352 pa (basic salary, inclusive of London allowance of £4,500) Hours: Full-time Contract: Permanent We play a vital role in the delivery of safe and effective oral healthcare in the UK.",
+   "responsibilities": [
+    "Our vision is to be a trusted and effective regulator, supporting dental professionals to provide safe and effective care for their patients, as set out in our ambitious new…",
+    "You will be joining the Communications and Engagement team to help us deliver impactful engagement and communications activities to support the Fitness to Practise Improvement…",
+    "Google Analytics 4 Benefits: The GDC is committed to creating a diverse and inclusive workplace that provides an environment that reflects our values and culture and allows…"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Application form + supporting statement",
+    "steps": [
+     "Fill in personal details, education and employment history",
+     "Write a supporting statement against the person specification (STAR examples)",
+     "Complete the equality monitoring form and submit"
+    ],
+    "minutes_low": 120,
+    "minutes_high": 180,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Supporting statement",
+    "Hybrid"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 63,
+    "level": "good",
+    "reasons": [
+     "Skills overlap: Social media, Content & copywriting, Video & design, Events, Community engagement, Admin & IT",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2140,7 +2206,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2212,7 +2278,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2279,7 +2345,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2349,7 +2415,76 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57587088",
+   "source": "Reed",
+   "title": "Marketing Coordinator",
+   "employer": "The Law Support Group",
+   "location": "London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "comms"
+   ],
+   "salary": "Not stated",
+   "salary_min": null,
+   "salary_max": null,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-18",
+   "closing": "2026-12-30",
+   "listing_url": "https://www.reed.co.uk/jobs/marketing-coordinator/57587088",
+   "apply_url": "https://www.reed.co.uk/jobs/marketing-coordinator/57587088",
+   "apply_via": "Reed (quick apply)",
+   "summary": "We are working with a prestigious global law firm to recruit a Marketing Coordinator to join its collaborative Marketing team. This is an excellent opportunity for a highly organised, commercially minded individual to take a hands-on role in delivering impactful client engagement and marketing initiatives across the London office,…",
+   "responsibilities": [
+    "Planning and coordinating client events, sponsorships and other marketing initiatives from start to finish.",
+    "Working with lawyers and internal stakeholders to identify relevant opportunities and develop targeted invitation lists.",
+    "Coordinating invitations, registrations, event materials and pre- and post-event activity.",
+    "Supporting client entertainment activity, including the management and allocation of the firm's sports and event ticket inventory.",
+    "Tracking ticket usage and preparing utilisation reports.",
+    "Drafting and reviewing lawyer biographies and supporting internal and external marketing communications."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Hybrid"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 62,
+    "level": "good",
+    "reasons": [
+     "Skills overlap: Social media, Content & copywriting, Events, Community engagement, Customer service, Research & reporting",
+     "+ Junior-friendly job title",
+     "− Asks for 2 years' experience"
+    ]
+   },
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2411,7 +2546,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2482,7 +2617,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2551,7 +2686,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2618,7 +2753,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2688,7 +2823,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2756,7 +2891,77 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57587357",
+   "source": "Reed",
+   "title": "Apprenticeship Assessor - Remote",
+   "employer": "Bucks and Berks Recruitment",
+   "location": "Bracknell",
+   "areas": [
+    "remote"
+   ],
+   "categories": [
+    "admin",
+    "digital_community"
+   ],
+   "salary": "£16.36 per hour",
+   "salary_min": 31902,
+   "salary_max": 31902,
+   "contract": "Temporary, Full-time",
+   "posted": "2026-11-18",
+   "closing": "2026-12-30",
+   "listing_url": "https://www.reed.co.uk/jobs/apprenticeship-assessor-remote/57587357",
+   "apply_url": "https://www.reed.co.uk/jobs/apprenticeship-assessor-remote/57587357",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Our client requires a temp to start asap on a full time 100% remote basis. The position is temporary until the end of March 2027 however, this could be extended.",
+   "responsibilities": [
+    "Plan and Assess apprentice portfolios, assignments, professional discussions, projects, reflective accounts, case studies and workplace evidence against the requirements of…",
+    "Provide detailed formative feedback that supports apprentice development and progression.",
+    "Provide summative assessment decisions in accordance with assessment criteria, grading descriptors and organisational requirements, including feedback on the application of…",
+    "Produce clear action plans identifying evidence gaps and required improvements.",
+    "Monitor apprentice progression against occupational standards and make recommendations regarding readiness for gateway where applicable.",
+    "Maintain accurate assessment records and documentation."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a portfolio link",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 25,
+    "minutes_high": 50,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Portfolio requested"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 60,
+    "level": "good",
+    "reasons": [
+     "Skills overlap: Events, Digital inclusion, Customer service, Admin & IT, Research & reporting, Communication skills",
+     "+ Digital inclusion work"
+    ]
+   },
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2819,7 +3024,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2888,7 +3093,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -2951,10 +3156,10 @@
     ]
    },
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3022,7 +3227,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3089,7 +3294,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3157,7 +3362,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3228,7 +3433,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3295,7 +3500,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3364,7 +3569,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3433,7 +3638,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3502,7 +3707,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3573,7 +3778,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3639,7 +3844,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3711,7 +3916,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3778,7 +3983,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3847,7 +4052,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3912,7 +4117,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -3980,7 +4185,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4048,7 +4253,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4114,7 +4319,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4180,7 +4385,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4246,7 +4451,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4312,7 +4517,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4379,7 +4584,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4448,7 +4653,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4516,7 +4721,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4583,7 +4788,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4651,75 +4856,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
-     "status": 200,
-     "state": "ok",
-     "note": "Page loaded"
-    }
-   }
-  },
-  {
-   "id": "reed-57483764",
-   "source": "Reed",
-   "title": "Admin Assistant (Hub)",
-   "employer": "Larbey Evans",
-   "location": "London",
-   "areas": [
-    "remote"
-   ],
-   "categories": [
-    "admin"
-   ],
-   "salary": "Not stated",
-   "salary_min": null,
-   "salary_max": null,
-   "contract": "Permanent, Full-time",
-   "posted": "2026-10-22",
-   "closing": "2026-12-03",
-   "listing_url": "https://www.reed.co.uk/jobs/admin-assistant-hub/57483764",
-   "apply_url": "https://www.reed.co.uk/jobs/admin-assistant-hub/57483764",
-   "apply_via": "Reed (quick apply)",
-   "summary": "Admin Assistant (Hub) International law firm is seeking a proactive Admin Assistant to provide administrative and secretarial support to lawyers assigned to the firm's hub centre, following guidance from Supervisors and Assistants, managing diaries, coordinating meetings, organising travel and preparing documents.",
-   "responsibilities": [
-    "Help arrange meetings by scheduling rooms, sending calendar invites, and supporting with conference or audiovisual needs",
-    "Assist with document production and mark ups, drafting of correspondence where appropriate e.g. emails, event invites and engagement letters",
-    "Act as a helpful contact for associates and team members on general administrative questions",
-    "Assist with preparing and processing expense reports and reimbursement requests in line with firm procedures",
-    "Support with client and matter opening processes",
-    "Enter and update lawyer time records accurately, following billing instructions and internal guidance"
-   ],
-   "full_description": true,
-   "process": {
-    "type": "Quick apply on Reed (CV)",
-    "steps": [
-     "Sign in to Reed",
-     "Upload the tailored CV",
-     "Add a short cover note, then submit"
-    ],
-    "minutes_low": 15,
-    "minutes_high": 30,
-    "notes": [
-     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
-    ]
-   },
-   "sponsorship": "not_stated",
-   "flags": [
-    "Hybrid"
-   ],
-   "level": "entry",
-   "match": {
-    "score": 50,
-    "level": "good",
-    "reasons": [
-     "Skills overlap: Events, Community engagement, Customer service, Admin & IT, Research & reporting",
-     "+ Junior-friendly job title"
-    ]
-   },
-   "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
-   "link_check": {
-    "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4785,7 +4922,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4853,7 +4990,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4921,7 +5058,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -4991,7 +5128,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5057,7 +5194,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5123,7 +5260,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5191,7 +5328,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5261,7 +5398,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5326,7 +5463,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5395,7 +5532,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5412,8 +5549,7 @@
     "london"
    ],
    "categories": [
-    "digital_community",
-    "support"
+    "digital_community"
    ],
    "salary": "£33,300 - £38,231 per annum",
    "salary_min": 33300,
@@ -5463,7 +5599,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5534,7 +5670,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5601,7 +5737,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5670,7 +5806,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5737,7 +5873,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5805,7 +5941,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5873,7 +6009,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -5939,7 +6075,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6005,7 +6141,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6068,7 +6204,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6131,10 +6267,10 @@
     ]
    },
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6200,7 +6336,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6266,7 +6402,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6332,7 +6468,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6398,7 +6534,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6464,7 +6600,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6532,7 +6668,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6601,7 +6737,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6667,7 +6803,78 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57588458",
+   "source": "Reed",
+   "title": "Support Worker / Outreach Worker",
+   "employer": "AWD online",
+   "location": "London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "support"
+   ],
+   "salary": "£13.60 per hour",
+   "salary_min": 26520,
+   "salary_max": 26520,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-18",
+   "closing": "2026-12-30",
+   "listing_url": "https://www.reed.co.uk/jobs/support-worker-outreach-worker/57588458",
+   "apply_url": "https://www.reed.co.uk/jobs/support-worker-outreach-worker/57588458",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Support Worker / Outreach Worker An exciting opportunity to provide person-centred supported housing and outreach services, helping people with complex needs linked to homelessness, mental health and substance misuse build independence and sustain their tenancies.",
+   "responsibilities": [
+    "Deliver Tailored Support: Provide one-to-one practical and emotional support that promotes independence and personal development",
+    "Encourage Independence: Help clients build life skills including budgeting, tenancy maintenance and daily living tasks",
+    "Promote Wellbeing: Monitor and respond to health and emotional wellbeing needs and support access to relevant services",
+    "Safeguard Vulnerable People: Identify and report safeguarding concerns promptly in line with policy and procedure",
+    "Develop Support and Risk Plans: Co-create person-centred support and risk management plans using SMART objectives",
+    "Collaborate with Agencies: Work with housing, healthcare, probation and social care professionals to provide coordinated support"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "A DBS check is mentioned (usually after an offer)",
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "DBS check"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 48,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Community engagement, Customer service, Admin & IT, Research & reporting, Older people",
+     "+ Supports older people",
+     "+ Junior-friendly job title",
+     "− Sales/commission role"
+    ]
+   },
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6736,7 +6943,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6802,7 +7009,75 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57483132",
+   "source": "Reed",
+   "title": "Operations Administrator",
+   "employer": "Reed",
+   "location": "Manchester",
+   "areas": [
+    "remote"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£30,000 - £32,000 per annum, inc benefits",
+   "salary_min": 30000,
+   "salary_max": 32000,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-10-22",
+   "closing": "2026-11-22",
+   "listing_url": "https://www.reed.co.uk/jobs/operations-administrator/57483132",
+   "apply_url": "https://www.reed.co.uk/jobs/operations-administrator/57483132",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Role – Operations Administrator Location: Fully Remote – 37.5 hours Monday-Friday Job Type: 12 month FTC Start Date: Immediate Salary:£30,000-£32,000 Reed are currently working with a rapidly growing healthcare provider delivering insourced elective and diagnostic services to NHS Trusts across the UK.",
+   "responsibilities": [
+    "Coordinate and book consultant doctors into clinical sessions.",
+    "Liaise with consultant doctors to obtain availability and manage workforce rotas.",
+    "Build and maintain positive relationships with consultant clinicians and NHS operational teams.",
+    "Communicate with NHS Trusts to understand service requirements and support service planning.",
+    "Support the mobilisation of new NHS contracts and clinical services.",
+    "Attend regular virtual operational meetings with NHS partners and internal teams."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Remote/home-based"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 45,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Events, Customer service, Admin & IT, Research & reporting, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -6870,75 +7145,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
-     "status": 200,
-     "state": "ok",
-     "note": "Page loaded"
-    }
-   }
-  },
-  {
-   "id": "reed-57483132",
-   "source": "Reed",
-   "title": "Operations Administrator",
-   "employer": "Reed",
-   "location": "Manchester",
-   "areas": [
-    "remote"
-   ],
-   "categories": [
-    "admin"
-   ],
-   "salary": "£30,000 - £32,000 per annum, inc benefits",
-   "salary_min": 30000,
-   "salary_max": 32000,
-   "contract": "Permanent, Full-time",
-   "posted": "2026-10-22",
-   "closing": "2026-11-22",
-   "listing_url": "https://www.reed.co.uk/jobs/operations-administrator/57483132",
-   "apply_url": "https://www.reed.co.uk/jobs/operations-administrator/57483132",
-   "apply_via": "Reed (quick apply)",
-   "summary": "Role – Operations Administrator Location: Fully Remote – 37.5 hours Monday-Friday Job Type: 12 month FTC Start Date: Immediate Salary:£30,000-£32,000 Reed are currently working with a rapidly growing healthcare provider delivering insourced elective and diagnostic services to NHS Trusts across the UK.",
-   "responsibilities": [
-    "Coordinate and book consultant doctors into clinical sessions.",
-    "Liaise with consultant doctors to obtain availability and manage workforce rotas.",
-    "Build and maintain positive relationships with consultant clinicians and NHS operational teams.",
-    "Communicate with NHS Trusts to understand service requirements and support service planning.",
-    "Support the mobilisation of new NHS contracts and clinical services.",
-    "Attend regular virtual operational meetings with NHS partners and internal teams."
-   ],
-   "full_description": true,
-   "process": {
-    "type": "Quick apply on Reed (CV)",
-    "steps": [
-     "Sign in to Reed",
-     "Upload the tailored CV",
-     "Add a short cover note, then submit"
-    ],
-    "minutes_low": 15,
-    "minutes_high": 30,
-    "notes": [
-     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
-    ]
-   },
-   "sponsorship": "not_stated",
-   "flags": [
-    "Remote/home-based"
-   ],
-   "level": "mid",
-   "match": {
-    "score": 45,
-    "level": "stretch",
-    "reasons": [
-     "Skills overlap: Events, Customer service, Admin & IT, Research & reporting, Communication skills",
-     "+ Junior-friendly job title"
-    ]
-   },
-   "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
-   "link_check": {
-    "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7004,7 +7211,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7074,7 +7281,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7142,7 +7349,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7208,7 +7415,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7271,7 +7478,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7288,6 +7495,7 @@
     "london"
    ],
    "categories": [
+    "admin",
     "digital_community"
    ],
    "salary": "£17.00 - £18.00 per hour",
@@ -7337,7 +7545,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7406,72 +7614,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
-     "status": 200,
-     "state": "ok",
-     "note": "Page loaded"
-    }
-   }
-  },
-  {
-   "id": "reed-57527665",
-   "source": "Reed",
-   "title": "Sales Admin Coordinator",
-   "employer": "Orona Limited",
-   "location": "Sheffield",
-   "areas": [
-    "sheffield"
-   ],
-   "categories": [
-    "admin"
-   ],
-   "salary": "Not stated",
-   "salary_min": null,
-   "salary_max": null,
-   "contract": "Permanent, Full-time",
-   "posted": "2026-11-04",
-   "closing": "2026-12-16",
-   "listing_url": "https://www.reed.co.uk/jobs/sales-admin-coordinator/57527665",
-   "apply_url": "https://www.reed.co.uk/jobs/sales-admin-coordinator/57527665",
-   "apply_via": "Reed (quick apply)",
-   "summary": "At ORONA, we are global leaders in the design, manufacture, installation, maintenance and modernisation of lifts, escalators, moving ramps and walkways. Operating in over 100 countries, with 330,000 lifts worldwide using our technology and 2 manufacturing plants, we are proud to be Number 1 in Europe for complete lift production capacity.",
-   "responsibilities": [
-    "Research and identify new business opportunities in target sectors such as construction, facilities management, and public infrastructure.",
-    "Qualify inbound and outbound leads, maintaining a consistent pipeline of prospects for the sales team.",
-    "Book meetings and presentations for Business Development Managers and Regional Sales Managers.",
-    "Support pre-sales activity by compiling prospect data and background intelligence for targeted accounts.",
-    "Record and maintain all lead activity in the CRM (e.g., Salesforce), ensuring accuracy and timely updates."
-   ],
-   "full_description": true,
-   "process": {
-    "type": "Quick apply on Reed (CV)",
-    "steps": [
-     "Sign in to Reed",
-     "Upload the tailored CV",
-     "Add a short cover note, then submit"
-    ],
-    "minutes_low": 15,
-    "minutes_high": 30,
-    "notes": [
-     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
-    ]
-   },
-   "sponsorship": "not_stated",
-   "flags": [],
-   "level": "mid",
-   "match": {
-    "score": 45,
-    "level": "stretch",
-    "reasons": [
-     "Skills overlap: Events, Customer service, Admin & IT, Research & reporting, Communication skills",
-     "+ Junior-friendly job title"
-    ]
-   },
-   "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
-   "link_check": {
-    "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7540,7 +7683,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7601,7 +7744,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7672,7 +7815,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7741,7 +7884,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7807,7 +7950,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7877,7 +8020,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -7943,7 +8086,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8009,7 +8152,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8034,8 +8177,8 @@
    "contract": "Contract, Part-Time",
    "posted": "2026-11-12",
    "closing": null,
-   "listing_url": "https://www.adzuna.co.uk/jobs/details/5963631288?utm_medium=api&utm_source=199aaf03",
-   "apply_url": "https://www.adzuna.co.uk/jobs/details/5963631288?utm_medium=api&utm_source=199aaf03",
+   "listing_url": "https://www.adzuna.co.uk/jobs/land/ad/5963631288?se=wDNR61zj8RGORbMAgDEAdw&utm_medium=api&utm_source=199aaf03&v=841177A940B1D0FAC41A1065F5C71A6557A7A812",
+   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5963631288?se=wDNR61zj8RGORbMAgDEAdw&utm_medium=api&utm_source=199aaf03&v=841177A940B1D0FAC41A1065F5C71A6557A7A812",
    "apply_via": "Adzuna → advertiser",
    "summary": "We’re recruiting on behalf of a large academic organisation in Manchester for a part time temporary Administrative Assistant. This is a varied role supporting academic and research staff, postgraduate students and the day-to-day running of a busy division.You’ll be a key point of contact for enquiries and will help keep administrative…",
    "responsibilities": [
@@ -8070,10 +8213,10 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
-     "status": 200,
-     "state": "ok",
-     "note": "Page loaded"
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 403,
+     "state": "blocked",
+     "note": "Site blocks automated checks (403); open it manually"
     }
    }
   },
@@ -8137,7 +8280,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8203,7 +8346,71 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57587339",
+   "source": "Reed",
+   "title": "Receptionist and Office Administrator",
+   "employer": "Brebners",
+   "location": "London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£33,000 - £35,000 per annum",
+   "salary_min": 33000,
+   "salary_max": 35000,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-18",
+   "closing": "2026-11-28",
+   "listing_url": "https://www.reed.co.uk/jobs/receptionist-and-office-administrator/57587339",
+   "apply_url": "https://www.reed.co.uk/jobs/receptionist-and-office-administrator/57587339",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Brebners Chartered Accountants & Business Advisers with more than 90 years’ experience, we offer clients dynamic, imaginative solutions to solve their problems in fresh ways. We are recognised as specialist accountants for the entertainment, sports and creative professions but have a wealth of experience across many sectors.",
+   "responsibilities": [
+    "Managing incoming calls, taking messages, welcoming visitors and providing a professional front-of-house service.",
+    "Coordinating meeting rooms, arranging refreshments and organising local and international couriers.",
+    "Maintaining a tidy, organised office environment, monitoring supplies and liaising with facilities and building management.",
+    "Working with the office support team to ensure reception coverage and the smooth day-to-day running of the office."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 43,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Events, Community engagement, Customer service, Admin & IT",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8272,7 +8479,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8338,7 +8545,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8407,7 +8614,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8471,7 +8678,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8537,7 +8744,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8604,7 +8811,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8670,7 +8877,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8736,7 +8943,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8800,7 +9007,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8872,7 +9079,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8932,7 +9139,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -8957,8 +9164,8 @@
    "contract": "Full-time",
    "posted": "2026-11-03",
    "closing": null,
-   "listing_url": "https://uk.jooble.org/desc/5044798701076155977?ckey=older+people&rgn=22&pos=10&groupId=44445&elckey=3583453838315651211&p=1&aq=2648347310489514178&cid=526&jobAge=370&brelb=100&bscr=80.95387&scr=80.95387",
-   "apply_url": "https://uk.jooble.org/desc/5044798701076155977?ckey=older+people&rgn=22&pos=10&groupId=44445&elckey=3583453838315651211&p=1&aq=2648347310489514178&cid=526&jobAge=370&brelb=100&bscr=80.95387&scr=80.95387",
+   "listing_url": "https://uk.jooble.org/desc/5044798701076155977?ckey=older+people&rgn=22&pos=10&groupId=44445&elckey=8906744559555168508&p=1&aq=8346547660715651565&cid=526&jobAge=374&brelb=100&bscr=81.51398&scr=81.51398",
+   "apply_url": "https://uk.jooble.org/desc/5044798701076155977?ckey=older+people&rgn=22&pos=10&groupId=44445&elckey=8906744559555168508&p=1&aq=8346547660715651565&cid=526&jobAge=374&brelb=100&bscr=81.51398&scr=81.51398",
    "apply_via": "Jooble → advertiser",
    "summary": "* A creative approach with the ability to develop new activity ideas. * An understanding of dementia and the needs of older people.",
    "responsibilities": [
@@ -8994,7 +9201,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -9063,7 +9270,76 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57473634",
+   "source": "Reed",
+   "title": "Employment Advisor/Job Coach - Local Authority",
+   "employer": "Reed",
+   "location": "Crystal Peaks",
+   "areas": [
+    "sheffield"
+   ],
+   "categories": [
+    "support"
+   ],
+   "salary": "£17.75 per hour, inc benefits",
+   "salary_min": 34612,
+   "salary_max": 34612,
+   "contract": "Temporary, Full-time",
+   "posted": "2026-10-19",
+   "closing": "2026-11-19",
+   "listing_url": "https://www.reed.co.uk/jobs/employment-advisor-job-coach-local-authority/57473634",
+   "apply_url": "https://www.reed.co.uk/jobs/employment-advisor-job-coach-local-authority/57473634",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Employment Adviser Hourly Rate: £17.75 Location: Crystal Peaks, Sheffield (potential future relocation to Peaks College) Job Type: Full-time, 37 hours per week Join our dedicated team in Sheffield as an Employment Adviser, where you will play a crucial role in supporting young people to overcome barriers to employment and successfully…",
+   "responsibilities": [
+    "Provide one-to-one employment advice and guidance to young people referred through DWP.",
+    "Assist individuals in identifying their skills, strengths, experience, and employment goals.",
+    "Help young people create, develop, and enhance their CVs and job applications.",
+    "Offer practical support with job searching and identifying suitable employment opportunities.",
+    "Prepare individuals for interviews and recruitment processes.",
+    "Work to improve the confidence of young people and help them become work-ready."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Write a tailored cover letter",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 45,
+    "minutes_high": 75,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Cover letter"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 41,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Events, Community engagement, Admin & IT, Young people",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9132,76 +9408,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
-     "status": 200,
-     "state": "ok",
-     "note": "Page loaded"
-    }
-   }
-  },
-  {
-   "id": "reed-57473634",
-   "source": "Reed",
-   "title": "Employment Advisor/Job Coach - Local Authority",
-   "employer": "Reed",
-   "location": "Crystal Peaks",
-   "areas": [
-    "sheffield"
-   ],
-   "categories": [
-    "support"
-   ],
-   "salary": "£17.75 per hour, inc benefits",
-   "salary_min": 34612,
-   "salary_max": 34612,
-   "contract": "Temporary, Full-time",
-   "posted": "2026-10-19",
-   "closing": "2026-11-19",
-   "listing_url": "https://www.reed.co.uk/jobs/employment-advisor-job-coach-local-authority/57473634",
-   "apply_url": "https://www.reed.co.uk/jobs/employment-advisor-job-coach-local-authority/57473634",
-   "apply_via": "Reed (quick apply)",
-   "summary": "Employment Adviser Hourly Rate: £17.75 Location: Crystal Peaks, Sheffield (potential future relocation to Peaks College) Job Type: Full-time, 37 hours per week Join our dedicated team in Sheffield as an Employment Adviser, where you will play a crucial role in supporting young people to overcome barriers to employment and successfully…",
-   "responsibilities": [
-    "Provide one-to-one employment advice and guidance to young people referred through DWP.",
-    "Assist individuals in identifying their skills, strengths, experience, and employment goals.",
-    "Help young people create, develop, and enhance their CVs and job applications.",
-    "Offer practical support with job searching and identifying suitable employment opportunities.",
-    "Prepare individuals for interviews and recruitment processes.",
-    "Work to improve the confidence of young people and help them become work-ready."
-   ],
-   "full_description": true,
-   "process": {
-    "type": "Quick apply on Reed (CV)",
-    "steps": [
-     "Sign in to Reed",
-     "Upload the tailored CV",
-     "Write a tailored cover letter",
-     "Add a short cover note, then submit"
-    ],
-    "minutes_low": 45,
-    "minutes_high": 75,
-    "notes": [
-     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
-    ]
-   },
-   "sponsorship": "not_stated",
-   "flags": [
-    "Cover letter"
-   ],
-   "level": "mid",
-   "match": {
-    "score": 41,
-    "level": "stretch",
-    "reasons": [
-     "Skills overlap: Events, Community engagement, Admin & IT, Young people",
-     "+ Junior-friendly job title"
-    ]
-   },
-   "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
-   "link_check": {
-    "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9267,7 +9474,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9336,7 +9543,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9402,7 +9609,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9469,7 +9676,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9539,7 +9746,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9605,7 +9812,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9671,7 +9878,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9733,7 +9940,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -9800,7 +10007,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9864,7 +10071,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -9930,10 +10137,72 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "jooble-6565570535097901475",
+   "source": "Jooble",
+   "title": "Supply Executive - Mandarin speaking",
+   "employer": "Bratchen Technology Ltd",
+   "location": "London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "support"
+   ],
+   "salary": "£30k - £38k per annum",
+   "salary_min": 30000,
+   "salary_max": 38000,
+   "contract": "Full-time",
+   "posted": "2026-11-17",
+   "closing": null,
+   "listing_url": "https://uk.jooble.org/desc/6565570535097901475?ckey=mandarin+speaking&rgn=22&pos=9&groupId=43933&elckey=6379401692344202364&p=1&aq=9198902344693611225&cid=526&jobAge=38&brelb=100&bscr=101.348694&scr=101.348694",
+   "apply_url": "https://uk.jooble.org/desc/6565570535097901475?ckey=mandarin+speaking&rgn=22&pos=9&groupId=43933&elckey=6379401692344202364&p=1&aq=9198902344693611225&cid=526&jobAge=38&brelb=100&bscr=101.348694&scr=101.348694",
+   "apply_via": "Jooble → advertiser",
+   "summary": "...Job title: Supply Executive - Procurement Specialist – Mandarin speaking Location: London / Remote Salary: £38000 per annum Employment type: 12 month fixed term, maternity cover Client is a specialist supplier of display and merchandising to global brands providing...",
+   "responsibilities": [],
+   "full_description": false,
+   "process": {
+    "type": "Via Jooble to the employer / agency site",
+    "steps": [
+     "Open the listing (Jooble forwards you to the original advert)",
+     "Follow the advertiser's apply steps",
+     "Upload a tailored CV and submit"
+    ],
+    "minutes_low": 30,
+    "minutes_high": 75,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Mandarin/Chinese"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 40,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Customer service, Languages",
+     "+ Mandarin/Chinese is an asset",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 403,
+     "state": "blocked",
+     "note": "Site blocks automated checks (403); open it manually"
     }
    }
   },
@@ -9955,8 +10224,8 @@
    "contract": "Full-time",
    "posted": "2026-11-12",
    "closing": null,
-   "listing_url": "https://uk.jooble.org/desc/-4176968512070759036?ckey=mandarin+speaking&rgn=22&pos=21&groupId=43933&elckey=1056110971104685067&p=1&aq=-6894769435938500048&cid=526&jobAge=143&brelb=100&bscr=96.868164&scr=96.868164",
-   "apply_url": "https://uk.jooble.org/desc/-4176968512070759036?ckey=mandarin+speaking&rgn=22&pos=21&groupId=43933&elckey=1056110971104685067&p=1&aq=-6894769435938500048&cid=526&jobAge=143&brelb=100&bscr=96.868164&scr=96.868164",
+   "listing_url": "https://uk.jooble.org/desc/-4176968512070759036?ckey=mandarin+speaking&rgn=22&pos=21&groupId=43933&elckey=6379401692344202364&p=1&aq=9198902344693611225&cid=526&jobAge=147&brelb=100&bscr=95.68387&scr=95.68387",
+   "apply_url": "https://uk.jooble.org/desc/-4176968512070759036?ckey=mandarin+speaking&rgn=22&pos=21&groupId=43933&elckey=6379401692344202364&p=1&aq=9198902344693611225&cid=526&jobAge=147&brelb=100&bscr=95.68387&scr=95.68387",
    "apply_via": "Jooble → advertiser",
    "summary": "This is a London-based role with a global reach requiring native-level Mandarin and excellent English. You will initially sell to English-speaking customers, including customers outside China, while helping us prepare for future demand from...",
    "responsibilities": [
@@ -9994,7 +10263,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -10019,8 +10288,8 @@
    "contract": "",
    "posted": "2026-11-03",
    "closing": null,
-   "listing_url": "https://uk.jooble.org/desc/-587257594320575851?ckey=mandarin+speaking+remote&rgn=0&pos=5&groupId=-1621590405&elckey=2045183007914355691&p=1&aq=-4374012517374181785&cid=526&jobAge=370&brelb=100&bscr=111.67856&scr=111.67856",
-   "apply_url": "https://uk.jooble.org/desc/-587257594320575851?ckey=mandarin+speaking+remote&rgn=0&pos=5&groupId=-1621590405&elckey=2045183007914355691&p=1&aq=-4374012517374181785&cid=526&jobAge=370&brelb=100&bscr=111.67856&scr=111.67856",
+   "listing_url": "https://uk.jooble.org/desc/-587257594320575851?ckey=mandarin+speaking+remote&rgn=0&pos=4&groupId=-1621590405&elckey=-123774949218290260&p=1&aq=-6185577596746781486&cid=526&jobAge=374&brelb=100&bscr=111.75332&scr=111.75332",
+   "apply_url": "https://uk.jooble.org/desc/-587257594320575851?ckey=mandarin+speaking+remote&rgn=0&pos=4&groupId=-1621590405&elckey=-123774949218290260&p=1&aq=-6185577596746781486&cid=526&jobAge=374&brelb=100&bscr=111.75332&scr=111.75332",
    "apply_via": "Jooble → advertiser",
    "summary": "...tutors and are looking for an enthusiastic Mandarin Chinese Tutor to join us. About the role This is a flexible remote opportunity to help students across the UK improve...",
    "responsibilities": [
@@ -10058,7 +10327,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -10129,7 +10398,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10195,7 +10464,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10261,7 +10530,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10327,7 +10596,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10396,7 +10665,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10466,7 +10735,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10536,7 +10805,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10601,7 +10870,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10667,7 +10936,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10733,7 +11002,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10799,7 +11068,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10864,7 +11133,76 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57521030",
+   "source": "Reed",
+   "title": "Administration Officer",
+   "employer": "Hays Specialist Recruitment Limited",
+   "location": "Exeter",
+   "areas": [
+    "remote"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£14.44 per hour",
+   "salary_min": 28158,
+   "salary_max": 28158,
+   "contract": "Temporary, Full-time",
+   "posted": "2026-11-03",
+   "closing": "2026-12-15",
+   "listing_url": "https://www.reed.co.uk/jobs/administration-officer/57521030",
+   "apply_url": "https://www.reed.co.uk/jobs/administration-officer/57521030",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Your new role A new role has become available due to an increase in workload for our client based in Haldon Forest (EX6) The position is until March 2027 and is paying £14.46 per hour 37 hours per week, Monday- Friday. Once training is done, role will become hybrid.",
+   "responsibilities": [
+    "Temporary role until March 2027",
+    "£14.44 per hour",
+    "Staff parking",
+    "Hybrid working",
+    "37 hours per week"
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "A DBS check is mentioned (usually after an offer)",
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "DBS check",
+    "Hybrid"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 39,
+    "level": "stretch",
+    "reasons": [
+     "Skills overlap: Content & copywriting, Customer service, Admin & IT, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10932,7 +11270,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -10998,7 +11336,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11065,7 +11403,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11132,7 +11470,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11198,7 +11536,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11267,7 +11605,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11336,7 +11674,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11403,7 +11741,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11428,8 +11766,8 @@
    "contract": "Full-time",
    "posted": "2026-11-16",
    "closing": null,
-   "listing_url": "https://uk.jooble.org/desc/5904943351163143903?ckey=mandarin+speaking&rgn=1449&pos=4&groupId=43933&elckey=-3824997295809328814&p=1&aq=4742767951659425581&cid=526&jobAge=49&brelb=100&bscr=30.727886&scr=30.727886",
-   "apply_url": "https://uk.jooble.org/desc/5904943351163143903?ckey=mandarin+speaking&rgn=1449&pos=4&groupId=43933&elckey=-3824997295809328814&p=1&aq=4742767951659425581&cid=526&jobAge=49&brelb=100&bscr=30.727886&scr=30.727886",
+   "listing_url": "https://uk.jooble.org/desc/5904943351163143903?ckey=mandarin+speaking&rgn=1449&pos=4&groupId=43933&elckey=1498293425430188483&p=1&aq=1237287118911746620&cid=526&jobAge=53&brelb=100&bscr=30.912369&scr=30.912369",
+   "apply_url": "https://uk.jooble.org/desc/5904943351163143903?ckey=mandarin+speaking&rgn=1449&pos=4&groupId=43933&elckey=1498293425430188483&p=1&aq=1237287118911746620&cid=526&jobAge=53&brelb=100&bscr=30.912369&scr=30.912369",
    "apply_via": "Jooble → advertiser",
    "summary": "...combines commercial analysis, campaign execution and brand building. You’ll bring an understanding of local consumer trends, fluency in Mandarin and proficiency in reading and writing Traditional Chinese, alongside a passion for fitness and nutrition, to help grow Myprotein’s...",
    "responsibilities": [
@@ -11467,7 +11805,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -11492,8 +11830,8 @@
    "contract": "Full-time",
    "posted": "2026-11-11",
    "closing": null,
-   "listing_url": "https://uk.jooble.org/desc/-5104313528372268916?ckey=older+people&rgn=1449&pos=13&groupId=44445&elckey=7899414360053982674&p=1&aq=936093533861915681&cid=526&jobAge=178&brelb=100&bscr=56.641735&scr=56.641735",
-   "apply_url": "https://uk.jooble.org/desc/-5104313528372268916?ckey=older+people&rgn=1449&pos=13&groupId=44445&elckey=7899414360053982674&p=1&aq=936093533861915681&cid=526&jobAge=178&brelb=100&bscr=56.641735&scr=56.641735",
+   "listing_url": "https://uk.jooble.org/desc/-5104313528372268916?ckey=older+people&rgn=1449&pos=13&groupId=44445&elckey=-5224038992416051645&p=1&aq=3481809754961486681&cid=526&jobAge=182&brelb=100&bscr=57.92507&scr=57.92507",
+   "apply_url": "https://uk.jooble.org/desc/-5104313528372268916?ckey=older+people&rgn=1449&pos=13&groupId=44445&elckey=-5224038992416051645&p=1&aq=3481809754961486681&cid=526&jobAge=182&brelb=100&bscr=57.92507&scr=57.92507",
    "apply_via": "Jooble → advertiser",
    "summary": "...benefits and health and wellbeing referrals Strong communication skills Previous experience of working with vulnerable and/or older people Excellent computer skills including proficiency in Microsoft Office Why Riverside?",
    "responsibilities": [],
@@ -11527,7 +11865,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -11589,7 +11927,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11655,7 +11993,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11719,7 +12057,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11785,7 +12123,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11851,7 +12189,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11921,7 +12259,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -11989,7 +12327,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -12054,7 +12392,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -12123,7 +12461,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -12192,7 +12530,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -12259,7 +12597,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -12325,7 +12663,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -12388,7 +12726,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -12449,7 +12787,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -12515,7 +12853,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -12581,7 +12919,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -12648,7 +12986,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -12673,8 +13011,8 @@
    "contract": "Full-time",
    "posted": "2026-11-16",
    "closing": null,
-   "listing_url": "https://uk.jooble.org/desc/7486640741336847691?ckey=social+media+assistant&rgn=22&pos=4&groupId=6189&elckey=7068178763868321259&p=1&aq=804641285714244379&cid=526&jobAge=58&brelb=100&bscr=145.0797&scr=145.0797",
-   "apply_url": "https://uk.jooble.org/desc/7486640741336847691?ckey=social+media+assistant&rgn=22&pos=4&groupId=6189&elckey=7068178763868321259&p=1&aq=804641285714244379&cid=526&jobAge=58&brelb=100&bscr=145.0797&scr=145.0797",
+   "listing_url": "https://uk.jooble.org/desc/7486640741336847691?ckey=social+media+assistant&rgn=22&pos=4&groupId=6189&elckey=-6055274588601713060&p=1&aq=8988217982174113759&cid=526&jobAge=62&brelb=100&bscr=144.9777&scr=144.9777",
+   "apply_url": "https://uk.jooble.org/desc/7486640741336847691?ckey=social+media+assistant&rgn=22&pos=4&groupId=6189&elckey=-6055274588601713060&p=1&aq=8988217982174113759&cid=526&jobAge=62&brelb=100&bscr=144.9777&scr=144.9777",
    "apply_via": "Jooble → advertiser",
    "summary": "We believe in beauty with a purpose and brands that inspire, no matter where they are in the world. The Global Social Media Content & Community Assistant supports the development and execution of social-first content, community engagement and cultural conversations across...",
    "responsibilities": [
@@ -12709,7 +13047,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -12776,7 +13114,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -12844,7 +13182,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -12911,7 +13249,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -12978,7 +13316,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -13043,7 +13381,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -13108,7 +13446,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -13173,7 +13511,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -13236,7 +13574,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -13261,8 +13599,8 @@
    "contract": "Temporary",
    "posted": "2026-11-17",
    "closing": null,
-   "listing_url": "https://uk.jooble.org/desc/3570917173473575315?ckey=social+media+assistant&rgn=22&pos=12&groupId=6189&elckey=7068178763868321259&p=1&aq=804641285714244379&cid=526&jobAge=34&brelb=100&bscr=107.111435&scr=107.111435",
-   "apply_url": "https://uk.jooble.org/desc/3570917173473575315?ckey=social+media+assistant&rgn=22&pos=12&groupId=6189&elckey=7068178763868321259&p=1&aq=804641285714244379&cid=526&jobAge=34&brelb=100&bscr=107.111435&scr=107.111435",
+   "listing_url": "https://uk.jooble.org/desc/3570917173473575315?ckey=social+media+assistant&rgn=22&pos=11&groupId=6189&elckey=-6055274588601713060&p=1&aq=8988217982174113759&cid=526&jobAge=38&brelb=100&bscr=107.13718&scr=107.13718",
+   "apply_url": "https://uk.jooble.org/desc/3570917173473575315?ckey=social+media+assistant&rgn=22&pos=11&groupId=6189&elckey=-6055274588601713060&p=1&aq=8988217982174113759&cid=526&jobAge=38&brelb=100&bscr=107.13718&scr=107.13718",
    "apply_via": "Jooble → advertiser",
    "summary": "...Corporate, Financial and Digital Communications, as well as Public Affairs. The work varies from media monitoring, new business research projects, drafting content for social media and press releases, and tracking parliamentary debates and select committee hearings.",
    "responsibilities": [
@@ -13296,7 +13634,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -13362,7 +13700,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -13430,7 +13768,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -13498,7 +13836,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -13557,7 +13895,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -13623,7 +13961,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -13692,7 +14030,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -13758,7 +14096,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -13822,7 +14160,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -13891,7 +14229,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -13955,7 +14293,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -14023,7 +14361,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -14086,7 +14424,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -14149,7 +14487,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -14174,8 +14512,8 @@
    "contract": "Full-time",
    "posted": "2026-10-21",
    "closing": null,
-   "listing_url": "https://uk.jooble.org/desc/-1138157716444464016?ckey=community+engagement+officer&rgn=1449&pos=3&groupId=-628553014&elckey=-5054962346196331754&p=1&aq=-7613717636709652640&cid=526&jobAge=682&brelb=100&bscr=69.60998&scr=69.60998",
-   "apply_url": "https://uk.jooble.org/desc/-1138157716444464016?ckey=community+engagement+officer&rgn=1449&pos=3&groupId=-628553014&elckey=-5054962346196331754&p=1&aq=-7613717636709652640&cid=526&jobAge=682&brelb=100&bscr=69.60998&scr=69.60998",
+   "listing_url": "https://uk.jooble.org/desc/-1138157716444464016?ckey=community+engagement+officer&rgn=1449&pos=3&groupId=-628553014&elckey=268328375043185543&p=1&aq=6648392943231126640&cid=526&jobAge=686&brelb=100&bscr=67.80087&scr=67.80087",
+   "apply_url": "https://uk.jooble.org/desc/-1138157716444464016?ckey=community+engagement+officer&rgn=1449&pos=3&groupId=-628553014&elckey=268328375043185543&p=1&aq=6648392943231126640&cid=526&jobAge=686&brelb=100&bscr=67.80087&scr=67.80087",
    "apply_via": "Jooble → advertiser",
    "summary": "...opportunity for a full-time Graduate Sustainability Communications and Engagement Officer within the University’s Central Sustainability Office,... ...aspects of University life, we will enable our University community to create impactful positive change for society and environment...",
    "responsibilities": [
@@ -14211,7 +14549,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -14236,8 +14574,8 @@
    "contract": "",
    "posted": "2026-10-27",
    "closing": null,
-   "listing_url": "https://uk.jooble.org/desc/-8110231764523059975?ckey=community+engagement+officer&rgn=1449&pos=9&groupId=-628553014&elckey=-5054962346196331754&p=1&aq=-7613717636709652640&cid=526&jobAge=536&brelb=100&bscr=45.626125&scr=45.626125",
-   "apply_url": "https://uk.jooble.org/desc/-8110231764523059975?ckey=community+engagement+officer&rgn=1449&pos=9&groupId=-628553014&elckey=-5054962346196331754&p=1&aq=-7613717636709652640&cid=526&jobAge=536&brelb=100&bscr=45.626125&scr=45.626125",
+   "listing_url": "https://uk.jooble.org/desc/-8110231764523059975?ckey=community+engagement+officer&rgn=1449&pos=8&groupId=-628553014&elckey=268328375043185543&p=1&aq=6648392943231126640&cid=526&jobAge=540&brelb=100&bscr=48.47911&scr=48.47911",
+   "apply_url": "https://uk.jooble.org/desc/-8110231764523059975?ckey=community+engagement+officer&rgn=1449&pos=8&groupId=-628553014&elckey=268328375043185543&p=1&aq=6648392943231126640&cid=526&jobAge=540&brelb=100&bscr=48.47911&scr=48.47911",
    "apply_via": "Jooble → advertiser",
    "summary": "...which is why we operate a hybrid system, with a combination of office and home working. If you’re in a client-facing role, you might be...",
    "responsibilities": [],
@@ -14272,7 +14610,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -14297,8 +14635,8 @@
    "contract": "",
    "posted": "2026-11-05",
    "closing": null,
-   "listing_url": "https://uk.jooble.org/desc/654053186870301477?ckey=community+engagement+officer&rgn=1449&pos=21&groupId=-628553014&elckey=-5054962346196331754&p=1&aq=-7613717636709652640&cid=526&jobAge=322&brelb=100&bscr=35.71592&scr=35.71592",
-   "apply_url": "https://uk.jooble.org/desc/654053186870301477?ckey=community+engagement+officer&rgn=1449&pos=21&groupId=-628553014&elckey=-5054962346196331754&p=1&aq=-7613717636709652640&cid=526&jobAge=322&brelb=100&bscr=35.71592&scr=35.71592",
+   "listing_url": "https://uk.jooble.org/desc/654053186870301477?ckey=community+engagement+officer&rgn=1449&pos=19&groupId=-628553014&elckey=268328375043185543&p=1&aq=6648392943231126640&cid=526&jobAge=326&brelb=100&bscr=37.48387&scr=37.48387",
+   "apply_url": "https://uk.jooble.org/desc/654053186870301477?ckey=community+engagement+officer&rgn=1449&pos=19&groupId=-628553014&elckey=268328375043185543&p=1&aq=6648392943231126640&cid=526&jobAge=326&brelb=100&bscr=37.48387&scr=37.48387",
    "apply_via": "Jooble → advertiser",
    "summary": "At Medius, you’ll join a diverse, global community where curiosity is celebrated, ideas matter, and innovation... Proficiency in CRM software and Microsoft Office Suite.",
    "responsibilities": [],
@@ -14331,7 +14669,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -14357,8 +14695,8 @@
    "contract": "",
    "posted": "2026-11-12",
    "closing": null,
-   "listing_url": "https://uk.jooble.org/desc/-1224031678037484599?ckey=library+assistant&rgn=1449&pos=17&groupId=2209&elckey=-4908950176483322432&p=1&aq=2605473134624334964&cid=526&jobAge=154&brelb=100&bscr=34.051743&scr=34.051743",
-   "apply_url": "https://uk.jooble.org/desc/-1224031678037484599?ckey=library+assistant&rgn=1449&pos=17&groupId=2209&elckey=-4908950176483322432&p=1&aq=2605473134624334964&cid=526&jobAge=154&brelb=100&bscr=34.051743&scr=34.051743",
+   "listing_url": "https://uk.jooble.org/desc/-1224031678037484599?ckey=library+assistant&rgn=1449&pos=17&groupId=2209&elckey=414340544756194865&p=1&aq=-2322286035783278759&cid=526&jobAge=158&brelb=100&bscr=33.81324&scr=33.81324",
+   "apply_url": "https://uk.jooble.org/desc/-1224031678037484599?ckey=library+assistant&rgn=1449&pos=17&groupId=2209&elckey=414340544756194865&p=1&aq=-2322286035783278759&cid=526&jobAge=158&brelb=100&bscr=33.81324&scr=33.81324",
    "apply_via": "Jooble → advertiser",
    "summary": "...support, including reception duties and school communications Update the school website and Facebook page and send texts and emails Assist with basic financial tasks such as raising purchase orders and processing invoices Oversee dinner money and breakfast club payments...",
    "responsibilities": [],
@@ -14391,7 +14729,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -14416,8 +14754,8 @@
    "contract": "Full-time",
    "posted": "2026-11-06",
    "closing": null,
-   "listing_url": "https://uk.jooble.org/desc/5192719836679757046?ckey=social+media+assistant&rgn=1472&pos=12&groupId=6189&elckey=-5398539991637613685&p=1&aq=4446443936810314273&cid=526&jobAge=298&brelb=100&bscr=23.683065&scr=23.683065",
-   "apply_url": "https://uk.jooble.org/desc/5192719836679757046?ckey=social+media+assistant&rgn=1472&pos=12&groupId=6189&elckey=-5398539991637613685&p=1&aq=4446443936810314273&cid=526&jobAge=298&brelb=100&bscr=23.683065&scr=23.683065",
+   "listing_url": "https://uk.jooble.org/desc/5192719836679757046?ckey=social+media+assistant&rgn=1472&pos=12&groupId=6189&elckey=7929325756906667252&p=1&aq=-895758628061452922&cid=526&jobAge=302&brelb=100&bscr=23.542093&scr=23.542093",
+   "apply_url": "https://uk.jooble.org/desc/5192719836679757046?ckey=social+media+assistant&rgn=1472&pos=12&groupId=6189&elckey=7929325756906667252&p=1&aq=-895758628061452922&cid=526&jobAge=302&brelb=100&bscr=23.542093&scr=23.542093",
    "apply_via": "Jooble → advertiser",
    "summary": "...Optimisation (AEO), Search Engine Optimisation (SEO), content marketing, social media management, email marketing, analytics, and the application of... ...Copilot, Gemini, Perplexity and Google AI Overviews.",
    "responsibilities": [
@@ -14453,7 +14791,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -14478,8 +14816,8 @@
    "contract": "",
    "posted": "2026-11-06",
    "closing": null,
-   "listing_url": "https://uk.jooble.org/desc/3844952462581972716?ckey=social+media+assistant&rgn=1472&pos=27&groupId=6189&elckey=-5398539991637613685&p=1&aq=4446443936810314273&cid=526&jobAge=297&brelb=100&bscr=10.288212&scr=10.288212",
-   "apply_url": "https://uk.jooble.org/desc/3844952462581972716?ckey=social+media+assistant&rgn=1472&pos=27&groupId=6189&elckey=-5398539991637613685&p=1&aq=4446443936810314273&cid=526&jobAge=297&brelb=100&bscr=10.288212&scr=10.288212",
+   "listing_url": "https://uk.jooble.org/desc/3844952462581972716?ckey=social+media+assistant&rgn=1472&pos=26&groupId=6189&elckey=7929325756906667252&p=1&aq=-895758628061452922&cid=526&jobAge=302&brelb=100&bscr=10.282429&scr=10.282429",
+   "apply_url": "https://uk.jooble.org/desc/3844952462581972716?ckey=social+media+assistant&rgn=1472&pos=26&groupId=6189&elckey=7929325756906667252&p=1&aq=-895758628061452922&cid=526&jobAge=302&brelb=100&bscr=10.282429&scr=10.282429",
    "apply_via": "Jooble → advertiser",
    "summary": "...solutions and commercial products sector are seeking a Marketing Assistant to join them on a permanent contract. ...that will give you exposure to all aspects of marketing, from social media management and content creation to graphic design, photography,...",
    "responsibilities": [
@@ -14515,7 +14853,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -14540,8 +14878,8 @@
    "contract": "Full-time",
    "posted": "2026-11-12",
    "closing": null,
-   "listing_url": "https://uk.jooble.org/desc/-7884699123815408618?ckey=social+media+assistant&rgn=22&pos=1&groupId=6189&elckey=7068178763868321259&p=1&aq=804641285714244379&cid=526&jobAge=154&brelb=100&bscr=206.30031&scr=206.30031",
-   "apply_url": "https://uk.jooble.org/desc/-7884699123815408618?ckey=social+media+assistant&rgn=22&pos=1&groupId=6189&elckey=7068178763868321259&p=1&aq=804641285714244379&cid=526&jobAge=154&brelb=100&bscr=206.30031&scr=206.30031",
+   "listing_url": "https://uk.jooble.org/desc/-7884699123815408618?ckey=social+media+assistant&rgn=22&pos=1&groupId=6189&elckey=-6055274588601713060&p=1&aq=8988217982174113759&cid=526&jobAge=158&brelb=100&bscr=207.57161&scr=207.57161",
+   "apply_url": "https://uk.jooble.org/desc/-7884699123815408618?ckey=social+media+assistant&rgn=22&pos=1&groupId=6189&elckey=-6055274588601713060&p=1&aq=8988217982174113759&cid=526&jobAge=158&brelb=100&bscr=207.57161&scr=207.57161",
    "apply_via": "Jooble → advertiser",
    "summary": "...Across websites, magazines, newsletters, social channels and events, we bring expert content... ...-solvers who are shaping the future of media.",
    "responsibilities": [
@@ -14576,7 +14914,132 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 403,
+     "state": "blocked",
+     "note": "Site blocks automated checks (403); open it manually"
+    }
+   }
+  },
+  {
+   "id": "jooble-2091929391075784525",
+   "source": "Jooble",
+   "title": "Credit and Collections Analyst",
+   "employer": "Vonage",
+   "location": "London",
+   "areas": [
+    "remote"
+   ],
+   "categories": [
+    "support"
+   ],
+   "salary": "Not stated",
+   "salary_min": null,
+   "salary_max": null,
+   "contract": "",
+   "posted": "2026-11-09",
+   "closing": null,
+   "listing_url": "https://uk.jooble.org/desc/2091929391075784525?ckey=mandarin+speaking+remote&rgn=0&pos=28&groupId=-1621590405&elckey=-123774949218290260&p=1&aq=-6185577596746781486&cid=526&jobAge=217&brelb=100&bscr=60.172752&scr=60.172752",
+   "apply_url": "https://uk.jooble.org/desc/2091929391075784525?ckey=mandarin+speaking+remote&rgn=0&pos=28&groupId=-1621590405&elckey=-123774949218290260&p=1&aq=-6185577596746781486&cid=526&jobAge=217&brelb=100&bscr=60.172752&scr=60.172752",
+   "apply_via": "Jooble → advertiser",
+   "summary": "...instantly connecting with customers, hospital staff conducting remote monitoring, customers verifying their identity before completing... ...communicate effectively Experience we consider a plus: Fluency in Mandarin, in addition to English Experience in communications products...",
+   "responsibilities": [
+    "...instantly connecting with customers, hospital staff conducting remote monitoring, customers verifying their identity before completing..."
+   ],
+   "full_description": false,
+   "process": {
+    "type": "Via Jooble to the employer / agency site",
+    "steps": [
+     "Open the listing (Jooble forwards you to the original advert)",
+     "Follow the advertiser's apply steps",
+     "Upload a tailored CV and submit"
+    ],
+    "minutes_low": 30,
+    "minutes_high": 75,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Mandarin/Chinese"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 34,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Customer service, Languages",
+     "+ Mandarin/Chinese is an asset"
+    ]
+   },
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 403,
+     "state": "blocked",
+     "note": "Site blocks automated checks (403); open it manually"
+    }
+   }
+  },
+  {
+   "id": "jooble--3259964525014753950",
+   "source": "Jooble",
+   "title": "care home - residential support worker - £23 p/h.",
+   "employer": "Randstad",
+   "location": "Bristol",
+   "areas": [
+    "remote"
+   ],
+   "categories": [
+    "support"
+   ],
+   "salary": "£23 per hour",
+   "salary_min": null,
+   "salary_max": null,
+   "contract": "",
+   "posted": "2026-11-12",
+   "closing": null,
+   "listing_url": "https://uk.jooble.org/desc/-3259964525014753950?ckey=older+people+remote&rgn=0&pos=22&groupId=-1621589893&elckey=8748086520370132524&p=1&aq=-4856923303149671807&cid=526&jobAge=158&brelb=100&bscr=58.165474&scr=58.165474",
+   "apply_url": "https://uk.jooble.org/desc/-3259964525014753950?ckey=older+people+remote&rgn=0&pos=22&groupId=-1621589893&elckey=8748086520370132524&p=1&aq=-4856923303149671807&cid=526&jobAge=158&brelb=100&bscr=58.165474&scr=58.165474",
+   "apply_via": "Jooble → advertiser",
+   "summary": "Key Duties Deliver person-centred care to older adults in line with care plans. ...caring for older adults (care home experience preferred; island/remote experience is a bonus).",
+   "responsibilities": [
+    "Key Duties Deliver person-centred care to older adults in line with care plans."
+   ],
+   "full_description": false,
+   "process": {
+    "type": "Via Jooble to the employer / agency site",
+    "steps": [
+     "Open the listing (Jooble forwards you to the original advert)",
+     "Follow the advertiser's apply steps",
+     "Upload a tailored CV and submit"
+    ],
+    "minutes_low": 30,
+    "minutes_high": 75,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 34,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Community engagement, Older people",
+     "+ Supports older people",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -14638,7 +15101,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -14710,7 +15173,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -14777,7 +15240,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -14847,7 +15310,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -14912,7 +15375,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -14977,7 +15440,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -15044,7 +15507,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -15109,7 +15572,72 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57586840",
+   "source": "Reed",
+   "title": "Reception Building Host",
+   "employer": "Cummins Mellor Recruitment",
+   "location": "Manchester",
+   "areas": [
+    "manchester"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£27,810 per annum, inc benefits",
+   "salary_min": 27810,
+   "salary_max": 27810,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-18",
+   "closing": "2026-12-16",
+   "listing_url": "https://www.reed.co.uk/jobs/reception-building-host/57586840",
+   "apply_url": "https://www.reed.co.uk/jobs/reception-building-host/57586840",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Manchester | £27,810 per annum | Permanent, In Office Role Are you a naturally friendly, outgoing and proactive person who enjoys meeting people and creating a great first impression? We are currently recruiting for a Receptionist / Building Host to join a professional and welcoming team based in Manchester.",
+   "responsibilities": [
+    "Meeting and greeting visitors, creating a positive first impression.",
+    "Notifying tenants of visitors and managing incoming telephone calls.",
+    "Providing a high level of customer service and building positive relationships with tenants and visitors.",
+    "Maintaining a professional, clean and organised reception and lobby area.",
+    "Carrying out regular building checks and reporting any maintenance or cleaning issues.",
+    "Supporting with building events and liaising with external suppliers and contractors."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 33,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Events, Customer service, Admin & IT, Research & reporting"
+    ]
+   },
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -15172,7 +15700,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -15237,7 +15765,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -15302,7 +15830,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -15367,7 +15895,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -15432,7 +15960,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -15501,7 +16029,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -15566,7 +16094,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -15634,7 +16162,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -15704,7 +16232,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -15771,7 +16299,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -15834,7 +16362,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -15902,7 +16430,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -15974,7 +16502,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -16042,7 +16570,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -16101,7 +16629,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -16171,74 +16699,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
-     "status": 200,
-     "state": "ok",
-     "note": "Page loaded"
-    }
-   }
-  },
-  {
-   "id": "reed-57527970",
-   "source": "Reed",
-   "title": "Technical Administrator",
-   "employer": "Kingdom People",
-   "location": "Barnsley",
-   "areas": [
-    "sheffield"
-   ],
-   "categories": [
-    "admin"
-   ],
-   "salary": "£36,000 - £45,000 per annum",
-   "salary_min": 36000,
-   "salary_max": 45000,
-   "contract": "Permanent, Full-time",
-   "posted": "2026-11-04",
-   "closing": "2026-12-16",
-   "listing_url": "https://www.reed.co.uk/jobs/technical-administrator/57527970",
-   "apply_url": "https://www.reed.co.uk/jobs/technical-administrator/57527970",
-   "apply_via": "Reed (quick apply)",
-   "summary": "Technical Administrator Location: South Yorkshire (Office-Based) Hours: 37.5 hours per week Salary: Competitive, dependent on experience + excellent benefits package About the Company Our client is a well-established business with a long-standing reputation for delivering complex projects across the UK and Europe.",
-   "responsibilities": [
-    "Working with a diverse portfolio of clients, they provide design, manufacturing and project delivery services across a range of sectors.",
-    "Due to continued growth, they are looking to recruit a Technical Administrator to support the coordination of technical and design arm of the business , ensuring projects are…",
-    "* Support project-specific designs and drawing requirements, ensuring compliance with client specifications.",
-    "* Coordinate activities with external design and drafting providers."
-   ],
-   "full_description": true,
-   "process": {
-    "type": "Quick apply on Reed (CV)",
-    "steps": [
-     "Sign in to Reed",
-     "Upload the tailored CV",
-     "Add a portfolio link",
-     "Add a short cover note, then submit"
-    ],
-    "minutes_low": 25,
-    "minutes_high": 50,
-    "notes": [
-     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
-    ]
-   },
-   "sponsorship": "not_stated",
-   "flags": [
-    "Portfolio requested"
-   ],
-   "level": "mid",
-   "match": {
-    "score": 32,
-    "level": "weak",
-    "reasons": [
-     "Skills overlap: Events, Customer service, Admin & IT",
-     "+ Junior-friendly job title"
-    ]
-   },
-   "first_seen": "2026-11-17",
-   "last_seen": "2026-11-18",
-   "link_check": {
-    "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -16308,7 +16769,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -16372,7 +16833,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -16440,7 +16901,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -16501,7 +16962,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -16565,7 +17026,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -16631,7 +17092,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -16697,7 +17158,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -16722,8 +17183,8 @@
    "contract": "Full-Time",
    "posted": "2026-10-22",
    "closing": null,
-   "listing_url": "https://www.adzuna.co.uk/jobs/land/ad/5937632251?se=-olpuznj8RG6ZPLp0AWy5Q&utm_medium=api&utm_source=199aaf03&v=3E5618323DA74D5883B34727B13EB996264BF03C",
-   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5937632251?se=-olpuznj8RG6ZPLp0AWy5Q&utm_medium=api&utm_source=199aaf03&v=3E5618323DA74D5883B34727B13EB996264BF03C",
+   "listing_url": "https://www.adzuna.co.uk/jobs/land/ad/5937632251?se=wDNR61zj8RGORbMAgDEAdw&utm_medium=api&utm_source=199aaf03&v=3E5618323DA74D5883B34727B13EB996264BF03C",
+   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5937632251?se=wDNR61zj8RGORbMAgDEAdw&utm_medium=api&utm_source=199aaf03&v=3E5618323DA74D5883B34727B13EB996264BF03C",
    "apply_via": "Adzuna → advertiser",
    "summary": "Department: Legal Support | Financial Lines Location: Manchester & Birmingham The Role The Legal Support Assistant plays a key role in delivering high-quality administrative, operational and client service support to fee earners and legal teams.",
    "responsibilities": [
@@ -16759,7 +17220,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -16784,8 +17245,8 @@
    "contract": "Permanent, Full-Time",
    "posted": "2026-11-02",
    "closing": null,
-   "listing_url": "https://www.adzuna.co.uk/jobs/land/ad/5950906002?se=nCyqvTnj8RG9UokkfvLx9Q&utm_medium=api&utm_source=199aaf03&v=7DB44F772F2EE611C80E78E9B9410AA78F40B1C1",
-   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5950906002?se=nCyqvTnj8RG9UokkfvLx9Q&utm_medium=api&utm_source=199aaf03&v=7DB44F772F2EE611C80E78E9B9410AA78F40B1C1",
+   "listing_url": "https://www.adzuna.co.uk/jobs/land/ad/5950906002?se=mnzv7Vzj8RGTV-arMDkXiw&utm_medium=api&utm_source=199aaf03&v=7DB44F772F2EE611C80E78E9B9410AA78F40B1C1",
+   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5950906002?se=mnzv7Vzj8RGTV-arMDkXiw&utm_medium=api&utm_source=199aaf03&v=7DB44F772F2EE611C80E78E9B9410AA78F40B1C1",
    "apply_via": "Adzuna → advertiser",
    "summary": "Independent Living Officer Rochdale £30,826 Hours: Full Time (36.25 hours, Monday to Friday) Contract: Permanent Are you passionate about helping older and vulnerable people maintain their independence, wellbeing and quality of life?",
    "responsibilities": [
@@ -16821,7 +17282,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -16846,8 +17307,8 @@
    "contract": "Full-time",
    "posted": "2026-11-17",
    "closing": null,
-   "listing_url": "https://uk.jooble.org/desc/666617464229038780?ckey=customer+service+advisor&rgn=22&pos=30&groupId=2148&elckey=-642642897583027068&p=1&aq=-7977009301469121760&cid=526&jobAge=34&brelb=100&bscr=41.122826&scr=41.122826",
-   "apply_url": "https://uk.jooble.org/desc/666617464229038780?ckey=customer+service+advisor&rgn=22&pos=30&groupId=2148&elckey=-642642897583027068&p=1&aq=-7977009301469121760&cid=526&jobAge=34&brelb=100&bscr=41.122826&scr=41.122826",
+   "listing_url": "https://uk.jooble.org/desc/666617464229038780?ckey=customer+service+advisor&rgn=22&pos=24&groupId=2148&elckey=4680647823656490229&p=1&aq=2343965301589102808&cid=526&jobAge=38&brelb=100&bscr=41.65265&scr=41.65265",
+   "apply_url": "https://uk.jooble.org/desc/666617464229038780?ckey=customer+service+advisor&rgn=22&pos=24&groupId=2148&elckey=4680647823656490229&p=1&aq=2343965301589102808&cid=526&jobAge=38&brelb=100&bscr=41.65265&scr=41.65265",
    "apply_via": "Jooble → advertiser",
    "summary": "Title: Graduate Assistant Location: London / Hybrid Salary: £26,000 - £28,000 per annum Type: Full time or Part Time Our client is looking to recruit a full-time or Part time Administrator in London. The role involves: Assisting with facilities issues ...",
    "responsibilities": [
@@ -16885,7 +17346,68 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 403,
+     "state": "blocked",
+     "note": "Site blocks automated checks (403); open it manually"
+    }
+   }
+  },
+  {
+   "id": "jooble--1768133492785172594",
+   "source": "Jooble",
+   "title": "Administrator",
+   "employer": "Not stated",
+   "location": "Borehamwood, Hertfordshire",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£28k - £33k per annum",
+   "salary_min": 28000,
+   "salary_max": 33000,
+   "contract": "Full-time",
+   "posted": "2026-10-29",
+   "closing": null,
+   "listing_url": "https://uk.jooble.org/desc/-1768133492785172594?ckey=administrator&rgn=22&pos=28&groupId=33591&elckey=5281170874905221625&p=1&aq=-5885906310599044784&cid=526&jobAge=481&brelb=100&bscr=106.21823&scr=106.21823",
+   "apply_url": "https://uk.jooble.org/desc/-1768133492785172594?ckey=administrator&rgn=22&pos=28&groupId=33591&elckey=5281170874905221625&p=1&aq=-5885906310599044784&cid=526&jobAge=481&brelb=100&bscr=106.21823&scr=106.21823",
+   "apply_via": "Jooble → advertiser",
+   "summary": "...You’ll support colleagues across the business with general administration, updating information and documents, helping with customer enquiries, and assisting with training, marketing and events. You don’t need to be a technical expert — a positive attitude, good attention to...",
+   "responsibilities": [
+    "...You’ll support colleagues across the business with general administration, updating information and documents, helping with customer enquiries, and assisting with training,…"
+   ],
+   "full_description": false,
+   "process": {
+    "type": "Via Jooble to the employer / agency site",
+    "steps": [
+     "Open the listing (Jooble forwards you to the original advert)",
+     "Follow the advertiser's apply steps",
+     "Upload a tailored CV and submit"
+    ],
+    "minutes_low": 30,
+    "minutes_high": 75,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 32,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Events, Customer service, Admin & IT",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -16910,8 +17432,8 @@
    "contract": "Full-time",
    "posted": "2026-11-13",
    "closing": null,
-   "listing_url": "https://uk.jooble.org/desc/1593573593713500626?ckey=older+people&rgn=1449&pos=6&groupId=44445&elckey=7899414360053982674&p=1&aq=936093533861915681&cid=526&jobAge=130&brelb=100&bscr=65.709526&scr=65.709526",
-   "apply_url": "https://uk.jooble.org/desc/1593573593713500626?ckey=older+people&rgn=1449&pos=6&groupId=44445&elckey=7899414360053982674&p=1&aq=936093533861915681&cid=526&jobAge=130&brelb=100&bscr=65.709526&scr=65.709526",
+   "listing_url": "https://uk.jooble.org/desc/1593573593713500626?ckey=older+people&rgn=1449&pos=7&groupId=44445&elckey=-5224038992416051645&p=1&aq=3481809754961486681&cid=526&jobAge=134&brelb=100&bscr=66.017334&scr=66.017334",
+   "apply_url": "https://uk.jooble.org/desc/1593573593713500626?ckey=older+people&rgn=1449&pos=7&groupId=44445&elckey=-5224038992416051645&p=1&aq=3481809754961486681&cid=526&jobAge=134&brelb=100&bscr=66.017334&scr=66.017334",
    "apply_via": "Jooble → advertiser",
    "summary": "Our co-production goals, seek to ensure young people’s voices are recognised throughout all aspects of the... ...provide general needs housing, supported accommodation, and homes for older people.",
    "responsibilities": [
@@ -16946,7 +17468,254 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 403,
+     "state": "blocked",
+     "note": "Site blocks automated checks (403); open it manually"
+    }
+   }
+  },
+  {
+   "id": "jooble-378535791555724162",
+   "source": "Jooble",
+   "title": "Activities Coordinator( 37.5hours)",
+   "employer": "Hill Care Group",
+   "location": "Sheffield",
+   "areas": [
+    "sheffield"
+   ],
+   "categories": [
+    "support"
+   ],
+   "salary": "£12.71 per hour",
+   "salary_min": null,
+   "salary_max": null,
+   "contract": "Full-time",
+   "posted": "2026-10-26",
+   "closing": null,
+   "listing_url": "https://uk.jooble.org/desc/378535791555724162?ckey=older+people&rgn=1472&pos=1&groupId=44445&elckey=1033041854499025994&p=1&aq=3190208096611089444&cid=526&jobAge=566&brelb=100&bscr=73.42273&scr=73.42273",
+   "apply_url": "https://uk.jooble.org/desc/378535791555724162?ckey=older+people&rgn=1472&pos=1&groupId=44445&elckey=1033041854499025994&p=1&aq=3190208096611089444&cid=526&jobAge=566&brelb=100&bscr=73.42273&scr=73.42273",
+   "apply_via": "Jooble → advertiser",
+   "summary": "...looking for someone with a genuine passion for enhancing the lives of older adults. You'll bring proven experience in developing and...",
+   "responsibilities": [
+    "You'll bring proven experience in developing and..."
+   ],
+   "full_description": false,
+   "process": {
+    "type": "Via Jooble to the employer / agency site",
+    "steps": [
+     "Open the listing (Jooble forwards you to the original advert)",
+     "Follow the advertiser's apply steps",
+     "Upload a tailored CV and submit"
+    ],
+    "minutes_low": 30,
+    "minutes_high": 75,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 32,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Events, Older people",
+     "+ Supports older people",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 403,
+     "state": "blocked",
+     "note": "Site blocks automated checks (403); open it manually"
+    }
+   }
+  },
+  {
+   "id": "jooble--2896253608076647739",
+   "source": "Jooble",
+   "title": "Activities Coordinator",
+   "employer": "Greensleeves Homes Trust",
+   "location": "London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "support"
+   ],
+   "salary": "Not stated",
+   "salary_min": null,
+   "salary_max": null,
+   "contract": "Full-time",
+   "posted": "2026-10-20",
+   "closing": null,
+   "listing_url": "https://uk.jooble.org/desc/-2896253608076647739?ckey=older+people&rgn=22&pos=15&groupId=44445&elckey=8906744559555168508&p=1&aq=8346547660715651565&cid=526&jobAge=710&brelb=100&bscr=76.98447&scr=76.98447",
+   "apply_url": "https://uk.jooble.org/desc/-2896253608076647739?ckey=older+people&rgn=22&pos=15&groupId=44445&elckey=8906744559555168508&p=1&aq=8346547660715651565&cid=526&jobAge=710&brelb=100&bscr=76.98447&scr=76.98447",
+   "apply_via": "Jooble → advertiser",
+   "summary": "At Greensleeves Care, we deliver exceptional 24-hour residential, dementia and nursing care to older people across our 26 care homes in England. We are an accredited Living Wage employer, and Greensleeves Care are endorsed with Skills for...",
+   "responsibilities": [
+    "At Greensleeves Care, we deliver exceptional 24-hour residential, dementia and nursing care to older people across our 26 care homes in England."
+   ],
+   "full_description": false,
+   "process": {
+    "type": "Via Jooble to the employer / agency site",
+    "steps": [
+     "Open the listing (Jooble forwards you to the original advert)",
+     "Follow the advertiser's apply steps",
+     "Upload a tailored CV and submit"
+    ],
+    "minutes_low": 30,
+    "minutes_high": 75,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 32,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Events, Older people",
+     "+ Supports older people",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 403,
+     "state": "blocked",
+     "note": "Site blocks automated checks (403); open it manually"
+    }
+   }
+  },
+  {
+   "id": "jooble--3997499473134291917",
+   "source": "Jooble",
+   "title": "Activities & Wellbeing Coordinator - Amherst Court, Chatham",
+   "employer": "Avante Care & Support",
+   "location": "Chatham, Kent",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "support"
+   ],
+   "salary": "£13 per hour",
+   "salary_min": null,
+   "salary_max": null,
+   "contract": "",
+   "posted": "2026-10-28",
+   "closing": null,
+   "listing_url": "https://uk.jooble.org/desc/-3997499473134291917?ckey=older+people&rgn=22&pos=16&groupId=44445&elckey=8906744559555168508&p=1&aq=8346547660715651565&cid=526&jobAge=518&brelb=100&bscr=76.149734&scr=76.149734",
+   "apply_url": "https://uk.jooble.org/desc/-3997499473134291917?ckey=older+people&rgn=22&pos=16&groupId=44445&elckey=8906744559555168508&p=1&aq=8346547660715651565&cid=526&jobAge=518&brelb=100&bscr=76.149734&scr=76.149734",
+   "apply_via": "Jooble → advertiser",
+   "summary": "Amherst Court is a welcoming residential care home providing high-quality, person-centred support for older people in a warm and homely environment. Part of Avante Care & Support, the home is committed to promoting dignity, independence, and wellbeing...",
+   "responsibilities": [
+    "Amherst Court is a welcoming residential care home providing high-quality, person-centred support for older people in a warm and homely environment.",
+    "Part of Avante Care & Support, the home is committed to promoting dignity, independence, and wellbeing..."
+   ],
+   "full_description": false,
+   "process": {
+    "type": "Via Jooble to the employer / agency site",
+    "steps": [
+     "Open the listing (Jooble forwards you to the original advert)",
+     "Follow the advertiser's apply steps",
+     "Upload a tailored CV and submit"
+    ],
+    "minutes_low": 30,
+    "minutes_high": 75,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 32,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Events, Older people",
+     "+ Supports older people",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 403,
+     "state": "blocked",
+     "note": "Site blocks automated checks (403); open it manually"
+    }
+   }
+  },
+  {
+   "id": "jooble-6923968175408115311",
+   "source": "Jooble",
+   "title": "Activities Coordinator",
+   "employer": "Aurem Care",
+   "location": "Ashtead, Surrey",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "support"
+   ],
+   "salary": "£13 per hour",
+   "salary_min": null,
+   "salary_max": null,
+   "contract": "",
+   "posted": "2026-11-04",
+   "closing": null,
+   "listing_url": "https://uk.jooble.org/desc/6923968175408115311?ckey=older+people&rgn=22&pos=24&groupId=44445&elckey=8906744559555168508&p=1&aq=8346547660715651565&cid=526&jobAge=350&brelb=100&bscr=71.33933&scr=71.33933",
+   "apply_url": "https://uk.jooble.org/desc/6923968175408115311?ckey=older+people&rgn=22&pos=24&groupId=44445&elckey=8906744559555168508&p=1&aq=8346547660715651565&cid=526&jobAge=350&brelb=100&bscr=71.33933&scr=71.33933",
+   "apply_via": "Jooble → advertiser",
+   "summary": "...43 Skinners Lane, Ashtead, Surrey, KT21 2NN Share Make Every Day Meaningful Are you passionate about enriching the lives of older people? Do you have a creative flair, a caring nature, and a talent for bringing people together?",
+   "responsibilities": [],
+   "full_description": false,
+   "process": {
+    "type": "Via Jooble to the employer / agency site",
+    "steps": [
+     "Open the listing (Jooble forwards you to the original advert)",
+     "Follow the advertiser's apply steps",
+     "Upload a tailored CV and submit"
+    ],
+    "minutes_low": 30,
+    "minutes_high": 75,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 32,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Events, Older people",
+     "+ Supports older people",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -17008,192 +17777,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
-     "status": 403,
-     "state": "blocked",
-     "note": "Site blocks automated checks (403); open it manually"
-    }
-   }
-  },
-  {
-   "id": "jooble--2896253608076647739",
-   "source": "Jooble",
-   "title": "Activities Coordinator",
-   "employer": "Greensleeves Homes Trust",
-   "location": "London",
-   "areas": [
-    "london"
-   ],
-   "categories": [
-    "support"
-   ],
-   "salary": "Not stated",
-   "salary_min": null,
-   "salary_max": null,
-   "contract": "Full-time",
-   "posted": "2026-10-20",
-   "closing": null,
-   "listing_url": "https://uk.jooble.org/desc/-2896253608076647739?ckey=older+people&rgn=22&pos=13&groupId=44445&elckey=3583453838315651211&p=1&aq=2648347310489514178&cid=526&jobAge=706&brelb=100&bscr=77.181015&scr=77.181015",
-   "apply_url": "https://uk.jooble.org/desc/-2896253608076647739?ckey=older+people&rgn=22&pos=13&groupId=44445&elckey=3583453838315651211&p=1&aq=2648347310489514178&cid=526&jobAge=706&brelb=100&bscr=77.181015&scr=77.181015",
-   "apply_via": "Jooble → advertiser",
-   "summary": "At Greensleeves Care, we deliver exceptional 24-hour residential, dementia and nursing care to older people across our 26 care homes in England. We are an accredited Living Wage employer, and Greensleeves Care are endorsed with Skills for...",
-   "responsibilities": [
-    "At Greensleeves Care, we deliver exceptional 24-hour residential, dementia and nursing care to older people across our 26 care homes in England."
-   ],
-   "full_description": false,
-   "process": {
-    "type": "Via Jooble to the employer / agency site",
-    "steps": [
-     "Open the listing (Jooble forwards you to the original advert)",
-     "Follow the advertiser's apply steps",
-     "Upload a tailored CV and submit"
-    ],
-    "minutes_low": 30,
-    "minutes_high": 75,
-    "notes": [
-     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
-    ]
-   },
-   "sponsorship": "not_stated",
-   "flags": [],
-   "level": "mid",
-   "match": {
-    "score": 32,
-    "level": "weak",
-    "reasons": [
-     "Skills overlap: Events, Older people",
-     "+ Supports older people",
-     "+ Junior-friendly job title"
-    ]
-   },
-   "first_seen": "2026-11-18",
-   "last_seen": "2026-11-18",
-   "link_check": {
-    "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
-     "status": 403,
-     "state": "blocked",
-     "note": "Site blocks automated checks (403); open it manually"
-    }
-   }
-  },
-  {
-   "id": "jooble--3997499473134291917",
-   "source": "Jooble",
-   "title": "Activities & Wellbeing Coordinator - Amherst Court, Chatham",
-   "employer": "Avante Care & Support",
-   "location": "Chatham, Kent",
-   "areas": [
-    "london"
-   ],
-   "categories": [
-    "support"
-   ],
-   "salary": "£13 per hour",
-   "salary_min": null,
-   "salary_max": null,
-   "contract": "",
-   "posted": "2026-10-28",
-   "closing": null,
-   "listing_url": "https://uk.jooble.org/desc/-3997499473134291917?ckey=older+people&rgn=22&pos=17&groupId=44445&elckey=3583453838315651211&p=1&aq=2648347310489514178&cid=526&jobAge=514&brelb=100&bscr=75.225845&scr=75.225845",
-   "apply_url": "https://uk.jooble.org/desc/-3997499473134291917?ckey=older+people&rgn=22&pos=17&groupId=44445&elckey=3583453838315651211&p=1&aq=2648347310489514178&cid=526&jobAge=514&brelb=100&bscr=75.225845&scr=75.225845",
-   "apply_via": "Jooble → advertiser",
-   "summary": "Amherst Court is a welcoming residential care home providing high-quality, person-centred support for older people in a warm and homely environment. Part of Avante Care & Support, the home is committed to promoting dignity, independence, and wellbeing...",
-   "responsibilities": [
-    "Amherst Court is a welcoming residential care home providing high-quality, person-centred support for older people in a warm and homely environment.",
-    "Part of Avante Care & Support, the home is committed to promoting dignity, independence, and wellbeing..."
-   ],
-   "full_description": false,
-   "process": {
-    "type": "Via Jooble to the employer / agency site",
-    "steps": [
-     "Open the listing (Jooble forwards you to the original advert)",
-     "Follow the advertiser's apply steps",
-     "Upload a tailored CV and submit"
-    ],
-    "minutes_low": 30,
-    "minutes_high": 75,
-    "notes": [
-     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
-    ]
-   },
-   "sponsorship": "not_stated",
-   "flags": [],
-   "level": "mid",
-   "match": {
-    "score": 32,
-    "level": "weak",
-    "reasons": [
-     "Skills overlap: Events, Older people",
-     "+ Supports older people",
-     "+ Junior-friendly job title"
-    ]
-   },
-   "first_seen": "2026-11-18",
-   "last_seen": "2026-11-18",
-   "link_check": {
-    "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
-     "status": 403,
-     "state": "blocked",
-     "note": "Site blocks automated checks (403); open it manually"
-    }
-   }
-  },
-  {
-   "id": "jooble-6923968175408115311",
-   "source": "Jooble",
-   "title": "Activities Coordinator",
-   "employer": "Aurem Care",
-   "location": "Ashtead, Surrey",
-   "areas": [
-    "london"
-   ],
-   "categories": [
-    "support"
-   ],
-   "salary": "£13 per hour",
-   "salary_min": null,
-   "salary_max": null,
-   "contract": "",
-   "posted": "2026-11-04",
-   "closing": null,
-   "listing_url": "https://uk.jooble.org/desc/6923968175408115311?ckey=older+people&rgn=22&pos=26&groupId=44445&elckey=3583453838315651211&p=1&aq=2648347310489514178&cid=526&jobAge=346&brelb=100&bscr=70.85495&scr=70.85495",
-   "apply_url": "https://uk.jooble.org/desc/6923968175408115311?ckey=older+people&rgn=22&pos=26&groupId=44445&elckey=3583453838315651211&p=1&aq=2648347310489514178&cid=526&jobAge=346&brelb=100&bscr=70.85495&scr=70.85495",
-   "apply_via": "Jooble → advertiser",
-   "summary": "...43 Skinners Lane, Ashtead, Surrey, KT21 2NN Share Make Every Day Meaningful Are you passionate about enriching the lives of older people? Do you have a creative flair, a caring nature, and a talent for bringing people together?",
-   "responsibilities": [],
-   "full_description": false,
-   "process": {
-    "type": "Via Jooble to the employer / agency site",
-    "steps": [
-     "Open the listing (Jooble forwards you to the original advert)",
-     "Follow the advertiser's apply steps",
-     "Upload a tailored CV and submit"
-    ],
-    "minutes_low": 30,
-    "minutes_high": 75,
-    "notes": [
-     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
-    ]
-   },
-   "sponsorship": "not_stated",
-   "flags": [],
-   "level": "mid",
-   "match": {
-    "score": 32,
-    "level": "weak",
-    "reasons": [
-     "Skills overlap: Events, Older people",
-     "+ Supports older people",
-     "+ Junior-friendly job title"
-    ]
-   },
-   "first_seen": "2026-11-18",
-   "last_seen": "2026-11-18",
-   "link_check": {
-    "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -17258,7 +17842,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -17321,10 +17905,139 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57586593",
+   "source": "Reed",
+   "title": "Legal Clerk",
+   "employer": "The Hyde Group",
+   "location": "London",
+   "areas": [
+    "remote"
+   ],
+   "categories": [
+    "digital_community"
+   ],
+   "salary": "£28,000 per annum",
+   "salary_min": 28000,
+   "salary_max": 28000,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-18",
+   "closing": "2026-12-30",
+   "listing_url": "https://www.reed.co.uk/jobs/legal-clerk/57586593",
+   "apply_url": "https://www.reed.co.uk/jobs/legal-clerk/57586593",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Legal Clerk London Bridge - Hybrid (3 days in office, 2 days remote working) Up to £28,000 Hyde is looking for a Legal Clerk to join our Legal Services team. You’ll provide administrative and case management support, assisting with routine housing litigation and helping colleagues prepare accurate legal documents and case materials.",
+   "responsibilities": [
+    "Support routine housing litigation cases, including possession claims, tenancy breaches, anti-social behaviour injunctions and committal proceedings.",
+    "Prepare court applications, witness statements, trial bundles, case chronologies and other legal documents.",
+    "Carry out legal research and assist lawyers with elements of more complex housing management cases.",
+    "Provide proactive administrative and diary management support, including arranging meetings and managing incoming requests.",
+    "Maintain accurate case records, process sensitive information and help the team meet agreed performance and value-for-money targets."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Hybrid",
+    "Remote/home-based"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 31,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Customer service, Admin & IT, Research & reporting, Communication skills"
+    ]
+   },
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "jooble--6607385338003338842",
+   "source": "Jooble",
+   "title": "Field Sales Executive Mandarin Speaking - Greater London South",
+   "employer": "Deliveroo",
+   "location": "London",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "support"
+   ],
+   "salary": "Not stated",
+   "salary_min": null,
+   "salary_max": null,
+   "contract": "",
+   "posted": "2026-11-13",
+   "closing": null,
+   "listing_url": "https://uk.jooble.org/desc/-6607385338003338842?ckey=mandarin+speaking&rgn=22&pos=4&groupId=43933&elckey=6379401692344202364&p=1&aq=9198902344693611225&cid=526&jobAge=128&brelb=100&bscr=109.93378&scr=109.93378",
+   "apply_url": "https://uk.jooble.org/desc/-6607385338003338842?ckey=mandarin+speaking&rgn=22&pos=4&groupId=43933&elckey=6379401692344202364&p=1&aq=9198902344693611225&cid=526&jobAge=128&brelb=100&bscr=109.93378&scr=109.93378",
+   "apply_via": "Jooble → advertiser",
+   "summary": "...and leaders across DoorDash and Wolt. Together, we’re unlocking new possibilities as one global team.",
+   "responsibilities": [],
+   "full_description": false,
+   "process": {
+    "type": "Via Jooble to the employer / agency site",
+    "steps": [
+     "Open the listing (Jooble forwards you to the original advert)",
+     "Follow the advertiser's apply steps",
+     "Upload a tailored CV and submit"
+    ],
+    "minutes_low": 30,
+    "minutes_high": 75,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Mandarin/Chinese"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 31,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Languages",
+     "+ Mandarin/Chinese is an asset",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 403,
+     "state": "blocked",
+     "note": "Site blocks automated checks (403); open it manually"
     }
    }
   },
@@ -17389,7 +18102,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -17455,7 +18168,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -17521,7 +18234,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -17585,7 +18298,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -17651,7 +18364,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -17717,7 +18430,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -17783,7 +18496,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -17849,7 +18562,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -17916,7 +18629,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -17981,7 +18694,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -18047,7 +18760,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -18117,7 +18830,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -18187,7 +18900,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -18255,7 +18968,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -18316,7 +19029,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -18382,7 +19095,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -18449,7 +19162,7 @@
    "last_seen": "2026-11-17",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -18515,7 +19228,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -18576,7 +19289,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -18638,7 +19351,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -18705,7 +19418,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -18775,7 +19488,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -18841,7 +19554,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -18907,7 +19620,71 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "reed-57586584",
+   "source": "Reed",
+   "title": "Customer Services Administrator",
+   "employer": "Dynamite Recruitment Solutions Ltd",
+   "location": "Sheffield",
+   "areas": [
+    "sheffield"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£13.00 per hour",
+   "salary_min": 25350,
+   "salary_max": 25350,
+   "contract": "Permanent, Full-time",
+   "posted": "2026-11-18",
+   "closing": "2026-12-17",
+   "listing_url": "https://www.reed.co.uk/jobs/customer-services-administrator/57586584",
+   "apply_url": "https://www.reed.co.uk/jobs/customer-services-administrator/57586584",
+   "apply_via": "Reed (quick apply)",
+   "summary": "Customer Service Advisor Location: Dinnington Salary: £13.23 per hour Hours: Monday–Friday, 9am–5pm Contract: Temporary, ongoing – immediate start required Looking for a customer service role where you can make a real difference and keep things moving?",
+   "responsibilities": [
+    "Coordinating engineer visits, booking appointments and keeping customers updated.",
+    "Supporting field engineers by passing on information and helping resolve issues.",
+    "Managing urgent enquiries, prioritising workloads and escalating issues when needed.",
+    "Chasing outstanding jobs and updates to ensure nothing gets missed."
+   ],
+   "full_description": true,
+   "process": {
+    "type": "Quick apply on Reed (CV)",
+    "steps": [
+     "Sign in to Reed",
+     "Upload the tailored CV",
+     "Add a short cover note, then submit"
+    ],
+    "minutes_low": 15,
+    "minutes_high": 30,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 30,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Customer service, Admin & IT, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -18973,7 +19750,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -19039,7 +19816,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -19110,7 +19887,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -19176,7 +19953,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -19242,7 +20019,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -19305,7 +20082,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -19374,7 +20151,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -19442,7 +20219,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -19505,7 +20282,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -19571,7 +20348,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -19639,7 +20416,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -19664,8 +20441,8 @@
    "contract": "Full-Time",
    "posted": "2026-10-26",
    "closing": null,
-   "listing_url": "https://www.adzuna.co.uk/jobs/details/5942657484?utm_medium=api&utm_source=199aaf03",
-   "apply_url": "https://www.adzuna.co.uk/jobs/details/5942657484?utm_medium=api&utm_source=199aaf03",
+   "listing_url": "https://www.adzuna.co.uk/jobs/land/ad/5942657484?se=Om7x61zj8RGvetEb-95Ieg&utm_medium=api&utm_source=199aaf03&v=8BF25DCE083A92902023B3A82753C772D05BCF40",
+   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5942657484?se=Om7x61zj8RGvetEb-95Ieg&utm_medium=api&utm_source=199aaf03&v=8BF25DCE083A92902023B3A82753C772D05BCF40",
    "apply_via": "Adzuna → advertiser",
    "summary": "Our innovative and durable products are engine…",
    "responsibilities": [],
@@ -19698,10 +20475,10 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
-     "status": 200,
-     "state": "ok",
-     "note": "Page loaded"
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 403,
+     "state": "blocked",
+     "note": "Site blocks automated checks (403); open it manually"
     }
    }
   },
@@ -19762,7 +20539,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -19788,8 +20565,8 @@
    "contract": "",
    "posted": "2026-10-28",
    "closing": null,
-   "listing_url": "https://uk.jooble.org/desc/3015416985548378209?ckey=library+assistant&rgn=22&pos=12&groupId=2209&elckey=-4250333340104143719&p=1&aq=4645574231873957859&cid=526&jobAge=499&brelb=100&bscr=53.414375&scr=53.414375",
-   "apply_url": "https://uk.jooble.org/desc/3015416985548378209?ckey=library+assistant&rgn=22&pos=12&groupId=2209&elckey=-4250333340104143719&p=1&aq=4645574231873957859&cid=526&jobAge=499&brelb=100&bscr=53.414375&scr=53.414375",
+   "listing_url": "https://uk.jooble.org/desc/3015416985548378209?ckey=library+assistant&rgn=22&pos=12&groupId=2209&elckey=1072957381135373578&p=1&aq=-3983297157782272085&cid=526&jobAge=503&brelb=100&bscr=53.216366&scr=53.216366",
+   "apply_url": "https://uk.jooble.org/desc/3015416985548378209?ckey=library+assistant&rgn=22&pos=12&groupId=2209&elckey=1072957381135373578&p=1&aq=-3983297157782272085&cid=526&jobAge=503&brelb=100&bscr=53.216366&scr=53.216366",
    "apply_via": "Jooble → advertiser",
    "summary": "...administrative support to the Accounts & Finance department, including data entry and record management. Processing CIS Payroll timesheets Assist with the preparation and processing of financial documents and reports.",
    "responsibilities": [
@@ -19826,7 +20603,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -19851,8 +20628,8 @@
    "contract": "",
    "posted": "2026-10-24",
    "closing": null,
-   "listing_url": "https://uk.jooble.org/desc/6420403170395861744?ckey=customer+service+advisor&rgn=1472&pos=9&groupId=2148&elckey=7549915085575906786&p=1&aq=6263668660483044709&cid=526&jobAge=609&brelb=100&bscr=31.733131&scr=31.733131",
-   "apply_url": "https://uk.jooble.org/desc/6420403170395861744?ckey=customer+service+advisor&rgn=1472&pos=9&groupId=2148&elckey=7549915085575906786&p=1&aq=6263668660483044709&cid=526&jobAge=609&brelb=100&bscr=31.733131&scr=31.733131",
+   "listing_url": "https://uk.jooble.org/desc/6420403170395861744?ckey=customer+service+advisor&rgn=1472&pos=7&groupId=2148&elckey=-5573538266894127533&p=1&aq=4439753311546010224&cid=526&jobAge=613&brelb=100&bscr=32.27148&scr=32.27148",
+   "apply_url": "https://uk.jooble.org/desc/6420403170395861744?ckey=customer+service+advisor&rgn=1472&pos=7&groupId=2148&elckey=-5573538266894127533&p=1&aq=4439753311546010224&cid=526&jobAge=613&brelb=100&bscr=32.27148&scr=32.27148",
    "apply_via": "Jooble → advertiser",
    "summary": "...Administrator role you will be processing sales orders, updating customer records, communicating via phone and email, producing reports... ...Responding to customer queries and providing excellent customer service Assisting with invoicing and basic finance admin where required...",
    "responsibilities": [
@@ -19888,7 +20665,68 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 403,
+     "state": "blocked",
+     "note": "Site blocks automated checks (403); open it manually"
+    }
+   }
+  },
+  {
+   "id": "jooble--8235443831921203046",
+   "source": "Jooble",
+   "title": "Customer Resolution Advisor",
+   "employer": "Search Consultancy Ltd",
+   "location": "Glasgow",
+   "areas": [
+    "remote"
+   ],
+   "categories": [
+    "admin"
+   ],
+   "salary": "£13.79 per hour",
+   "salary_min": null,
+   "salary_max": null,
+   "contract": "Temporary",
+   "posted": "2026-11-16",
+   "closing": null,
+   "listing_url": "https://uk.jooble.org/desc/-8235443831921203046?ckey=administrator+remote&rgn=0&pos=25&groupId=1631558241&elckey=8080722344085320929&p=1&aq=-1334282096891611653&cid=526&jobAge=62&brelb=10&bscr=578.0115&scr=578.0115",
+   "apply_url": "https://uk.jooble.org/desc/-8235443831921203046?ckey=administrator+remote&rgn=0&pos=25&groupId=1631558241&elckey=8080722344085320929&p=1&aq=-1334282096891611653&cid=526&jobAge=62&brelb=10&bscr=578.0115&scr=578.0115",
+   "apply_via": "Jooble → advertiser",
+   "summary": "Customer Relationship Agent (Remote Working) Location: Remote (Applicants must be based within the Dundee, Dunfermline, Edinburgh,... ...Experience Essential: Previous call centre, customer service or administrative experience.",
+   "responsibilities": [],
+   "full_description": false,
+   "process": {
+    "type": "Via Jooble to the employer / agency site",
+    "steps": [
+     "Open the listing (Jooble forwards you to the original advert)",
+     "Follow the advertiser's apply steps",
+     "Upload a tailored CV and submit"
+    ],
+    "minutes_low": 30,
+    "minutes_high": 75,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [
+    "Remote/home-based"
+   ],
+   "level": "mid",
+   "match": {
+    "score": 30,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Customer service, Admin & IT, Communication skills",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 403,
      "state": "blocked",
      "note": "Site blocks automated checks (403); open it manually"
@@ -19948,7 +20786,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -20008,7 +20846,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -20070,7 +20908,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -20129,7 +20967,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -20191,7 +21029,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -20251,7 +21089,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -20313,7 +21151,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -20373,7 +21211,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -20435,7 +21273,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -20497,7 +21335,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -20556,7 +21394,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -20617,7 +21455,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -20679,7 +21517,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -20740,7 +21578,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -20801,7 +21639,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -20861,7 +21699,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -20923,7 +21761,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -20983,7 +21821,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -21046,7 +21884,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -21106,7 +21944,69 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
+     "status": 200,
+     "state": "ok",
+     "note": "Page loaded"
+    }
+   }
+  },
+  {
+   "id": "nhs-C9455-26-00003",
+   "source": "NHS Jobs",
+   "title": "Care Coordinator Band 6",
+   "employer": "North London NHS Foundation Trust",
+   "location": "London, N15 3TH",
+   "areas": [
+    "london"
+   ],
+   "categories": [
+    "digital_community"
+   ],
+   "salary": "£47,951–£56,863",
+   "salary_min": 47951,
+   "salary_max": 56863,
+   "contract": "Permanent",
+   "posted": "2026-11-18",
+   "closing": "2026-12-02",
+   "listing_url": "https://www.jobs.nhs.uk/candidate/jobadvert/C9455-26-00003",
+   "apply_url": "https://www.jobs.nhs.uk/candidate/jobadvert/C9455-26-00003",
+   "apply_via": "NHS Jobs",
+   "summary": "You will be joining Barnet West Core Team, an Adult Community Mental Health Team, as a Band 6 Care Coordinator (Key Worker).",
+   "responsibilities": [
+    "You will be joining Barnet West Core Team, an Adult Community Mental Health Team, as a Band 6 Care Coordinator (Key Worker)."
+   ],
+   "full_description": false,
+   "process": {
+    "type": "Application form + supporting statement",
+    "steps": [
+     "Create an account on the NHS Jobs website",
+     "Fill in personal details, education and employment history",
+     "Write a supporting statement against the person specification (STAR examples)",
+     "Complete the equality monitoring form and submit"
+    ],
+    "minutes_low": 120,
+    "minutes_high": 180,
+    "notes": [
+     "Times include tailoring the CV/statement; first-time portal sign-ups take longer"
+    ]
+   },
+   "sponsorship": "not_stated",
+   "flags": [],
+   "level": "mid",
+   "match": {
+    "score": 17,
+    "level": "weak",
+    "reasons": [
+     "Skills overlap: Community engagement",
+     "+ Junior-friendly job title"
+    ]
+   },
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "link_check": {
+    "listing": {
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -21168,7 +22068,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -21229,7 +22129,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -21290,7 +22190,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -21350,7 +22250,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -21410,7 +22310,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -21472,7 +22372,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -21534,7 +22434,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -21597,7 +22497,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -21659,7 +22559,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -21721,7 +22621,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -21783,7 +22683,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -21846,7 +22746,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -21908,7 +22808,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -21970,7 +22870,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -22030,7 +22930,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -22093,7 +22993,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -22155,7 +23055,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -22217,7 +23117,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -22279,7 +23179,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"
@@ -22339,7 +23239,7 @@
    "last_seen": "2026-11-18",
    "link_check": {
     "listing": {
-     "checked": "2026-11-18T10:19:43+00:00",
+     "checked": "2026-11-18T14:31:44+00:00",
      "status": 200,
      "state": "ok",
      "note": "Page loaded"

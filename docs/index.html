@@ -3,8 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Job Finder</title>
+<title>Job Finder for 宝宝</title>
 <meta name="description" content="Daily-updated graduate roles in comms, community, admin and support, with application details and a match estimate.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="favicon.svg">
+<meta name="theme-color" content="#2e8b57">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -14,62 +17,72 @@
 <div class="topline" aria-hidden="true"></div>
 <header class="site-header">
   <div class="wrap header-inner">
-    <div>
-      <h1>Job Finder</h1>
-      <p class="tagline">Graduate roles in comms, community, admin &amp; support, refreshed every morning.</p>
+    <div class="brand">
+      <img class="brand-icon" src="favicon.svg" alt="" width="40" height="40">
+      <div>
+        <h1 data-i18n="appTitle">Job Finder for 宝宝</h1>
+        <p class="tagline" data-i18n="tagline">Graduate roles in comms, community, admin &amp; support, refreshed every morning.</p>
+      </div>
     </div>
-    <div class="updated" id="updated" aria-live="polite">Loading…</div>
+    <div class="header-side">
+      <div class="lang-switch" role="group" aria-label="Language / 语言">
+        <button type="button" class="lang-btn" data-lang="en" lang="en" aria-pressed="true">English</button>
+        <button type="button" class="lang-btn" data-lang="zh" lang="zh-CN" aria-pressed="false">中文</button>
+      </div>
+      <div class="updated" id="updated" aria-live="polite">Loading…</div>
+    </div>
   </div>
 </header>
 
 <main class="wrap">
-  <section class="stats" id="stats" aria-label="Summary"></section>
+  <section class="stats" id="stats" data-i18n-aria="summary" aria-label="Summary"></section>
 
   <div class="notice" id="notice" hidden></div>
+  <p class="lang-note" id="langNote" hidden data-i18n="langNote"></p>
 
-  <section class="filters" aria-label="Filters">
+  <section class="filters" data-i18n-aria="filters" aria-label="Filters">
     <div class="filter-row">
       <label class="field grow">
-        <span>Search</span>
-        <input type="search" id="q" placeholder="Title, employer, skill…" autocomplete="off">
+        <span data-i18n="search">Search</span>
+        <input type="search" id="q" placeholder="Title, employer, skill…" data-i18n-placeholder="searchPlaceholder" autocomplete="off">
       </label>
       <label class="field">
-        <span>Location</span>
-        <select id="loc"><option value="">All locations</option></select>
+        <span data-i18n="location">Location</span>
+        <select id="loc"><option value="" data-i18n="allLocations">All locations</option></select>
       </label>
       <label class="field">
-        <span>Visa sponsorship</span>
+        <span data-i18n="visaSponsorship">Visa sponsorship</span>
         <select id="visa">
-          <option value="">Any</option>
-          <option value="offered">Sponsorship offered</option>
-          <option value="not_stated">Not stated</option>
-          <option value="rtw_required">Right to work required</option>
-          <option value="not_offered">Not offered</option>
+          <option value="" data-i18n="any">Any</option>
+          <option value="offered" data-i18n="visa.offered">Sponsorship offered</option>
+          <option value="not_stated" data-i18n="visa.not_stated">Not stated</option>
+          <option value="rtw_required" data-i18n="visa.rtw_required_long">Right to work required</option>
+          <option value="not_offered" data-i18n="visa.not_offered_long">Not offered</option>
         </select>
       </label>
       <label class="field">
-        <span>Sort by</span>
+        <span data-i18n="sortBy">Sort by</span>
         <select id="sort">
-          <option value="match">Best match</option>
-          <option value="closing">Closing soonest</option>
-          <option value="posted">Newest</option>
-          <option value="salary">Highest salary</option>
-          <option value="time">Quickest to apply</option>
+          <option value="match" data-i18n="sort.match">Best match</option>
+          <option value="closing" data-i18n="sort.closing">Closing soonest</option>
+          <option value="posted" data-i18n="sort.posted">Newest</option>
+          <option value="salary" data-i18n="sort.salary">Highest salary</option>
+          <option value="time" data-i18n="sort.time">Quickest to apply</option>
         </select>
       </label>
     </div>
     <div class="filter-row">
-      <div class="chips" id="cats" role="group" aria-label="Job types"></div>
+      <div class="chips" id="cats" role="group" data-i18n-aria="jobTypes" aria-label="Job types"></div>
     </div>
     <div class="filter-row">
       <label class="field range">
-        <span>Minimum match: <strong id="minval">40%</strong></span>
+        <span><span data-i18n="minMatch">Minimum match:</span> <strong id="minval">40%</strong></span>
         <input type="range" id="min" min="0" max="90" step="5" value="40">
       </label>
-      <label class="check"><input type="checkbox" id="hideSenior" checked> Hide senior roles</label>
-      <label class="check"><input type="checkbox" id="newOnly"> New today</label>
-      <label class="check"><input type="checkbox" id="closingSoon"> Closing within 7 days</label>
-      <button type="button" class="link-btn" id="reset">Reset filters</button>
+      <label class="check"><input type="checkbox" id="hideSenior" checked> <span data-i18n="hideSenior">Hide senior roles</span></label>
+      <label class="check"><input type="checkbox" id="newOnly"> <span data-i18n="newOnly">New today</span></label>
+      <label class="check"><input type="checkbox" id="closingSoon"> <span data-i18n="closingSoon">Closing within 7 days</span></label>
+      <button type="button" class="link-btn" id="reset" data-i18n="reset">Reset filters</button>
     </div>
   </section>
 
@@ -79,14 +92,14 @@
     <table class="jobs">
       <thead>
         <tr>
-          <th scope="col">Match</th>
-          <th scope="col">Role</th>
-          <th scope="col">Location</th>
-          <th scope="col">Salary</th>
-          <th scope="col">Closes</th>
-          <th scope="col">Application</th>
-          <th scope="col">Visa</th>
-          <th scope="col">Links</th>
+          <th scope="col" data-i18n="th.match">Match</th>
+          <th scope="col" data-i18n="th.role">Role</th>
+          <th scope="col" data-i18n="th.location">Location</th>
+          <th scope="col" data-i18n="th.salary">Salary</th>
+          <th scope="col" data-i18n="th.closes">Closes</th>
+          <th scope="col" data-i18n="th.application">Application</th>
+          <th scope="col" data-i18n="th.visa">Visa</th>
+          <th scope="col" data-i18n="th.links">Links</th>
         </tr>
       </thead>
       <tbody id="rows"></tbody>
@@ -94,12 +107,10 @@
   </div>
 </main>
 
-<footer class="wrap footer">
-  <p>Listings come from the official <a href="https://www.reed.co.uk" target="_blank" rel="noopener noreferrer">Jobs by Reed</a> and <a href="https://www.adzuna.co.uk" target="_blank" rel="noopener noreferrer">Jobs by Adzuna</a> APIs. Links are checked daily, but always confirm details and closing dates on the listing before applying.</p>
-  <p>Match % and application times are automated estimates based on the CV's skills, not a guarantee.</p>
-</footer>
+<footer class="wrap footer" id="footer"></footer>
 
 <div class="toast" id="toast" role="status" hidden></div>
+<script src="i18n.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

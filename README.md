@@ -1,6 +1,8 @@
-# Job Finder
+# Job Finder for 宝宝 · 宝宝的求职小助手
 
 A small web app that lists graduate-level UK jobs in four areas: digital inclusion and community work, comms and content, admin and customer service, and older-people, youth and Mandarin-speaking support. It covers Manchester, Sheffield, London and remote roles.
+
+The page works in English (the default) and Simplified Chinese: use the **English / 中文** switch in the header, or open the site with `?lang=zh`. The choice is remembered on that device. Job titles, employers and advert text stay in their original English.
 
 A GitHub Action runs every morning. It:
 
@@ -37,6 +39,7 @@ The site will be at `https://<your-username>.github.io/<repo-name>/`.
 - **Searches, locations and excluded job titles:** edit `config/searches.json`.
 - **Skills and match weights:** edit `config/profile.json`. Keep this to skills only, because the repo is public.
 - **Look and feel:** edit `docs/style.css` and `docs/app.js`.
+- **Translations:** edit `docs/i18n.js`. If you add a new process step, flag or match label in the fetcher or profile, add its Chinese version there too (untranslated text falls back to English).
 
 ## Privacy
 

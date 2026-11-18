@@ -94,6 +94,15 @@ class EndToEnd(unittest.TestCase):
             self.assertNotIn("Warehouse Operative", titles)        # excluded title
             self.assertNotIn("Administration Assistant", titles)   # expired
             self.assertEqual(titles.count("Digital Inclusion Assistant"), 1)  # de-duplicated across sources
+            dia = next(j for j in data["jobs"] if j["title"] == "Digital Inclusion Assistant")
+            self.assertEqual(dia["source"], "Reed")                  # Reed wins over Adzuna/Jooble
+            self.assertIn("london", dia["areas"])                     # but keeps the areas the others found
+            self.assertIn("Jooble", data["meta"]["sources"])
+            jo = next(j for j in data["jobs"] if j["id"] == "jooble-9001")
+            self.assertEqual(jo["title"], "Community Engagement Officer")  # <b> tags stripped
+            self.assertEqual((jo["salary_min"], jo["salary_max"]), (27000, 29000))
+            self.assertEqual(jo["process"]["type"], "Via Jooble to the employer / agency site")
+            self.assertEqual(jo["listing_url"], "https://uk.jooble.org/desc/9001")
             for j in data["jobs"]:
                 self.assertTrue(j["listing_url"].startswith("https://"))
                 self.assertTrue(j["apply_url"].startswith("https://"))

@@ -5,21 +5,24 @@
       "label": "Manchester",
       "reed": "Manchester",
       "adzuna": "Manchester",
-      "distance": 15
+      "distance": 15,
+      "jooble_radius_km": 26
     },
     {
       "id": "sheffield",
       "label": "Sheffield",
       "reed": "Sheffield",
       "adzuna": "Sheffield",
-      "distance": 10
+      "distance": 10,
+      "jooble_radius_km": 16
     },
     {
       "id": "london",
       "label": "London",
       "reed": "London",
       "adzuna": "London",
-      "distance": 10
+      "distance": 10,
+      "jooble_radius_km": 16
     },
     {
       "id": "remote",
@@ -42,6 +45,10 @@
       ],
       "adzuna_keywords": [
         "digital inclusion"
+      ],
+      "jooble_keywords": [
+        "community engagement officer",
+        "library assistant"
       ]
     },
     {
@@ -55,6 +62,10 @@
       ],
       "adzuna_keywords": [
         "communications assistant"
+      ],
+      "jooble_keywords": [
+        "social media assistant",
+        "communications officer"
       ]
     },
     {
@@ -68,6 +79,10 @@
       ],
       "adzuna_keywords": [
         "administration assistant"
+      ],
+      "jooble_keywords": [
+        "customer service advisor",
+        "administrator"
       ]
     },
     {
@@ -81,11 +96,18 @@
       ],
       "adzuna_keywords": [
         "independent living"
+      ],
+      "jooble_keywords": [
+        "mandarin speaking",
+        "older people"
       ]
     }
   ],
   "reed_results_per_search": 40,
   "adzuna_results_per_search": 30,
+  "jooble_results_per_search": 30,
+  "jooble_max_calls_per_run": 32,
+  "jooble_host": "uk.jooble.org",
   "max_days_old": 30,
   "max_detail_lookups_per_run": 250,
   "min_score_to_keep": 30,

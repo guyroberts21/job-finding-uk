@@ -75,6 +75,7 @@
       state.generatedAt = data?.meta?.generated_at || null;
       if (initial || changed) {
         buildFilterOptions();
+        renderFooter();
         render();
       } else {
         renderHeader();
@@ -256,7 +257,7 @@
       el("div", { class: "panel" },
         el("h3", null, t("panel.summary")),
         j.summary ? en("p", null, j.summary) : el("p", null, t("noSummary")),
-        !j.full_description && j.source === "Adzuna" ? el("p", { class: "small" }, t("adzunaPreview")) : null),
+        !j.full_description && j.source !== "Reed" ? el("p", { class: "small" }, t("shortPreview", { source: j.source })) : null),
       el("div", { class: "panel" },
         el("h3", null, t("panel.resp")),
         (j.responsibilities || []).length
@@ -278,10 +279,22 @@
     )));
   }
 
+  const SOURCE_LINKS = {
+    Reed: ["https://www.reed.co.uk", "reedJobs"],
+    Adzuna: ["https://www.adzuna.co.uk", "adzunaJobs"],
+    Jooble: ["https://uk.jooble.org", "joobleJobs"],
+  };
+
   function renderFooter() {
     const a = (href, text) => el("a", { href, target: "_blank", rel: "noopener noreferrer" }, text);
+    const used = (state.data?.meta?.sources || ["Reed", "Adzuna"]).filter((s) => SOURCE_LINKS[s]);
+    const parts = [];
+    used.forEach((s, i) => {
+      if (i) parts.push(i === used.length - 1 ? t("footer1b") : t("listSep"));
+      parts.push(a(SOURCE_LINKS[s][0], t(SOURCE_LINKS[s][1])));
+    });
     $("footer").replaceChildren(
-      el("p", null, t("footer1a"), a("https://www.reed.co.uk", t("reedJobs")), t("footer1b"), a("https://www.adzuna.co.uk", t("adzunaJobs")), t("footer1c")),
+      el("p", null, t("footer1a"), ...parts, t("footer1c")),
       el("p", null, t("footer2"))
     );
   }

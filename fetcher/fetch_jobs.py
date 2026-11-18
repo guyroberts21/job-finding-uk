@@ -60,8 +60,10 @@ def log(*args):
 
 # --------------------------------------------------------------------------- HTTP
 
-def http_json(url: str, headers: dict | None = None, retries: int = 2):
-    req = urllib.request.Request(url, headers={"User-Agent": API_UA, "Accept": "application/json", **(headers or {})})
+def http_json(url: str, headers: dict | None = None, retries: int = 2, body: dict | None = None):
+    data = json.dumps(body).encode("utf-8") if body is not None else None
+    hdrs = {"User-Agent": API_UA, "Accept": "application/json", **({"Content-Type": "application/json"} if data else {}), **(headers or {})}
+    req = urllib.request.Request(url, data=data, headers=hdrs, method="POST" if data else "GET")
     for attempt in range(retries + 1):
         try:
             with urllib.request.urlopen(req, timeout=30) as resp:
@@ -343,6 +345,11 @@ def estimate_process(text: str, apply_url: str, source: str, external: bool, fla
         kind = "Quick apply on Reed (CV)"
         low, high = 15, 30
         steps += ["Sign in to Reed", "Upload the tailored CV", "Add a short cover note, then submit"]
+    elif source == "Jooble":
+        kind = "Via Jooble to the employer / agency site"
+        low, high = 30, 75
+        steps += ["Open the listing (Jooble forwards you to the original advert)", "Follow the advertiser's apply steps",
+                  "Upload a tailored CV and submit"]
     else:
         kind = "Via Adzuna to the employer / agency site"
         low, high = 30, 75
@@ -483,9 +490,37 @@ def adzuna_search(app_id, app_key, phrase, loc) -> list[dict]:
     return http_json(url).get("results", []) or []
 
 
+def jooble_search(key, keywords, loc) -> list[dict]:
+    """Official Jooble REST API (POST https://uk.jooble.org/api/<key>). A UK key only works on the UK domain."""
+    if FIXTURES:
+        return (fixture(f"jooble_search_{loc['id']}.json") or {}).get("jobs", [])
+    body = {"keywords": keywords + (" remote" if loc.get("remote") else ""),
+            "location": "United Kingdom" if loc.get("remote") else loc.get("jooble", loc["adzuna"]),
+            "page": "1", "ResultOnPage": SEARCHES.get("jooble_results_per_search", 30)}
+    if not loc.get("remote") and loc.get("jooble_radius_km") is not None:
+        body["radius"] = str(loc["jooble_radius_km"])
+    host = SEARCHES.get("jooble_host", "uk.jooble.org")
+    return http_json(f"https://{host}/api/{urllib.parse.quote(key, safe='')}", body=body).get("jobs", []) or []
+
+
+def strip_tags(s: str) -> str:
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", s or ""))).strip()
+
+
+def salary_range(s: str) -> tuple[int | None, int | None]:
+    """Pull an annual min/max out of free-text salaries like '£25,000 - £28,000'. Hourly/daily rates are ignored."""
+    nums = [float(n.replace(",", "")) for n in re.findall(r"\d[\d,]*(?:\.\d+)?", s or "")]
+    nums = [n * 1000 if re.search(r"\d\s*k\b", s or "", re.I) and n < 1000 else n for n in nums]
+    nums = [int(n) for n in nums if n >= 5000]
+    return (min(nums), max(nums)) if nums else (None, None)
+
+
 def excluded_title(title: str) -> bool:
     t = title.lower()
     return any(term in t for term in SEARCHES["exclude_title_terms"])
+
+
+SOURCE_RANK = {"Reed": 0, "Adzuna": 1, "Jooble": 2}
 
 
 def norm_key(title: str, employer: str) -> str:
@@ -548,6 +583,35 @@ def collect_adzuna(app_id: str, app_key: str, errors: list) -> dict[str, dict]:
     return found
 
 
+def collect_jooble(key: str, errors: list) -> dict[str, dict]:
+    found: dict[str, dict] = {}
+    calls_left = SEARCHES.get("jooble_max_calls_per_run", 32)  # free keys allow 100 requests/day
+    for cat in SEARCHES["categories"]:
+        for kw in cat.get("jooble_keywords", cat["keywords"][:1]):
+            for loc in SEARCHES["locations"]:
+                if calls_left <= 0:
+                    return found
+                calls_left -= 1
+                try:
+                    results = jooble_search(key, kw, loc)
+                except Exception as e:
+                    errors.append(f"Jooble '{kw}' / {loc['label']}: {e}")
+                    continue
+                for r in results:
+                    title = strip_tags(r.get("title") or "")
+                    if not title or excluded_title(title):
+                        continue
+                    if loc.get("remote") and not REMOTE_RX.search(f"{title} {strip_tags(r.get('snippet') or '')} {r.get('location', '')}"):
+                        continue
+                    jid = f"jooble-{r.get('id')}"
+                    item = found.setdefault(jid, {"raw": r, "categories": set(), "areas": set()})
+                    item["categories"].add(cat["id"])
+                    item["areas"].add(loc["id"])
+                if not FIXTURES:
+                    time.sleep(0.5)
+    return found
+
+
 def build_job(jid: str, source: str, raw: dict, details: dict | None, categories, areas, prev: dict | None) -> dict | None:
     if source == "Reed":
         d = details or {}
@@ -570,6 +634,21 @@ def build_job(jid: str, source: str, raw: dict, details: dict | None, categories
         contract = ", ".join(x for x in [d.get("contractType"), "Part-time" if d.get("partTime") else ("Full-time" if d.get("fullTime") else None)] if x)
         apply_via = f"Employer site ({domain_of(external)})" if external else "Reed (quick apply)"
         detail_ok = bool(details)
+    elif source == "Jooble":
+        title = strip_tags(raw.get("title") or "")
+        employer = strip_tags(raw.get("company") or "")
+        location = strip_tags(raw.get("location") or "")
+        desc_html = raw.get("snippet") or ""
+        listing_url = (raw.get("link") or "").strip()
+        apply_url = listing_url
+        external = listing_url
+        posted = parse_uk_date(raw.get("updated"))  # Jooble gives "last updated", the closest thing to a posted date
+        closing = None
+        sal = strip_tags(raw.get("salary") or "") or "Not stated"
+        lo, hi = salary_range(sal)
+        contract = strip_tags(raw.get("type") or "")
+        apply_via = "Jooble → advertiser"
+        detail_ok = False
     else:
         title = html.unescape(raw.get("title") or "").strip()
         employer = html.unescape((raw.get("company") or {}).get("display_name") or "")
@@ -680,7 +759,7 @@ def run_link_checks(jobs: list[dict]):
             by_host.setdefault(domain_of(j["apply_url"]), []).append((j, "apply", j["apply_url"]))
 
     def check_host(host, items):
-        pause = 1.0 if "reed.co.uk" in host or "adzuna" in host else 0.5
+        pause = 1.0 if any(s in host for s in ("reed.co.uk", "adzuna", "jooble")) else 0.5
         for i, (j, kind, url) in enumerate(items):
             if i:
                 time.sleep(pause)
@@ -714,9 +793,11 @@ def main() -> int:
     reed_key = os.environ.get("REED_API_KEY", "").strip()
     az_id = os.environ.get("ADZUNA_APP_ID", "").strip()
     az_key = os.environ.get("ADZUNA_APP_KEY", "").strip()
+    jooble_key = os.environ.get("JOOBLE_API_KEY", "").strip()
     if FIXTURES:
         reed_key = reed_key or "fixture"
         az_id, az_key = az_id or "fixture", az_key or "fixture"
+        jooble_key = jooble_key or "fixture"
 
     previous, prev_meta = load_previous()
     try:
@@ -727,7 +808,7 @@ def main() -> int:
     errors: list[str] = []
     sources_used = []
 
-    if not reed_key and not (az_id and az_key):
+    if not reed_key and not (az_id and az_key) and not jooble_key:
         log("No API keys set - keeping existing data.")
         meta = {**prev_meta, "status": "needs_api_keys", "last_attempt": NOW_ISO,
                 "message": "Add the REED_API_KEY (and optionally ADZUNA_APP_ID / ADZUNA_APP_KEY) repository secrets, then re-run the workflow."}
@@ -746,14 +827,18 @@ def main() -> int:
         sources_used.append("Adzuna")
         for jid, item in collect_adzuna(az_id, az_key, errors).items():
             raw[jid] = ("Adzuna", item)
+    if jooble_key:
+        sources_used.append("Jooble")
+        for jid, item in collect_jooble(jooble_key, errors).items():
+            raw[jid] = ("Jooble", item)
     log(f"Collected {len(raw)} raw listings; {len(errors)} search errors")
 
     # Rank Reed listings by snippet score so detail lookups go to the best ones first.
     def snippet_score(entry):
         src, item = entry[1]
         r = item["raw"]
-        title = r.get("jobTitle") or r.get("title") or ""
-        return match_score(title, html.unescape(r.get("jobDescription") or r.get("description") or ""), [])["score"]
+        title = strip_tags(r.get("jobTitle") or r.get("title") or "")
+        return match_score(title, strip_tags(r.get("jobDescription") or r.get("description") or r.get("snippet") or ""), [])["score"]
 
     ordered = sorted(raw.items(), key=snippet_score, reverse=True)
     detail_budget = SEARCHES["max_detail_lookups_per_run"]
@@ -785,12 +870,14 @@ def main() -> int:
         if job["match"]["score"] < SEARCHES["min_score_to_keep"]:
             continue
         key = norm_key(job["title"], job["employer"])
-        if key in dedupe:  # same job on both sources: keep Reed (it has closing dates + full text)
+        if key in dedupe:  # same job on several sources: prefer Reed (closing dates + full text), then Adzuna, then Jooble
             existing = jobs[dedupe[key]]
-            existing["areas"] = sorted(set(existing["areas"]) | set(job["areas"]))
-            existing["categories"] = sorted(set(existing["categories"]) | set(job["categories"]))
-            if existing["source"] == "Reed" or job["source"] != "Reed":
+            areas = sorted(set(existing["areas"]) | set(job["areas"]))
+            cats = sorted(set(existing["categories"]) | set(job["categories"]))
+            existing["areas"], existing["categories"] = areas, cats
+            if SOURCE_RANK.get(job["source"], 9) >= SOURCE_RANK.get(existing["source"], 9):
                 continue
+            job["areas"], job["categories"] = areas, cats
             del jobs[dedupe[key]]
         dedupe[key] = jid
         if source == "Reed" and details:

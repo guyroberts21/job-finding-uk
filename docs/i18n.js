@@ -82,7 +82,7 @@
       "check.broken": "Broken link",
       "panel.summary": "Summary",
       noSummary: "No summary available — open the listing.",
-      adzunaPreview: "Adzuna only shares a short preview; see the listing for the full advert.",
+      shortPreview: "{source} only shares a short preview; see the listing for the full advert.",
       "panel.resp": "Key responsibilities",
       noResp: "Not listed in the advert preview — see the full listing.",
       "panel.apply": "How to apply",
@@ -98,6 +98,7 @@
       footer2: "Match % and application times are automated estimates based on the CV's skills, not a guarantee.",
       reedJobs: "Jobs by Reed",
       adzunaJobs: "Jobs by Adzuna",
+      joobleJobs: "Jooble",
       minutes: "{n} min",
       hours: "{n} h",
       listSep: ", ",
@@ -180,7 +181,7 @@
       "check.broken": "链接失效",
       "panel.summary": "职位摘要",
       noSummary: "暂无摘要——请打开职位页面查看。",
-      adzunaPreview: "Adzuna 只提供简短预览，完整广告请打开职位页面查看。",
+      shortPreview: "{source} 只提供简短预览，完整广告请打开职位页面查看。",
       "panel.resp": "主要职责",
       noResp: "广告预览中未列出——请查看完整职位信息。",
       "panel.apply": "如何申请",
@@ -196,6 +197,7 @@
       footer2: "匹配度和申请时间是根据简历技能自动估算的，仅供参考。",
       reedJobs: "Reed 招聘",
       adzunaJobs: "Adzuna 招聘",
+      joobleJobs: "Jooble",
       minutes: "{n} 分钟",
       hours: "{n} 小时",
       listSep: "、",
@@ -219,6 +221,9 @@
     "Apply on employer / agency website": "在雇主 / 中介网站申请",
     "Quick apply on Reed (CV)": "Reed 快速申请（简历）",
     "Via Adzuna to the employer / agency site": "经 Adzuna 跳转到雇主 / 中介网站",
+    "Via Jooble to the employer / agency site": "经 Jooble 跳转到雇主 / 中介网站",
+    "Open the listing (Jooble forwards you to the original advert)": "打开职位页面（Jooble 会跳转到原始招聘广告）",
+    "Jooble → advertiser": "Jooble → 招聘方",
     // steps
     "Request or download the application pack": "索取或下载申请资料包",
     "Fill in personal details, education and employment history": "填写个人信息、教育和工作经历",
@@ -314,7 +319,8 @@
     [/^Could not reach page: (.+)$/, (m) => `无法访问页面：${m[1]}`],
   ];
 
-  const ZH_CONTRACT = { permanent: "长期", contract: "合同", temporary: "临时", "full-time": "全职", "part-time": "兼职" };
+  const ZH_CONTRACT = { permanent: "长期", contract: "合同", temporary: "临时", "full-time": "全职", "part-time": "兼职",
+    internship: "实习", apprenticeship: "学徒", volunteer: "志愿者" };
   const ZH_SALARY = [
     [/\bper annum\b/gi, "/年"], [/\bper year\b/gi, "/年"], [/\bper hour\b/gi, "/小时"], [/\bper day\b/gi, "/天"],
     [/\bper week\b/gi, "/周"], [/\bper month\b/gi, "/月"], [/\bpro[- ]rata\b/gi, "按比例"], [/\binc(luding)? benefits\b/gi, "含福利"],

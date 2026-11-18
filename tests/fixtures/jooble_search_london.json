@@ -1,0 +1,41 @@
+{
+  "totalCount": 3,
+  "jobs": [
+    {
+      "id": 9001,
+      "title": "<b>Community</b> Engagement Officer",
+      "location": "London",
+      "snippet": "Support residents to get online at <b>digital inclusion</b> sessions and plan community events. Graduates welcome, full training given.",
+      "salary": "£27,000 - £29,000",
+      "source": "examplecharity.org.uk",
+      "type": "Full-time",
+      "link": "https://uk.jooble.org/desc/9001",
+      "company": "Example Housing Trust",
+      "updated": "2026-11-15T09:00:00.0000000"
+    },
+    {
+      "id": 9002,
+      "title": "Digital Inclusion Assistant",
+      "location": "London",
+      "snippet": "Help residents use online services and social media. Entry level role.",
+      "salary": "",
+      "source": "reed",
+      "type": "Full-time",
+      "link": "https://uk.jooble.org/desc/9002",
+      "company": "Example Community Trust",
+      "updated": "2026-11-14T09:00:00.0000000"
+    },
+    {
+      "id": 9003,
+      "title": "Warehouse Operative",
+      "location": "London",
+      "snippet": "Picking and packing.",
+      "salary": "£12.50 per hour",
+      "source": "example",
+      "type": "Full-time",
+      "link": "https://uk.jooble.org/desc/9003",
+      "company": "Example Logistics",
+      "updated": "2026-11-14T09:00:00.0000000"
+    }
+  ]
+}

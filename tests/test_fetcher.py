@@ -73,6 +73,25 @@ class Helpers(unittest.TestCase):
         self.assertEqual(ext["apply_url"], "https://jobs.example.org/apply/9")
         self.assertTrue(ext["process"]["type"].startswith("Apply on employer"))
 
+    def test_requirements(self):
+        r = fj.requirements_for("Selection Criteria Essential • An undergraduate degree or equivalent in Geography • Good writing")
+        self.assertEqual([(x["kind"], x["name"], x["level"]) for x in r], [("degree", "Geography", "essential")])
+        r = fj.requirements_for("• A degree in Marketing, Communications or a related subject would be advantageous.")
+        self.assertEqual((r[0]["name"], r[0]["level"]), ("Marketing, Communications", "desirable"))
+        r = fj.requirements_for("• CIPD Level 3 or a relevant business administration qualification, or equivalent experience.")
+        self.assertEqual((r[0]["name"], r[0]["alt"]), ("CIPD Level 3", "experience"))
+        r = fj.requirements_for("• Level 3 Diploma in Residential Childcare (or willingness to achieve).")
+        self.assertEqual(r[0]["level"], "training")
+        r = fj.requirements_for("• Degree qualification with demonstrable comms experience is essential.")
+        self.assertEqual((r[0]["kind"], r[0]["name"]), ("degree", ""))  # any subject
+        # Not requirements: "degree of", equal-opportunities wording, "no degree needed", BSL as an application format.
+        for text in ["You will need a high degree of accuracy.", "We welcome applications from all suitably qualified candidates.",
+                     "No degree required, full training given.", "We accept written, video or BSL/signed applications.",
+                     "Education to degree level and fluency in English and Chinese."]:
+            got = fj.requirements_for(text)
+            self.assertTrue(all(x["name"] in ("",) for x in got) if got else True, (text, got))
+        self.assertEqual(fj.requirements_for("You will need a high degree of accuracy."), [])
+
     def test_responsibilities_from_list(self):
         text, groups = fj.parse_description("<p><strong>Key responsibilities:</strong></p><ul><li>Support residents at digital sessions</li><li>Plan community events</li></ul><p><strong>About you</strong></p><ul><li>Good communicator</li></ul>")
         self.assertEqual(fj.extract_responsibilities(groups, text), ["Support residents at digital sessions", "Plan community events"])

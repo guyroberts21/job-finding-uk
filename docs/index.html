@@ -75,6 +75,21 @@
       <div class="chips" id="cats" role="group" data-i18n-aria="jobTypes" aria-label="Job types"></div>
     </div>
     <div class="filter-row">
+      <label class="field">
+        <span data-i18n="qualFilter">Qualifications</span>
+        <select id="qual">
+          <option value="" data-i18n="qual.all">Show all</option>
+          <option value="specific" data-i18n="qual.specific">Hide if a specific degree or qualification is required</option>
+          <option value="any" data-i18n="qual.any">Hide if any degree or qualification is required</option>
+        </select>
+      </label>
+      <label class="field grow">
+        <span data-i18n="myQuals">My qualifications (optional)</span>
+        <input type="text" id="myQuals" placeholder="e.g. BA English, MA Media, CIPD Level 3" data-i18n-placeholder="myQualsPlaceholder" autocomplete="off" aria-describedby="myQualsHint">
+        <span class="small" id="myQualsHint" data-i18n="myQualsHint">Saved only in this browser, never uploaded.</span>
+      </label>
+    </div>
+    <div class="filter-row">
       <label class="field range">
         <span><span data-i18n="minMatch">Minimum match:</span> <strong id="minval">40%</strong></span>
         <input type="range" id="min" min="0" max="90" step="5" value="40">

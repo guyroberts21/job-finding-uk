@@ -269,6 +269,150 @@ def flags_for(text: str) -> list[str]:
     return [label for label, pat in FLAG_RULES if re.search(pat, t)]
 
 
+# --------------------------------------------------------------------------- required qualifications
+# Pulls out degrees and qualifications the advert asks for, so the site can warn before you click through.
+# Each one is tagged essential / desirable / training (offered on the job) / stated (no wording either way).
+
+REQ_SPLIT = re.compile(r"\s*(?:[•·▪●◦*]+|(?<=[.!?;])\s+(?=[A-Z0-9])|\s[-–]\s(?=[A-Z]))\s*")
+REQ_SKIP = re.compile(r"equal opportunit|regardless of|all (suitably )?qualified|qualified (candidates|applicants|individuals|advisors)|"
+                      r"depending on (experience|qualifications)|no (degree|qualifications?) (is )?(required|needed|necessary)|"
+                      r"(degree|qualifications?) (is |are )?not (required|necessary|needed)|without a degree|don'?t need (a degree|qualifications)", re.I)
+DEGREE_WORD = re.compile(r"\bdegrees?\b(?!\s+of\b)|\bundergraduate\b|\bbachelor|\bmaster'?s (degree|level)|\bpostgraduate (degree|qualification)|"
+                         r"\b(educated to|degree[- ])level\b", re.I)
+DEGREE_ABBR = re.compile(r"\b(BA|BSc|LLB|MSc|MA|BEng|MEng|PhD|MBA)\b(?= (\(Hons\) )?in\b| degree| or equivalent)")
+DEGREE_360 = re.compile(r"\b\d+\s*degrees?\b", re.I)
+DEGREE_SUBJ = re.compile(r"\b(?:degrees?|BA|BSc|MSc|MA|LLB|qualification|educated|equivalent|studies)\b(?:(?!\b(?:and|with|plus|fluen\w*|experience|skills|knowledge|working)\b)[^.;:]){0,30}?\bin\s+"
+                         r"(?!order\b|line\b|addition\b|which\b|this\b|our\b|your\b|their\b|place\b|time\b|hand\b|the uk\b)(.{3,100})", re.I)
+DEGREE_PREFIX = re.compile(r"\b((?:[A-Z][a-z]+ ){0,2}[A-Z][a-z]+) (?:[Dd]egree|BA|BSc)\b")
+PREFIX_NOISE = {"A", "An", "The", "Your", "Our", "University", "Undergraduate", "Honours", "Hons", "Bachelor", "Bachelors", "Master", "Masters",
+                "Relevant", "Related", "First", "Good", "Completed", "Recognised", "Recent", "Degree", "Level", "Any", "Essential",
+                "Desirable", "Ideally", "Strong", "Similar", "Appropriate", "Suitable", "Equivalent", "Postgraduate", "Foundation",
+                "Full", "Minimum", "Educated", "Have", "Hold", "Holding", "With", "Or", "And", "Uk", "Higher", "Graduate"}
+GENERIC_SUBJ = re.compile(r"^(?:(?:a|an|any|the|relevant|related|suitable|appropriate|similar|comparable|associated|closely|"
+                          r"subject|subjects|discipline|disciplines|field|fields|area|areas|degree)\b[\s,/]*)+$", re.I)
+SUBJ_STOP = re.compile(r"\s*(?:\(|\)|,?\s+(?:or|and/or)\s+(?:an?\s+|other\s+|another\s+)?(?:equivalent|related|relevant|similar|other|another|"
+                       r"closely|comparable|suitable|appropriate|associated)\b|\s+(?:would|is|are|was|with|from|plus|preferred|desirable|"
+                       r"essential|ideally|required|as well|and (?:a|an|experience|some|demonstrable|at|the|have|be|strong|good|proven)|"
+                       r"or (?:equivalent|experience|relevant|a|an)|alongside|including|to\b|who|that|which|at\b)\b|[.;:!?]|\s[-–]\s|\s\d)", re.I)
+QUAL_RX = [
+    re.compile(r"\b(CIPD|CIPR|CIM|NCTJ|AAT|ACCA|CIMA|ICAEW|PRINCE ?2|IOSH|NEBOSH|PGCE|QTS|CSCS|CeMAP|ILM|SIA licen[cs]e)\b"
+               r"(?:[^.;,]{0,25}?\b[Ll]evel ?[1-7])?"),
+    re.compile(r"\b(?:BSL|Signature)(?: BSL| Signature)?(?: [Ll]evel ?[1-7]| qualification| to a minimum of [Ll]evel ?[1-7])"),
+    re.compile(r"\b(?:NVQ|QCF|RQF|BTEC|HNC|HND)\b(?:,? ?(?:NVQ|BTEC)?\s*\(?[Ll]evel\s*[1-7](?:/[1-7])?\)?)?(?:\s+or equivalent)?(?:[^.;]{0,25}?\bin\s+[A-Z][\w&/ ,'-]{2,60})?"),
+    re.compile(r"\b[Ll]evel\s*[1-7](?:/[1-7])?\s+(?:[A-Z]\w+\s+){0,2}(?:[Dd]iploma|[Cc]ertificate|[Qq]ualification|[Aa]ward)\b(?:\s+in\s+[A-Z][\w&/ '-]{2,60})?"),
+    re.compile(r"\b(?:[Dd]iploma|[Cc]ertificate)\s+in\s+[A-Z][\w&/ '-]{2,60}"),
+    re.compile(r"\b(?:registered with|registration with)\s+(?:the\s+)?(?:HCPC|NMC|Social Work England|GMC|GPhC|BACP|UKCP|SRA)\b"),
+    re.compile(r"\b(?:[Qq]ualified|[Rr]egistered) (?:accountant|teacher|nurse|social worker|solicitor|counsellor|lawyer|surveyor|electrician|paralegal)\b"),
+    re.compile(r"\b(?:[Ss]ocial [Ww]ork|[Tt]eaching|[Nn]ursing|[Cc]ounselling|[Ll]egal) qualification\b"),
+]
+QUAL_TRAIL = re.compile(r"\s+(?:or|and|would|is|are|with|desirable|essential|preferred|required|ideally|as|to|in a|in an|in the|qualification|"
+                        r"What|Why|Our|We|You|About|Salary|Benefits|Apply|Location|Hours|The|This)\b.*$|[\s,(]+$")
+GCSE_RX = re.compile(r"\bGCSEs?\b|\bA[- ]levels?\b")
+WANT_DESIRABLE = re.compile(r"desirabl|advantage|preferred|preferabl|ideally|\bideal\b|nice to have|\bbonus\b|would be (a )?(plus|beneficial|helpful|useful)|"
+                            r"not essential|beneficial|particularly interested|welcome(d)?\b|is a plus", re.I)
+WANT_ESSENTIAL = re.compile(r"essential|\bmust\b|\brequired\b|requirement|you('ll| will) (need|hold|have|possess)|minimum|\bneed (a|an|to have)\b|"
+                            r"necessary|to be (considered|successful)|you hold", re.I)
+WANT_TRAINING = re.compile(r"willing(ness)? to (obtain|achieve|gain|work towards|study|complete)|or willingness|working towards|"
+                           r"(training|support) (will be |is |can be )?(provided|given|offered)|we (will|can) (provide|offer|fund|support)|"
+                           r"support you (to|in) (gain|achiev|obtain|complet)|opportunity to (gain|achieve|study|obtain|complete)|"
+                           r"expectation to study|fully funded|study towards|(achieve|complete|obtain)d? within|able to offer .{0,30}training|"
+                           r"if not already qualified", re.I)
+SECTION_DES = re.compile(r"desirable|nice to have|bonus points|advantageous", re.I)
+SECTION_ESS = re.compile(r"essential|requirements|what you('ll| will) need|you (will|must) have|must have|skills you'll need", re.I)
+ALT_EXPERIENCE = re.compile(r"or (relevant |equivalent |similar |significant |demonstrable )?(work |professional |practical )?experience|"
+                            r"equivalent (work |professional )?experience|experience in lieu", re.I)
+ALT_EQUIV = re.compile(r"or (an? )?(equivalent|similar|comparable)|equivalent qualification", re.I)
+LEVEL_RANK = {"essential": 3, "stated": 2, "desirable": 1, "training": 0}
+
+
+def _cut(s: str, limit: int = 60) -> str:
+    s = re.sub(r"\s+", " ", s).strip(" ,/&-")
+    s = re.sub(r",?\s+(?:or|and|and/or)$", "", s).strip(" ,/&-")
+    if len(s) > limit:
+        s = s[:limit].rsplit(" ", 1)[0].rstrip(" ,/&-") + "…"
+    return s
+
+
+def _degree_subject(clause: str):
+    """'' = any subject, 'relevant' = a relevant subject (not named), else the subject text."""
+    if re.search(r"\bin:?\s*$|subjects? (outlined|listed|above|below|mentioned)", clause, re.I):
+        return "relevant"
+    m = DEGREE_SUBJ.search(clause)
+    if m:
+        subj = re.sub(r"^(?:an?|any)\s+(?:suitable|relevant|related|appropriate)\s+(?:subject|field|discipline|area)s?,?\s*"
+                      r"(?:such as|e\.?g\.?|like|for example|including)\s+", "", m.group(1), flags=re.I)
+        subj = SUBJ_STOP.split(subj, 1)[0]
+        subj = _cut(subj)
+        if subj and not GENERIC_SUBJ.match(subj):
+            return subj
+        return "relevant"
+    m = DEGREE_PREFIX.search(clause)
+    if m:
+        words = m.group(1).split()
+        while words and words[0] in PREFIX_NOISE:
+            words.pop(0)
+        if words and words[-1] not in PREFIX_NOISE:
+            return " ".join(words)
+    if re.search(r"(relevant|related|suitable|appropriate) (degree|subject|discipline|field)", clause, re.I):
+        return "relevant"
+    return ""
+
+
+def _want_level(clause: str, after: str, before: str) -> str:
+    if WANT_TRAINING.search(clause):
+        return "training"
+    if WANT_DESIRABLE.search(clause) or re.match(r"\s*(this is )?(not essential|desirable|an advantage|a plus)", after, re.I):
+        return "desirable"
+    if WANT_ESSENTIAL.search(clause):
+        return "essential"
+    des = [m.end() for m in SECTION_DES.finditer(before)]
+    ess = [m.end() for m in SECTION_ESS.finditer(before)]
+    if des or ess:
+        return "desirable" if (des[-1] if des else -1) > (ess[-1] if ess else -1) else "essential"
+    return "stated"
+
+
+def requirements_for(text: str, limit: int = 4) -> list[dict]:
+    clauses = [c for c in REQ_SPLIT.split(text or "") if c and len(c) > 6]
+    found: dict = {}
+
+    def add(kind, name, clause, i):
+        after = clauses[i + 1] if i + 1 < len(clauses) else ""
+        before = " ".join(clauses[max(0, i - 8):i])[-600:]
+        req = {"kind": kind, "name": name, "level": _want_level(clause, after[:60], before),
+               "alt": "experience" if ALT_EXPERIENCE.search(clause) else ("equivalent" if ALT_EQUIV.search(clause) else None), "quote": _cut(clause, 200)}
+        key = (kind, name.lower())
+        old = found.get(key)
+        if not old or LEVEL_RANK[req["level"]] > LEVEL_RANK[old["level"]]:
+            found[key] = req
+
+    for i, clause in enumerate(clauses):
+        if REQ_SKIP.search(clause):
+            continue
+        plain = DEGREE_360.sub(" ", clause)
+        if DEGREE_WORD.search(plain) or DEGREE_ABBR.search(plain):
+            add("degree", _degree_subject(plain), clause, i)
+        spans = []
+        for rx in QUAL_RX:
+            for m in rx.finditer(clause):
+                if any(a < m.end() and m.start() < b for a, b in spans):
+                    continue
+                spans.append(m.span())
+                name = _cut(QUAL_TRAIL.sub("", m.group(0)), 50)
+                low = name.lower().rstrip("…")
+                dup = next((key for key in found if key[0] == "qualification" and (low in key[1] or key[1].rstrip("…") in low)), None)
+                if dup:
+                    name = found[dup]["name"]
+                if len(name) >= 3:
+                    add("qualification", name, clause, i)
+        if GCSE_RX.search(clause):
+            subj = sorted({s.title() for s in re.findall(r"\b(english|maths|mathematics|science)\b", clause, re.I)})
+            add("gcse", ("A-levels" if re.search(r"A[- ]level", clause) and not re.search(r"GCSE", clause) else "GCSEs")
+                + (f" ({', '.join(subj)})" if subj else ""), clause, i)
+    reqs = sorted(found.values(), key=lambda r: (-LEVEL_RANK[r["level"]], ["degree", "qualification", "gcse"].index(r["kind"])))
+    return reqs[:limit]
+
+
 PORTALS = {
     "webitrent.com": "council / public-sector portal (iTrent)",
     "jobs.ac.uk": "jobs.ac.uk university portal",
@@ -777,6 +921,7 @@ def build_job(jid: str, source: str, raw: dict, details: dict | None, categories
         "process": process,
         "sponsorship": sponsorship_status(text),
         "flags": flags,
+        "requirements": requirements_for(text),
         "level": seniority(title),
         "match": match,
         "first_seen": (prev or {}).get("first_seen") or TODAY.isoformat(),

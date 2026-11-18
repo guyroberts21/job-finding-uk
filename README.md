@@ -31,6 +31,7 @@ The site will be at `https://<your-username>.github.io/<repo-name>/`.
 | Closing date | From Reed. Adzuna doesn't provide one, so those show "Not stated". |
 | Summary and responsibilities | Pulled from the advert text, using the bullet list under a "responsibilities" or "duties" heading where there is one. |
 | Application process and time | Rules based on the apply site (for example, council iTrent portals or NHS forms mean a long form) and the advert wording (supporting statement, cover letter, portfolio, "no CVs"). |
+| Qualifications | Degrees (with the subject where named), professional qualifications (CIPD, NVQ, Level 3 diplomas and so on) and GCSEs found in the advert. Each is marked *essential*, *desirable*, *training offered* or *asked for*, and notes when experience is accepted instead. The **Qualifications** filter can hide jobs that need a specific subject or qualification. The optional **My qualifications** box is saved only in the browser (never in this repo) and ticks off requirements already met. Short previews (Adzuna, Jooble, NHS Jobs) can miss requirements. |
 | Visa | Flagged as *offered*, *not offered*, *right to work required* or *not stated*, based on the advert wording. |
 | Match % | A weighted skills overlap with the CV themes in `config/profile.json`, plus bonuses (Mandarin, entry level, digital inclusion, older people) and penalties (senior roles, 2+ years' experience, driving licence, specialist qualifications). It's an estimate, not a verdict. |
 

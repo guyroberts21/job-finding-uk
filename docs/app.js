@@ -59,6 +59,53 @@
   const locLabel = (id) => I.place(id, (state.data?.meta?.locations || []).find((l) => l.id === id)?.label || id);
   const visaLabel = (s) => t(`visa.${s}`) || t("visa.not_stated");
 
+  // ---------- qualifications the advert asks for ----------
+  // "My qualifications" lives only in this browser (localStorage); it is never sent anywhere.
+  const QUALS_KEY = "jobfinder.myQuals";
+  const HAS_DEGREE = /\b(degree|ba|bsc|ma|msc|mres|mphil|bachelor\w*|master\w*|mba|phd|llb|llm|beng|meng|bed|med)\b/i;
+  const QUAL_STOP = new Set(["degree", "degrees", "bachelor", "bachelors", "master", "masters", "hons", "honours", "level", "and", "with",
+    "the", "in", "of", "or", "studies", "ba", "bsc", "ma", "msc", "mba", "phd", "llb", "beng", "meng", "first", "class", "diploma",
+    "certificate", "award", "qualification", "qualified", "subject", "relevant", "related", "a", "an"]);
+  const sigWords = (s) => (String(s).toLowerCase().match(/[a-z0-9]+/g) || []).filter((w) => w.length >= 2 && !QUAL_STOP.has(w) && !/^\d+$/.test(w));
+  const levelOf = (s) => { const m = String(s).match(/level\s*(\d)/i); return m ? Number(m[1]) : null; };
+  function myQuals() {
+    return $("myQuals").value.split(/[,;\n]+/).map((x) => x.trim().toLowerCase()).filter(Boolean);
+  }
+  function reqMet(r, mine) {
+    if (!mine.length) return false;
+    const hasDegree = mine.some((q) => HAS_DEGREE.test(q));
+    if (r.kind === "degree") {
+      if (!r.name || r.name === "relevant") return hasDegree;
+      const want = new Set(sigWords(r.name));
+      return mine.some((q) => sigWords(q).some((w) => want.has(w)));
+    }
+    if (r.kind === "gcse") return hasDegree || mine.some((q) => /gcse|a[- ]?level|gaokao|high school|secondary/.test(q));
+    const want = new Set(sigWords(r.name));
+    const need = levelOf(r.name);
+    if (!want.size) {  // e.g. "Level 3 qualification": any qualification at that level or above (a degree is level 6)
+      return hasDegree || mine.some((q) => (levelOf(q) || 0) >= (need || 1));
+    }
+    return mine.some((q) => sigWords(q).some((w) => want.has(w)) && !(need && levelOf(q) && levelOf(q) < need));
+  }
+  const firmReq = (r) => (r.level === "essential" || r.level === "stated") && r.alt !== "experience";
+  function blocksJob(r, mode, mine) {
+    if (!firmReq(r) || r.kind === "gcse" || reqMet(r, mine)) return false;  // GCSE "or equivalent" usually accepts overseas school results
+    if (mode === "any") return true;
+    return r.kind !== "degree" || (!!r.name && r.name !== "relevant");    // "specific": a named subject or a professional qualification
+  }
+  function reqLabel(r) {
+    if (r.kind === "degree") return !r.name ? t("req.degreeAny") : r.name === "relevant" ? t("req.degreeRelevant") : t("req.degree", { name: r.name });
+    return t(r.kind === "gcse" ? "req.gcse" : "req.qualification", { name: r.name });
+  }
+  function reqTags(j, mine) {
+    return (j.requirements || []).filter((r) => r.level === "essential" || r.level === "stated").slice(0, 2).map((r) => {
+      const met = reqMet(r, mine);
+      const cls = met ? "tag req met" : r.alt === "experience" || r.kind === "gcse" ? "tag req soft" : "tag req";
+      const tip = [t(`lvl.${r.level}`), r.alt ? t(`alt.${r.alt}`) : null, met ? t("reqMet") : null].filter(Boolean).join(" · ");
+      return el("span", { class: cls, title: `${tip}\n${t("reqTip", { quote: r.quote })}` }, `${met ? "✓ " : "🎓 "}${reqLabel(r)}`);
+    });
+  }
+
   // ---------- data ----------
   async function load(initial) {
     try {
@@ -129,6 +176,8 @@
       hideSenior: $("hideSenior").checked,
       newOnly: $("newOnly").checked,
       closingSoon: $("closingSoon").checked,
+      qual: $("qual").value,
+      mine: myQuals(),
     };
   }
 
@@ -142,13 +191,14 @@
       if (f.visa && j.sponsorship !== f.visa) return false;
       if (state.cats.size && !(j.categories || []).some((c) => state.cats.has(c))) return false;
       if (f.newOnly && j.first_seen !== today) return false;
+      if (f.qual && (j.requirements || []).some((r) => blocksJob(r, f.qual, f.mine))) return false;
       if (f.closingSoon) {
         const d = daysUntil(j.closing);
         if (d == null || d > 7) return false;
       }
       if (f.q) {
         const hay = [j.title, j.employer, j.location, j.summary, ...(j.responsibilities || []), ...(j.flags || []),
-          ...(j.flags || []).map(I.tx)].join(" ").toLowerCase();
+          ...(j.flags || []).map(I.tx), ...(j.requirements || []).map((r) => r.name)].join(" ").toLowerCase();
         if (!f.q.split(/\s+/).every((w) => hay.includes(w))) return false;
       }
       return true;
@@ -219,6 +269,7 @@
     };
     const tags = el("div", { class: "tags" },
       j.first_seen === today ? el("span", { class: "tag new" }, t("tagNew")) : null,
+      ...reqTags(j, myQuals()),
       ...(j.categories || []).slice(0, 2).map((c) => el("span", { class: "tag cat" }, catLabel(c))),
       ...(j.flags || []).filter((f) => ["Mandarin/Chinese", "Remote/home-based", "Hybrid", "Driving licence"].includes(f)).map((f) => el("span", { class: "tag" }, I.tx(f)))
     );
@@ -269,6 +320,7 @@
         el("ol", null, ...p.steps.map((s) => el("li", null, I.tx(s)))),
         ...(p.notes || []).map((n) => el("p", { class: "small" }, I.tx(n))),
         el("p", { class: "small" }, t("applyVia", { via: I.tx(j.apply_via) }))),
+      reqPanel(j),
       el("div", { class: "panel" },
         el("h3", null, t("panel.match", { score: j.match.score })),
         el("ul", null, ...(j.match.reasons || []).map((r) => el("li", null, I.reason(r)))),
@@ -277,6 +329,25 @@
         j.link_check?.listing ? el("p", { class: "small" }, t("listingCheck", { note: I.tx(j.link_check.listing.note) || j.link_check.listing.state })) : null,
         j.link_check?.apply ? el("p", { class: "small" }, t("applyCheck", { note: I.tx(j.link_check.apply.note) || j.link_check.apply.state })) : null)
     )));
+  }
+
+  function reqPanel(j) {
+    const mine = myQuals();
+    const reqs = j.requirements || [];
+    return el("div", { class: "panel" },
+      el("h3", null, t("panel.reqs")),
+      reqs.length
+        ? el("ul", { class: "req-list" }, ...reqs.map((r) => {
+          const met = reqMet(r, mine);
+          return el("li", null,
+            el("span", { class: "req-name" }, reqLabel(r)),
+            el("span", { class: `req-lvl ${r.level}` }, t(`lvl.${r.level}`)),
+            r.alt ? el("span", { class: "req-lvl desirable" }, t(`alt.${r.alt}`)) : null,
+            met ? el("span", { class: "req-lvl met" }, `✓ ${t("reqMet")}`) : null,
+            en("q", null, r.quote));
+        }))
+        : el("p", null, t("noReqs")),
+      !j.full_description && j.source !== "Reed" ? el("p", { class: "small" }, t("reqShort")) : null);
   }
 
   const SOURCE_LINKS = {
@@ -330,12 +401,17 @@
   }
 
   // ---------- wiring ----------
-  for (const id of ["q", "loc", "visa", "sort", "min", "hideSenior", "newOnly", "closingSoon"]) {
+  for (const id of ["q", "loc", "visa", "sort", "min", "hideSenior", "newOnly", "closingSoon", "qual"]) {
     $(id).addEventListener(id === "q" || id === "min" ? "input" : "change", render);
   }
+  try { $("myQuals").value = localStorage.getItem(QUALS_KEY) || ""; } catch (e) { /* storage blocked */ }
+  $("myQuals").addEventListener("input", () => {
+    try { localStorage.setItem(QUALS_KEY, $("myQuals").value); } catch (e) { /* storage blocked */ }
+    render();
+  });
   $("reset").addEventListener("click", () => {
     $("q").value = ""; $("loc").value = ""; $("visa").value = ""; $("sort").value = "match"; $("min").value = 40;
-    $("hideSenior").checked = true; $("newOnly").checked = false; $("closingSoon").checked = false;
+    $("hideSenior").checked = true; $("newOnly").checked = false; $("closingSoon").checked = false; $("qual").value = "";
     state.cats.clear(); buildFilterOptions(); render();
   });
   document.querySelectorAll(".lang-btn").forEach((b) => b.addEventListener("click", () => switchLang(b.dataset.lang)));

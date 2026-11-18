@@ -136,6 +136,16 @@ table.jobs { width: 100%; border-collapse: collapse; min-width: 980px; }
 .tag { font-size: 11px; padding: 2px 7px; border-radius: 999px; background: var(--blue-soft); color: var(--text); white-space: nowrap; }
 .tag.new { background: var(--green-soft); color: var(--green); font-weight: 600; }
 .tag.cat { background: var(--turquoise-soft); }
+.tag.req { background: var(--amber-soft); color: var(--amber); font-weight: 600; }
+.tag.req.met { background: var(--green-soft); color: var(--green); }
+.tag.req.soft { background: var(--surface-2); color: var(--muted); font-weight: 500; border: 1px solid var(--border); }
+.req-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.req-list .req-name { font-weight: 600; }
+.req-list .req-lvl { font-size: 11px; padding: 1px 6px; border-radius: 999px; margin-left: 6px; white-space: nowrap; }
+.req-lvl.essential, .req-lvl.stated { background: var(--amber-soft); color: var(--amber); }
+.req-lvl.desirable, .req-lvl.training { background: var(--surface-2); color: var(--muted); border: 1px solid var(--border); }
+.req-lvl.met { background: var(--green-soft); color: var(--green); }
+.req-list q { display: block; font-size: 12px; color: var(--muted); margin-top: 2px; }
 .small { font-size: 12px; color: var(--muted); }
 .closing-soon { color: var(--amber); font-weight: 600; }
 .jobs td.col-closes { min-width: 92px; white-space: nowrap; }

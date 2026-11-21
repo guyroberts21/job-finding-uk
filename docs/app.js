@@ -6,7 +6,9 @@
   const I = window.I18N;
   const t = (k, v) => I.t(k, v);
   const $ = (id) => document.getElementById(id);
-  const state = { data: null, generatedAt: null, cats: new Set(), open: new Set() };
+  const state = { data: null, generatedAt: null, cats: new Set(), open: new Set(),
+    tab: location.hash === "#experience" ? "exp" : "all", mins: { all: 40, exp: 20 } };
+  const DEFAULT_MIN = { all: 40, exp: 20 };
 
   // ---------- safe DOM helpers (all job text is third-party, so never use innerHTML) ----------
   function el(tag, props, ...children) {
@@ -58,6 +60,24 @@
   const catLabel = (id) => I.category(id, (state.data?.meta?.categories || []).find((c) => c.id === id)?.label || id);
   const locLabel = (id) => I.place(id, (state.data?.meta?.locations || []).find((l) => l.id === id)?.label || id);
   const visaLabel = (s) => t(`visa.${s}`) || t("visa.not_stated");
+
+  // ---------- tabs: all jobs / paid internships & part-time ----------
+  const expLocs = () => state.data?.meta?.experience?.locations || ["sheffield", "manchester"];
+  const isExp = (j) => (j.work_types || []).length > 0 && (j.areas || []).some((a) => expLocs().includes(a));
+  const baseJobs = () => (state.data?.jobs || []).filter((j) => state.tab !== "exp" || isExp(j));
+  function applyTab() {
+    document.querySelectorAll(".tab").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.tab === state.tab)));
+    $("tabNote").hidden = state.tab !== "exp";
+    $("min").value = state.mins[state.tab];
+  }
+  function switchTab(next) {
+    if (next === state.tab) return;
+    state.mins[state.tab] = Number($("min").value);
+    state.tab = next;
+    try { history.replaceState(null, "", next === "exp" ? "#experience" : location.pathname + location.search); } catch (e) { /* ignore */ }
+    applyTab();
+    if (state.data) { buildFilterOptions(); render(); }
+  }
 
   // ---------- qualifications the advert asks for ----------
   // "My qualifications" lives only in this browser (localStorage); it is never sent anywhere.
@@ -148,8 +168,9 @@
     const meta = state.data?.meta || {};
     const loc = $("loc");
     const keepLoc = loc.value;
-    loc.replaceChildren(el("option", { value: "" }, t("allLocations")), ...(meta.locations || []).map((l) => el("option", { value: l.id }, locLabel(l.id))));
-    loc.value = keepLoc;
+    const locs = (meta.locations || []).filter((l) => state.tab !== "exp" || expLocs().includes(l.id));
+    loc.replaceChildren(el("option", { value: "" }, t("allLocations")), ...locs.map((l) => el("option", { value: l.id }, locLabel(l.id))));
+    loc.value = locs.some((l) => l.id === keepLoc) ? keepLoc : "";
 
     const cats = $("cats");
     cats.replaceChildren(
@@ -184,7 +205,7 @@
   function filtered() {
     const f = readFilters();
     const today = state.data?.meta?.date || todayISO();
-    const jobs = (state.data?.jobs || []).filter((j) => {
+    const jobs = baseJobs().filter((j) => {
       if ((j.match?.score ?? 0) < f.min) return false;
       if (f.hideSenior && j.level === "senior") return false;
       if (f.loc && !(j.areas || []).includes(f.loc)) return false;
@@ -269,6 +290,7 @@
     };
     const tags = el("div", { class: "tags" },
       j.first_seen === today ? el("span", { class: "tag new" }, t("tagNew")) : null,
+      ...(j.work_types || []).map((w) => el("span", { class: "tag work" }, t(`work.${w}`))),
       ...reqTags(j, myQuals()),
       ...(j.categories || []).slice(0, 2).map((c) => el("span", { class: "tag cat" }, catLabel(c))),
       ...(j.flags || []).filter((f) => ["Mandarin/Chinese", "Remote/home-based", "Hybrid", "Driving licence"].includes(f)).map((f) => el("span", { class: "tag" }, I.tx(f)))
@@ -373,7 +395,7 @@
 
   function render() {
     renderHeader();
-    const all = state.data?.jobs || [];
+    const all = baseJobs();
     renderStats(all);
     $("minval").textContent = `${$("min").value}%`;
     const jobs = filtered();
@@ -384,7 +406,7 @@
       if (state.open.has(j.id)) rows.push(detailRow(j));
     }
     if (!rows.length) {
-      rows.push(el("tr", null, el("td", { colspan: 8, class: "empty" }, all.length ? t("emptyFiltered") : t("emptyNone"))));
+      rows.push(el("tr", null, el("td", { colspan: 8, class: "empty" }, all.length ? t("emptyFiltered") : state.tab === "exp" && (state.data?.jobs || []).length ? t("emptyExp") : t("emptyNone"))));
     }
     $("rows").replaceChildren(...rows);
   }
@@ -410,10 +432,13 @@
     render();
   });
   $("reset").addEventListener("click", () => {
-    $("q").value = ""; $("loc").value = ""; $("visa").value = ""; $("sort").value = "match"; $("min").value = 40;
+    $("q").value = ""; $("loc").value = ""; $("visa").value = ""; $("sort").value = "match"; $("min").value = DEFAULT_MIN[state.tab];
     $("hideSenior").checked = true; $("newOnly").checked = false; $("closingSoon").checked = false; $("qual").value = "";
     state.cats.clear(); buildFilterOptions(); render();
   });
+  document.querySelectorAll(".tab").forEach((b) => b.addEventListener("click", () => switchTab(b.dataset.tab)));
+  window.addEventListener("hashchange", () => switchTab(location.hash === "#experience" ? "exp" : "all"));
+  applyTab();
   document.querySelectorAll(".lang-btn").forEach((b) => b.addEventListener("click", () => switchLang(b.dataset.lang)));
 
   I.applyStatic();

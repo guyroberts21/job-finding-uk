@@ -122,12 +122,12 @@
   "reed_results_per_search": 40,
   "adzuna_results_per_search": 30,
   "jooble_results_per_search": 30,
-  "jooble_max_calls_per_run": 32,
+  "jooble_max_calls_per_run": 40,
   "jooble_host": "uk.jooble.org",
   "nhs_enabled": true,
   "nhs_results_per_search": 50,
   "max_days_old": 30,
-  "max_detail_lookups_per_run": 250,
+  "max_detail_lookups_per_run": 320,
   "min_score_to_keep": 30,
   "nhs_min_score_to_keep": 15,
   "keep_unseen_days": 3,
@@ -219,5 +219,27 @@
     "health care assistant",
     "nursing associate"
   ],
-  "adzuna_max_calls_per_run": 20
+  "adzuna_max_calls_per_run": 20,
+  "experience": {
+    "_note": "Paid internships and part-time jobs, shown on their own tab. Adzuna calls here share adzuna_max_calls_per_run.",
+    "locations": [
+      "sheffield",
+      "manchester"
+    ],
+    "reed_part_time": true,
+    "internship_keywords": [
+      "internship",
+      "intern",
+      "placement"
+    ],
+    "adzuna_part_time_what_or": "assistant administrator administration receptionist communications marketing community engagement customer library events",
+    "adzuna_internship_what_or": "internship intern placement",
+    "jooble_keywords": [
+      "part time administrator",
+      "part time customer service",
+      "part time marketing assistant",
+      "paid internship"
+    ],
+    "min_score_to_keep": 20
+  }
 }

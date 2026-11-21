@@ -557,6 +557,28 @@ def match_score(title: str, text: str, category_ids: list[str]) -> dict:
     return {"score": score, "level": level, "reasons": reasons}
 
 
+INTERN_RX = re.compile(r"\b(interns?|internships?|placement (student|year)|industrial placement|work placement|summer placement|"
+                       r"year in industry|work experience)\b", re.I)
+UNPAID_RX = re.compile(r"\bunpaid\b|\bvoluntary (role|position|basis|post)\b|expenses only|\bno (salary|pay)\b|is not paid|\bnot a paid\b", re.I)
+VOLUNTEER_TITLE = re.compile(r"\bvolunteer\b(?!s? (co-?ordinator|manager|officer|lead|supervisor|engagement|services|development|recruit))", re.I)
+PART_RX = re.compile(r"\bpart[- ]time\b", re.I)
+HOURS_RX = re.compile(r"\b(\d{1,2}(?:\.\d+)?)\s*(?:hours|hrs)\s*(?:per|a|each|/|every)\s*week", re.I)
+
+
+def work_types(title: str, text: str, contract: str) -> list[str]:
+    """'internship' (paid only) and/or 'part_time'. Unpaid or volunteer roles get neither."""
+    if UNPAID_RX.search(f"{title} {text}") or VOLUNTEER_TITLE.search(title):
+        return []
+    types = []
+    if INTERN_RX.search(title) or re.search(r"\b(paid internship|internship (programme|scheme|opportunity))\b", text, re.I):
+        types.append("internship")
+    hours = [float(h) for h in HOURS_RX.findall(text)]
+    full = "full-time" in contract.lower() and "part-time" not in contract.lower()
+    if "part-time" in contract.lower() or PART_RX.search(title) or (not full and (PART_RX.search(text) or (hours and 4 <= min(hours) < 30))):
+        types.append("part_time")
+    return types
+
+
 def seniority(title: str) -> str:
     t = title.lower()
     if re.search(r"\b(senior|head of|director|principal|lead|manager)\b", t):
@@ -603,11 +625,13 @@ def reed_auth(key: str) -> dict:
     return {"Authorization": "Basic " + base64.b64encode(f"{key}:".encode()).decode()}
 
 
-def reed_search(key, keywords, loc) -> list[dict]:
+def reed_search(key, keywords, loc, part_time=False) -> list[dict]:
     if FIXTURES:
-        return (fixture(f"reed_search_{loc['id']}.json") or {}).get("results", [])
+        return (fixture(f"reed_search_{loc['id']}{'_parttime' if part_time else ''}.json") or {}).get("results", [])
     params = {"keywords": keywords + (" remote" if loc.get("remote") else ""),
               "resultsToTake": SEARCHES["reed_results_per_search"]}
+    if part_time:
+        params["partTime"] = "true"
     if loc.get("reed"):
         params["locationName"] = loc["reed"]
         params["distanceFromLocation"] = loc["distance"]
@@ -621,12 +645,14 @@ def reed_details(key, job_id) -> dict:
     return http_json(f"https://www.reed.co.uk/api/1.0/jobs/{job_id}", reed_auth(key)) or {}
 
 
-def adzuna_search(app_id, app_key, phrase, loc) -> list[dict]:
+def adzuna_search(app_id, app_key, phrase, loc, what_or=None, part_time=False) -> list[dict]:
     if FIXTURES:
-        return (fixture(f"adzuna_search_{loc['id']}.json") or {}).get("results", [])
-    params = {"app_id": app_id, "app_key": app_key, "what_phrase": phrase,
+        return (fixture(f"adzuna_search_{loc['id']}{'_exp' if what_or else ''}.json") or {}).get("results", [])
+    params = {"app_id": app_id, "app_key": app_key, **({"what_or": what_or} if what_or else {"what_phrase": phrase}),
               "results_per_page": SEARCHES["adzuna_results_per_search"],
               "max_days_old": SEARCHES["max_days_old"], "content-type": "application/json"}
+    if part_time:
+        params["part_time"] = "1"
     if loc.get("remote"):
         params["what_or"] = "remote home-based homeworking"
     else:
@@ -706,6 +732,26 @@ def norm_key(title: str, employer: str) -> str:
     return f"{f(title)}|{f(employer)}"
 
 
+EXP = SEARCHES.get("experience") or {}
+EXP_LOCS = [l for l in SEARCHES["locations"] if l["id"] in set(EXP.get("locations", []))]
+
+
+def guess_categories(title: str) -> set:
+    """Internship searches aren't tied to a job type, so label them by the words in the title."""
+    t = title.lower()
+    words = {"digital_community": r"communit|engagement|digital|library|volunteer|charity|outreach",
+             "comms": r"market|comms|communicat|social media|content|pr\b|press|events|brand|digital marketing",
+             "admin": r"admin|office|reception|customer|client|coordinator|co-ordinator|operations|data|research",
+             "support": r"older|youth|mandarin|chinese|befriend|wellbeing|support"}
+    return {c for c, rx in words.items() if re.search(rx, t)}
+
+
+def add_found(found, jid, raw, cats, area):
+    item = found.setdefault(jid, {"raw": raw, "categories": set(), "areas": set()})
+    item["categories"] |= set(cats)
+    item["areas"].add(area)
+
+
 def collect_reed(key: str, errors: list) -> dict[str, dict]:
     found: dict[str, dict] = {}
     for cat in SEARCHES["categories"]:
@@ -729,6 +775,23 @@ def collect_reed(key: str, errors: list) -> dict[str, dict]:
                     item["areas"].add(loc["id"])
                 if not FIXTURES:
                     time.sleep(0.25)
+    # Experience track: each job-type keyword again with Reed's part-time filter, plus internship searches.
+    exp_searches = [(kw, cat["id"], True) for cat in SEARCHES["categories"] for kw in cat["keywords"]] if EXP.get("reed_part_time") else []
+    exp_searches += [(kw, None, False) for kw in EXP.get("internship_keywords", [])]
+    for kw, cat_id, part_time in exp_searches:
+        for loc in EXP_LOCS:
+            try:
+                results = reed_search(key, kw, loc, part_time=part_time)
+            except Exception as e:
+                errors.append(f"Reed {'part-time ' if part_time else ''}'{kw}' / {loc['label']}: {e}")
+                continue
+            for r in results:
+                title = (r.get("jobTitle") or "").strip()
+                if not title or excluded_title(title):
+                    continue
+                add_found(found, f"reed-{r.get('jobId')}", r, {cat_id} if cat_id else guess_categories(title), loc["id"])
+            if not FIXTURES:
+                time.sleep(0.25)
     return found
 
 
@@ -758,6 +821,26 @@ def collect_adzuna(app_id: str, app_key: str, errors: list) -> dict[str, dict]:
                     item["areas"].add(loc["id"])
                 if not FIXTURES:
                     time.sleep(0.4)
+    # Experience track: one part-time and one internship search per city, inside the same call cap.
+    for what_or, part_time in ((EXP.get("adzuna_part_time_what_or"), True), (EXP.get("adzuna_internship_what_or"), False)):
+        if not what_or:
+            continue
+        for loc in EXP_LOCS:
+            if calls_left <= 0:
+                return found
+            calls_left -= 1
+            try:
+                results = adzuna_search(app_id, app_key, None, loc, what_or=what_or, part_time=part_time)
+            except Exception as e:
+                errors.append(f"Adzuna {'part-time' if part_time else 'internship'} / {loc['label']}: {e}")
+                continue
+            for r in results:
+                title = html.unescape(r.get("title") or "").strip()
+                if not title or excluded_title(title):
+                    continue
+                add_found(found, f"adzuna-{r.get('id')}", r, guess_categories(title), loc["id"])
+            if not FIXTURES:
+                time.sleep(0.4)
     return found
 
 
@@ -768,7 +851,7 @@ def collect_jooble(key: str, errors: list) -> dict[str, dict]:
         for kw in cat.get("jooble_keywords", cat["keywords"][:1]):
             for loc in SEARCHES["locations"]:
                 if calls_left <= 0:
-                    return found
+                    break
                 calls_left -= 1
                 try:
                     results = jooble_search(key, kw, loc)
@@ -787,6 +870,23 @@ def collect_jooble(key: str, errors: list) -> dict[str, dict]:
                     item["areas"].add(loc["id"])
                 if not FIXTURES:
                     time.sleep(0.5)
+    for kw in EXP.get("jooble_keywords", []):
+        for loc in EXP_LOCS:
+            if calls_left <= 0:
+                return found
+            calls_left -= 1
+            try:
+                results = jooble_search(key, kw, loc)
+            except Exception as e:
+                errors.append(f"Jooble '{kw}' / {loc['label']}: {e}")
+                continue
+            for r in results:
+                title = strip_tags(r.get("title") or "")
+                if not title or excluded_title(title):
+                    continue
+                add_found(found, f"jooble-{r.get('id')}", r, guess_categories(title), loc["id"])
+            if not FIXTURES:
+                time.sleep(0.5)
     return found
 
 
@@ -923,6 +1023,7 @@ def build_job(jid: str, source: str, raw: dict, details: dict | None, categories
         "flags": flags,
         "requirements": requirements_for(text),
         "level": seniority(title),
+        "work_types": work_types(title, text, contract),
         "match": match,
         "first_seen": (prev or {}).get("first_seen") or TODAY.isoformat(),
         "last_seen": TODAY.isoformat(),
@@ -1017,8 +1118,15 @@ def write_output(jobs: list[dict], meta: dict):
     os.replace(tmp, OUT_PATH)
 
 
+def in_experience_track(job) -> bool:
+    return bool(job.get("work_types")) and bool(set(job.get("areas") or []) & set(EXP.get("locations", [])))
+
+
 def min_score(job):
-    """NHS Jobs gives only a ~150-character preview, so it gets its own (lower) bar; its titles are already filtered."""
+    """NHS Jobs gives only a ~150-character preview, so it gets its own (lower) bar; its titles are already filtered.
+    Internships and part-time jobs in the experience-track cities also get their own bar."""
+    if in_experience_track(job) and "min_score_to_keep" in EXP:
+        return EXP["min_score_to_keep"]
     if job.get("source") == "NHS Jobs":
         return SEARCHES.get("nhs_min_score_to_keep", SEARCHES["min_score_to_keep"])
     return SEARCHES["min_score_to_keep"]
@@ -1161,6 +1269,7 @@ def main() -> int:
         "new_today": new_today,
         "errors": errors[:20],
         "categories": [{"id": c["id"], "label": c["label"]} for c in SEARCHES["categories"]],
+        "experience": {"locations": EXP.get("locations", [])},
         "locations": [{"id": l["id"], "label": l["label"]} for l in SEARCHES["locations"]],
     }
     write_output(job_list, meta)

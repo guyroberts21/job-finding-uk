@@ -92,6 +92,15 @@ class Helpers(unittest.TestCase):
             self.assertTrue(all(x["name"] in ("",) for x in got) if got else True, (text, got))
         self.assertEqual(fj.requirements_for("You will need a high degree of accuracy."), [])
 
+    def test_work_types(self):
+        self.assertEqual(fj.work_types("Marketing Intern", "A 6-month paid role.", "Temporary"), ["internship"])
+        self.assertEqual(fj.work_types("Admin Assistant", "Hours: 20 hours per week.", ""), ["part_time"])
+        self.assertEqual(fj.work_types("Receptionist", "Great team.", "Permanent, Part-time"), ["part_time"])
+        self.assertEqual(fj.work_types("Comms Intern", "This is an unpaid internship.", ""), [])
+        self.assertEqual(fj.work_types("Library Volunteer", "Part-time, flexible.", ""), [])
+        self.assertEqual(fj.work_types("Volunteer Coordinator", "Part time role, 22.5 hours a week.", ""), ["part_time"])
+        self.assertEqual(fj.work_types("Internal Comms Officer", "37.5 hours per week.", "Permanent, Full-time"), [])
+
     def test_responsibilities_from_list(self):
         text, groups = fj.parse_description("<p><strong>Key responsibilities:</strong></p><ul><li>Support residents at digital sessions</li><li>Plan community events</li></ul><p><strong>About you</strong></p><ul><li>Good communicator</li></ul>")
         self.assertEqual(fj.extract_responsibilities(groups, text), ["Support residents at digital sessions", "Plan community events"])

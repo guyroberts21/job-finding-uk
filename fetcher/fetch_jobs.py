@@ -573,7 +573,10 @@ def work_types(title: str, text: str, contract: str) -> list[str]:
     if INTERN_RX.search(title) or re.search(r"\b(paid internship|internship (programme|scheme|opportunity))\b", text, re.I):
         types.append("internship")
     hours = [float(h) for h in HOURS_RX.findall(text)]
-    full = "full-time" in contract.lower() and "part-time" not in contract.lower()
+    full = ("full-time" in contract.lower() and "part-time" not in contract.lower()) or (
+        re.search(r"\bfull[- ]time\b", title, re.I) and not PART_RX.search(title))
+    if full and not PART_RX.search(title):
+        return types
     if "part-time" in contract.lower() or PART_RX.search(title) or (not full and (PART_RX.search(text) or (hours and 4 <= min(hours) < 30))):
         types.append("part_time")
     return types

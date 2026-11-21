@@ -100,6 +100,7 @@ class Helpers(unittest.TestCase):
         self.assertEqual(fj.work_types("Library Volunteer", "Part-time, flexible.", ""), [])
         self.assertEqual(fj.work_types("Volunteer Coordinator", "Part time role, 22.5 hours a week.", ""), ["part_time"])
         self.assertEqual(fj.work_types("Internal Comms Officer", "37.5 hours per week.", "Permanent, Full-time"), [])
+        self.assertEqual(fj.work_types("Engagement Champion, Full Time", "We also have part-time roles.", ""), [])
 
     def test_responsibilities_from_list(self):
         text, groups = fj.parse_description("<p><strong>Key responsibilities:</strong></p><ul><li>Support residents at digital sessions</li><li>Plan community events</li></ul><p><strong>About you</strong></p><ul><li>Good communicator</li></ul>")
